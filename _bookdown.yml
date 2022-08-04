@@ -1,5 +1,7 @@
-book_filename: "bookdown-demo"
+book_filename: "bookdown_BID_PE"
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "Capítulo "
 delete_merged_file: true
+rmd_files: ["index.Rmd", "objetivos.Rmd",  "m_teorico.Rmd", "data_explorer.Rmd",  "data_clean.Rmd"]
+
