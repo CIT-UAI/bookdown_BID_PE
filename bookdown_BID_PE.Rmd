@@ -1,0 +1,58 @@
+--- 
+title: "BID: Probreza Energética"
+author: "Centro de Inteligencia Territorial - UAI"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown_BID_PE
+description: "Estudio para la medición de indicadores de pobreza energética"
+---
+
+# Introducción
+
+
+Apoyo para una Transición Energética Justa, Limpia y Sostenible en Chile:
+
+**Estudio para la medición de indicadores de pobreza energética**
+ 
+Por completar....
+
+<!--chapter:end:index.Rmd-->
+
+# Objetivos {#objetivos}
+
+
+## Objetivos Generales
+
+Medir Indicadores de Probreza Energética en el sector residencial, con la escala más detallada posible en base a la información ya disponible en otros estudios y bases de datos, con la que actualmente cuente el Misterio, o que pueda gestionar de manera efectiva para su utilización posterior.
+
+
+## Objetivos Específicos
+
+
+
+<!--chapter:end:objetivos.Rmd-->
+
+# Marco Teórico {#m_teorico}
+
+Por completar....
+
+<!--chapter:end:m_teorico.Rmd-->
+
+# Exploración de Datos {#data_explorer}
+
+## Lectura de Archivos
+
+### Espaciales
+
+<!--chapter:end:data_explorer.Rmd-->
+
+# Limpieza de Datos {#data_clean}
+
+
+<!--chapter:end:data_clean.Rmd-->
+
