@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capítulo 3 Exploración de Datos | BID: Probreza Energética</title>
+  <title>Capítulo 4 Exploración de Datos | BID: Pobreza Energética</title>
   <meta name="description" content="Estudio para la medición de indicadores de pobreza energética" />
   <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capítulo 3 Exploración de Datos | BID: Probreza Energética" />
+  <meta property="og:title" content="Capítulo 4 Exploración de Datos | BID: Pobreza Energética" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Estudio para la medición de indicadores de pobreza energética" />
   <meta name="github-repo" content="rstudio/bookdown_BID_PE" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capítulo 3 Exploración de Datos | BID: Probreza Energética" />
+  <meta name="twitter:title" content="Capítulo 4 Exploración de Datos | BID: Pobreza Energética" />
   
   <meta name="twitter:description" content="Estudio para la medición de indicadores de pobreza energética" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="data_clean.html"/>
-<link rel="next" href="m_teorico.html"/>
+<link rel="prev" href="m_teorico.html"/>
+<link rel="next" href="data_clean.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -52,6 +52,10 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
 
 
 
@@ -69,20 +73,21 @@
 
 <ul class="summary">
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introducción</a></li>
-<li class="chapter" data-level="2" data-path="data_clean.html"><a href="data_clean.html"><i class="fa fa-check"></i><b>2</b> Limpieza de Datos</a></li>
-<li class="chapter" data-level="3" data-path="data_explorer.html"><a href="data_explorer.html"><i class="fa fa-check"></i><b>3</b> Exploración de Datos</a>
+<li class="chapter" data-level="2" data-path="objetivos.html"><a href="objetivos.html"><i class="fa fa-check"></i><b>2</b> Objetivos</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="data_explorer.html"><a href="data_explorer.html#lectura-de-archivos"><i class="fa fa-check"></i><b>3.1</b> Lectura de Archivos</a>
+<li class="chapter" data-level="2.1" data-path="objetivos.html"><a href="objetivos.html#objetivos-generales"><i class="fa fa-check"></i><b>2.1</b> Objetivos Generales</a></li>
+<li class="chapter" data-level="2.2" data-path="objetivos.html"><a href="objetivos.html#objetivos-específicos"><i class="fa fa-check"></i><b>2.2</b> Objetivos Específicos</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="m_teorico.html"><a href="m_teorico.html"><i class="fa fa-check"></i><b>3</b> Marco Teórico</a></li>
+<li class="chapter" data-level="4" data-path="data_explorer.html"><a href="data_explorer.html"><i class="fa fa-check"></i><b>4</b> Exploración de Datos</a>
 <ul>
-<li class="chapter" data-level="3.1.1" data-path="data_explorer.html"><a href="data_explorer.html#espaciales"><i class="fa fa-check"></i><b>3.1.1</b> Espaciales</a></li>
+<li class="chapter" data-level="4.1" data-path="data_explorer.html"><a href="data_explorer.html#bbdd-mapa-vulneravilidad"><i class="fa fa-check"></i><b>4.1</b> <code>BBDD mapa vulneravilidad</code></a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="data_explorer.html"><a href="data_explorer.html#descripción-de-variables"><i class="fa fa-check"></i><b>4.1.1</b> Descripción de Variables</a></li>
+<li class="chapter" data-level="4.1.2" data-path="data_explorer.html"><a href="data_explorer.html#espaciales"><i class="fa fa-check"></i><b>4.1.2</b> Espaciales</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="m_teorico.html"><a href="m_teorico.html"><i class="fa fa-check"></i><b>4</b> Marco Teórico</a></li>
-<li class="chapter" data-level="5" data-path="objetivos.html"><a href="objetivos.html"><i class="fa fa-check"></i><b>5</b> Objetivos</a>
-<ul>
-<li class="chapter" data-level="5.1" data-path="objetivos.html"><a href="objetivos.html#objetivos-generales"><i class="fa fa-check"></i><b>5.1</b> Objetivos Generales</a></li>
-<li class="chapter" data-level="5.2" data-path="objetivos.html"><a href="objetivos.html#objetivos-específicos"><i class="fa fa-check"></i><b>5.2</b> Objetivos Específicos</a></li>
-</ul></li>
+<li class="chapter" data-level="5" data-path="data_clean.html"><a href="data_clean.html"><i class="fa fa-check"></i><b>5</b> Limpieza de Datos</a></li>
 </ul>
 
       </nav>
@@ -92,7 +97,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">BID: Probreza Energética</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">BID: Pobreza Energética</a>
           </h1>
         </div>
 
@@ -100,12 +105,336 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="data_explorer" class="section level1 hasAnchor" number="3">
-<h1><span class="header-section-number">Capítulo 3</span> Exploración de Datos<a href="data_explorer.html#data_explorer" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="lectura-de-archivos" class="section level2 hasAnchor" number="3.1">
-<h2><span class="header-section-number">3.1</span> Lectura de Archivos<a href="data_explorer.html#lectura-de-archivos" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="espaciales" class="section level3 hasAnchor" number="3.1.1">
-<h3><span class="header-section-number">3.1.1</span> Espaciales<a href="data_explorer.html#espaciales" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="data_explorer" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Capítulo 4</span> Exploración de Datos<a href="data_explorer.html#data_explorer" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Las bases de datos recibidas de Probreza Energética (27-07-2022), corresponden a 3 carpetas, las cuales en el presente capítulo se procederá un análisis descriptivo general.</p>
+<div class="figure">
+<img src="images/bbdd_folders.png" alt="" />
+<p class="caption">Estructura de carpeta de Bases de Datos</p>
+</div>
+<div id="bbdd-mapa-vulneravilidad" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> <code>BBDD mapa vulneravilidad</code><a href="data_explorer.html#bbdd-mapa-vulneravilidad" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="descripción-de-variables" class="section level3 hasAnchor" number="4.1.1">
+<h3><span class="header-section-number">4.1.1</span> Descripción de Variables<a href="data_explorer.html#descripción-de-variables" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>Nombre Archivo</strong>: “<em>Detalle de campos.xlsx</em>”</p>
+<table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:center;">
+Nombre campo
+</th>
+<th style="text-align:center;">
+Descripción
+</th>
+<th style="text-align:center;">
+Fuente
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+REGION
+</td>
+<td style="text-align:center;">
+Código región
+</td>
+<td style="text-align:center;">
+INE, Censo 2017
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+PROVINCIA
+</td>
+<td style="text-align:center;">
+Código provincia
+</td>
+<td style="text-align:center;">
+INE, Censo 2017
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+COMUNA
+</td>
+<td style="text-align:center;">
+Código comuna
+</td>
+<td style="text-align:center;">
+INE, Censo 2017
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+NOM_REGION
+</td>
+<td style="text-align:center;">
+Nombre región
+</td>
+<td style="text-align:center;">
+INE, Censo 2017
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+NOM_PROVIN
+</td>
+<td style="text-align:center;">
+Nombre provincia
+</td>
+<td style="text-align:center;">
+INE, Censo 2017
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+NOM_COMUNA
+</td>
+<td style="text-align:center;">
+Nombre comuna
+</td>
+<td style="text-align:center;">
+INE, Censo 2017
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+DESTINO_VI
+</td>
+<td style="text-align:center;">
+Uso o destino de la vivienda
+2: vivienda colectiva
+3: vivienda de temporada
+4: vivienda desocupada
+5: vivienda ocupada con moradores ausentes
+6: vivienda ocupada con moradores presentes
+</td>
+<td style="text-align:center;">
+INE, Pre censo 2016
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+NOM_DIRECC
+</td>
+<td style="text-align:center;">
+Nombre de calle o camino de referencia
+</td>
+<td style="text-align:center;">
+INE, Pre censo 2016
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+N_LETRA
+</td>
+<td style="text-align:center;">
+Numeración
+</td>
+<td style="text-align:center;">
+INE, Pre censo 2016
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+LOCALIDAD
+</td>
+<td style="text-align:center;">
+Nombre de localidad, área rural
+</td>
+<td style="text-align:center;">
+INE, Censo 2017
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+ENTIDAD
+</td>
+<td style="text-align:center;">
+Nombre de entidad, área rural
+</td>
+<td style="text-align:center;">
+INE, Censo 2017
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+CATEGORIA
+</td>
+<td style="text-align:center;">
+Nombres de categorías de asentamiento humano en área rural
+</td>
+<td style="text-align:center;">
+INE, Censo 2017
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+EMPRESA_ID
+</td>
+<td style="text-align:center;">
+Identificador empresa distribuidora
+</td>
+<td style="text-align:center;">
+SEC, 2018
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+EMPRESA_1
+</td>
+<td style="text-align:center;">
+Nombre empresa distribuidora
+</td>
+<td style="text-align:center;">
+SEC, 2018
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+SSAA
+</td>
+<td style="text-align:center;">
+1: vivienda se ubica en sistema aislado
+0: vivienda no se ubica en sistema aislado
+</td>
+<td style="text-align:center;">
+Catastro SSAA, 2018
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+NOM_SSAA
+</td>
+<td style="text-align:center;">
+Nombre del sistema aislado
+</td>
+<td style="text-align:center;">
+Catastro SSAA, 2018
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+TIPO_SUM_S
+</td>
+<td style="text-align:center;">
+Tipo de suministro del sistema eléctrico aislado:
+Parcial: menos de 24 horas al día
+Permanente: 24 horas al día
+</td>
+<td style="text-align:center;">
+Catastro SSAA, 2018
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+FV_IND
+</td>
+<td style="text-align:center;">
+1: vivienda tiene sistema individual de autogeneración
+0: vivienda no tiene sistema individual de autogeneración
+</td>
+<td style="text-align:center;">
+Catastro sistemas individuales, 2018
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+NOM_FV_IND
+</td>
+<td style="text-align:center;">
+Nombre del proyecto que dio origen al sistema individual
+</td>
+<td style="text-align:center;">
+Catastro sistemas individuales, 2018
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+SUMINS_FV
+</td>
+<td style="text-align:center;">
+Tipo de suministro del sistema individual:
+Parcial: menos de 24 horas al día
+Permanente: 24 horas al día
+</td>
+<td style="text-align:center;">
+Catastro sistemas individuales, 2018
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+PROY_ELECT
+</td>
+<td style="text-align:center;">
+1: vivienda está incluida en algún proyecto de electrificación
+0: vivienda no está incluida en algún proyecto de electrificación
+</td>
+<td style="text-align:center;">
+Varias fuentes
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+EST_PROY_E
+</td>
+<td style="text-align:center;">
+Estado del proyecto: ejecutado, en ejecución, RS, con financiamiento, en licitación.
+</td>
+<td style="text-align:center;">
+Varias fuentes
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+NOM_PRO_EL
+</td>
+<td style="text-align:center;">
+Nombre del proyecto
+</td>
+<td style="text-align:center;">
+Varias fuentes
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+CODIGO_IDI
+</td>
+<td style="text-align:center;">
+Código IDI del proyecto (código del banco integrado de proyectos)
+</td>
+<td style="text-align:center;">
+Varias fuentes
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+X
+</td>
+<td style="text-align:center;">
+Longitud
+</td>
+<td style="text-align:center;">
+Obtenida en Arcgis
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Y
+</td>
+<td style="text-align:center;">
+Latitud
+</td>
+<td style="text-align:center;">
+Obtenida en Arcgis
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="espaciales" class="section level3 hasAnchor" number="4.1.2">
+<h3><span class="header-section-number">4.1.2</span> Espaciales<a href="data_explorer.html#espaciales" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 
 </div>
 </div>
@@ -115,8 +444,8 @@
           </div>
         </div>
       </div>
-<a href="data_clean.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="m_teorico.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="m_teorico.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data_clean.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

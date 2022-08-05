@@ -68,6 +68,20 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -77,12 +91,12 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={BID: Probreza Energética},
+  pdftitle={BID: Pobreza Energética},
   pdfauthor={Centro de Inteligencia Territorial - UAI},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{BID: Probreza Energética}
+\title{BID: Pobreza Energética}
 \author{Centro de Inteligencia Territorial - UAI}
 \date{2022-08-05}
 
@@ -100,27 +114,6 @@ Apoyo para una Transición Energética Justa, Limpia y Sostenible en Chile:
 
 \textbf{Estudio para la medición de indicadores de pobreza energética}
 
-Por completar\ldots.
-
-\hypertarget{data_clean}{%
-\chapter{Limpieza de Datos}\label{data_clean}}
-
-\hypertarget{data_explorer}{%
-\chapter{Exploración de Datos}\label{data_explorer}}
-
-\hypertarget{lectura-de-archivos}{%
-\section{Lectura de Archivos}\label{lectura-de-archivos}}
-
-\hypertarget{espaciales}{%
-\subsection{Espaciales}\label{espaciales}}
-
-\hypertarget{m_teorico}{%
-\chapter{Marco Teórico}\label{m_teorico}}
-
-\textbf{¿Qué es pobreza Energética?}
-
-Nos referimos a Pobreza Energética cuando un hogar no tiene acceso equitativo a servicios energéticos de alta calidad (es decir, que sean adecuados, confiables, no contaminantes y seguros) para cubrir sus necesidades fundamentales y básicas que permitan sostener el desarrollo humano y económico de sus integrantes. \emph{Fuente:\url{http://redesvid.uchile.cl/pobreza-energetica/panel-de-indicadores/}}
-
 \hypertarget{objetivos}{%
 \chapter{Objetivos}\label{objetivos}}
 
@@ -137,6 +130,133 @@ Medir Indicadores de Probreza Energética en el sector residencial, con la escal
 \item
   Desarrollar y definir metodologías para la contrucción de indicadores.
 \end{itemize}
+
+\hypertarget{m_teorico}{%
+\chapter{Marco Teórico}\label{m_teorico}}
+
+\textbf{¿Qué es pobreza Energética?}
+
+Nos referimos a Pobreza Energética cuando un hogar no tiene acceso equitativo a servicios energéticos de alta calidad (es decir, que sean adecuados, confiables, no contaminantes y seguros) para cubrir sus necesidades fundamentales y básicas que permitan sostener el desarrollo humano y económico de sus integrantes. \emph{Fuente:\url{http://redesvid.uchile.cl/pobreza-energetica/panel-de-indicadores/}}
+
+Un hogar se encuentra en situación de pobreza energética cuando no tiene acceso equitativo a servicios energéticos de alta calidad para cubrir sus necesidades fundamentales y básicas, que permitan sostener el desarrollo humano y económico de sus miembros. Las necesidades fundamentales son aquellas que implican impactos directos en la salud humana; mientras que las necesidades básicas corresponden a aquellos requerimientos energéticos cuya pertinencia depende de las particularidades culturales y territoriales.
+
+\begin{figure}
+\centering
+\includegraphics{images/esquema_PE.png}
+\caption{Esquema conceptual Pobreza Energética - \href{http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe\%CC\%81tica.-El-acceso-desigual-a-energi\%CC\%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf}{Universidad de Chile}}
+\end{figure}
+
+La pobreza energética se expresa en relación a dos grupos de necesidades: `\emph{fundamentales}' y `\emph{básicas}'. Las necesidades \textbf{fundamentales} son aquellas que implican impactos directos en la salud humana. Su satisfacción se considera crítica, independiente del contexto territorial. La cocción y conservación de alimentos, las temperaturas mínima y máxima saludables, el acceso al agua y la disponibilidad de suministro eléctrico continuo para personas electrodependientes en salud, se encuentran en este primer grupo. Por otra parte, las necesidades \textbf{básicas} corresponden a aquellos requerimientos cuya pertinencia depende de las características socioecológicas (biofísicas, geográficas y climáticas), sociotécnicas (tecnológicas e infraestructurales) y socioculturales (normas, mercados, costumbres y expectativas relacionadas con calidad de vida y desarrollo humano), propias de un determinado territorio. El confort térmico, el agua caliente sanitaria, la iluminación, los electrodomésticos y dispositivos tecnológicos para la educación son ejemplos de este segundo grupo.
+
+Mientras las necesidades fundamentales se consideran de forma universal, las necesidades básicas requieren de una definición y ponderación en función de su pertinencia para una población en particular, situada en un territorio, en un contexto temporal definido y bajo condiciones socioculturales específicas.
+
+\begin{figure}
+\centering
+\includegraphics{images/necedidades_energia.png}
+\caption{Necesidades fundamentales y básica de energía - \href{http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe\%CC\%81tica.-El-acceso-desigual-a-energi\%CC\%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf}{Universidad de Chile}}
+\end{figure}
+
+\textbf{Referencias:}
+
+\href{http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe\%CC\%81tica.-El-acceso-desigual-a-energi\%CC\%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf}{Pobreza Energética- El Acceso desigual a energía de caldiad como barrera para el desarrollo en Chile. Univerisad de Chile, 2020}
+
+\hypertarget{data_explorer}{%
+\chapter{Exploración de Datos}\label{data_explorer}}
+
+Las bases de datos recibidas de Probreza Energética (27-07-2022), corresponden a 3 carpetas, las cuales en el presente capítulo se procederá un análisis descriptivo general.
+
+\begin{figure}
+\centering
+\includegraphics{images/bbdd_folders.png}
+\caption{Estructura de carpeta de Bases de Datos}
+\end{figure}
+
+\hypertarget{bbdd-mapa-vulneravilidad}{%
+\section{\texorpdfstring{\texttt{BBDD\ mapa\ vulneravilidad}}{BBDD mapa vulneravilidad}}\label{bbdd-mapa-vulneravilidad}}
+
+\hypertarget{descripciuxf3n-de-variables}{%
+\subsection{Descripción de Variables}\label{descripciuxf3n-de-variables}}
+
+\textbf{Nombre Archivo}: ``\emph{Detalle de campos.xlsx}''
+
+\begin{table}
+\centering
+\begin{tabular}{c|c|c}
+\hline
+Nombre campo & Descripción & Fuente\\
+\hline
+REGION & Código región & INE, Censo 2017\\
+\hline
+PROVINCIA & Código provincia & INE, Censo 2017\\
+\hline
+COMUNA & Código comuna & INE, Censo 2017\\
+\hline
+NOM\_REGION & Nombre región & INE, Censo 2017\\
+\hline
+NOM\_PROVIN & Nombre provincia & INE, Censo 2017\\
+\hline
+NOM\_COMUNA & Nombre comuna & INE, Censo 2017\\
+\hline
+DESTINO\_VI & Uso o destino de la vivienda 
+2: vivienda colectiva
+3: vivienda de temporada
+4: vivienda desocupada
+5: vivienda ocupada con moradores ausentes
+6: vivienda ocupada con moradores presentes & INE, Pre censo 2016\\
+\hline
+NOM\_DIRECC & Nombre de calle o camino de referencia & INE, Pre censo 2016\\
+\hline
+N\_LETRA & Numeración & INE, Pre censo 2016\\
+\hline
+LOCALIDAD & Nombre de localidad, área rural & INE, Censo 2017\\
+\hline
+ENTIDAD & Nombre de entidad, área rural & INE, Censo 2017\\
+\hline
+CATEGORIA & Nombres de categorías de asentamiento humano en área rural & INE, Censo 2017\\
+\hline
+EMPRESA\_ID & Identificador empresa distribuidora & SEC, 2018\\
+\hline
+EMPRESA\_1 & Nombre empresa distribuidora & SEC, 2018\\
+\hline
+SSAA & 1: vivienda se ubica en sistema aislado
+0: vivienda no se ubica en sistema aislado & Catastro SSAA, 2018\\
+\hline
+NOM\_SSAA & Nombre del sistema aislado & Catastro SSAA, 2018\\
+\hline
+TIPO\_SUM\_S & Tipo de suministro del sistema eléctrico aislado: 
+Parcial: menos de 24 horas al día
+Permanente: 24 horas al día & Catastro SSAA, 2018\\
+\hline
+FV\_IND & 1: vivienda tiene sistema individual de autogeneración
+0: vivienda no tiene sistema individual de autogeneración & Catastro sistemas individuales, 2018\\
+\hline
+NOM\_FV\_IND & Nombre del proyecto que dio origen al sistema individual & Catastro sistemas individuales, 2018\\
+\hline
+SUMINS\_FV & Tipo de suministro del sistema individual: 
+Parcial: menos de 24 horas al día
+Permanente: 24 horas al día & Catastro sistemas individuales, 2018\\
+\hline
+PROY\_ELECT & 1: vivienda está incluida en algún proyecto de electrificación
+0: vivienda no está incluida en algún proyecto de electrificación & Varias fuentes\\
+\hline
+EST\_PROY\_E & Estado del proyecto: ejecutado, en ejecución, RS, con financiamiento, en licitación. & Varias fuentes\\
+\hline
+NOM\_PRO\_EL & Nombre del proyecto & Varias fuentes\\
+\hline
+CODIGO\_IDI & Código IDI del proyecto (código del banco integrado de proyectos) & Varias fuentes\\
+\hline
+X & Longitud & Obtenida en Arcgis\\
+\hline
+Y & Latitud & Obtenida en Arcgis\\
+\hline
+\end{tabular}
+\end{table}
+
+\hypertarget{espaciales}{%
+\subsection{Espaciales}\label{espaciales}}
+
+\hypertarget{data_clean}{%
+\chapter{Limpieza de Datos}\label{data_clean}}
 
   \bibliography{book.bib,packages.bib}
 

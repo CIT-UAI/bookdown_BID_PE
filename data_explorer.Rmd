@@ -1,6 +1,37 @@
 # Exploración de Datos {#data_explorer}
 
-## Lectura de Archivos
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+require(knitr)
+require(kableExtra)
+library(readxl)
+library(sf)
+library(dplyr)
+library(mapview)
+
+```
+
+Las bases de datos recibidas de Probreza Energética (27-07-2022), corresponden a 3 carpetas, las cuales en el presente capítulo se procederá un análisis descriptivo general.
+
+![Estructura de carpeta de Bases de Datos](images/bbdd_folders.png)
+
+## `BBDD mapa vulneravilidad`
+
+### Descripción de Variables
+
+**Nombre Archivo**: "_Detalle de campos.xlsx_"
+
+```{r echo=FALSE}
+
+campos <- read_excel("data/excel/Detalle de campos.xlsx")
+
+kable_styling(
+  kable(campos, digits = 3, row.names = FALSE, align = "c",
+        caption = NULL),
+        bootstrap_options = c("striped", "hover", "condensed"),
+        position = "center", full_width = FALSE) 
+```
+
 
 ### Espaciales
 

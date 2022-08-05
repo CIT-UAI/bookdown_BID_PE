@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capítulo 4 Marco Teórico | BID: Probreza Energética</title>
+  <title>Capítulo 3 Marco Teórico | BID: Pobreza Energética</title>
   <meta name="description" content="Estudio para la medición de indicadores de pobreza energética" />
   <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capítulo 4 Marco Teórico | BID: Probreza Energética" />
+  <meta property="og:title" content="Capítulo 3 Marco Teórico | BID: Pobreza Energética" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Estudio para la medición de indicadores de pobreza energética" />
   <meta name="github-repo" content="rstudio/bookdown_BID_PE" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capítulo 4 Marco Teórico | BID: Probreza Energética" />
+  <meta name="twitter:title" content="Capítulo 3 Marco Teórico | BID: Pobreza Energética" />
   
   <meta name="twitter:description" content="Estudio para la medición de indicadores de pobreza energética" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="data_explorer.html"/>
-<link rel="next" href="objetivos.html"/>
+<link rel="prev" href="objetivos.html"/>
+<link rel="next" href="data_explorer.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -52,6 +52,10 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
 
 
 
@@ -69,20 +73,21 @@
 
 <ul class="summary">
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introducción</a></li>
-<li class="chapter" data-level="2" data-path="data_clean.html"><a href="data_clean.html"><i class="fa fa-check"></i><b>2</b> Limpieza de Datos</a></li>
-<li class="chapter" data-level="3" data-path="data_explorer.html"><a href="data_explorer.html"><i class="fa fa-check"></i><b>3</b> Exploración de Datos</a>
+<li class="chapter" data-level="2" data-path="objetivos.html"><a href="objetivos.html"><i class="fa fa-check"></i><b>2</b> Objetivos</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="data_explorer.html"><a href="data_explorer.html#lectura-de-archivos"><i class="fa fa-check"></i><b>3.1</b> Lectura de Archivos</a>
+<li class="chapter" data-level="2.1" data-path="objetivos.html"><a href="objetivos.html#objetivos-generales"><i class="fa fa-check"></i><b>2.1</b> Objetivos Generales</a></li>
+<li class="chapter" data-level="2.2" data-path="objetivos.html"><a href="objetivos.html#objetivos-específicos"><i class="fa fa-check"></i><b>2.2</b> Objetivos Específicos</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="m_teorico.html"><a href="m_teorico.html"><i class="fa fa-check"></i><b>3</b> Marco Teórico</a></li>
+<li class="chapter" data-level="4" data-path="data_explorer.html"><a href="data_explorer.html"><i class="fa fa-check"></i><b>4</b> Exploración de Datos</a>
 <ul>
-<li class="chapter" data-level="3.1.1" data-path="data_explorer.html"><a href="data_explorer.html#espaciales"><i class="fa fa-check"></i><b>3.1.1</b> Espaciales</a></li>
+<li class="chapter" data-level="4.1" data-path="data_explorer.html"><a href="data_explorer.html#bbdd-mapa-vulneravilidad"><i class="fa fa-check"></i><b>4.1</b> <code>BBDD mapa vulneravilidad</code></a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="data_explorer.html"><a href="data_explorer.html#descripción-de-variables"><i class="fa fa-check"></i><b>4.1.1</b> Descripción de Variables</a></li>
+<li class="chapter" data-level="4.1.2" data-path="data_explorer.html"><a href="data_explorer.html#espaciales"><i class="fa fa-check"></i><b>4.1.2</b> Espaciales</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="m_teorico.html"><a href="m_teorico.html"><i class="fa fa-check"></i><b>4</b> Marco Teórico</a></li>
-<li class="chapter" data-level="5" data-path="objetivos.html"><a href="objetivos.html"><i class="fa fa-check"></i><b>5</b> Objetivos</a>
-<ul>
-<li class="chapter" data-level="5.1" data-path="objetivos.html"><a href="objetivos.html#objetivos-generales"><i class="fa fa-check"></i><b>5.1</b> Objetivos Generales</a></li>
-<li class="chapter" data-level="5.2" data-path="objetivos.html"><a href="objetivos.html#objetivos-específicos"><i class="fa fa-check"></i><b>5.2</b> Objetivos Específicos</a></li>
-</ul></li>
+<li class="chapter" data-level="5" data-path="data_clean.html"><a href="data_clean.html"><i class="fa fa-check"></i><b>5</b> Limpieza de Datos</a></li>
 </ul>
 
       </nav>
@@ -92,7 +97,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">BID: Probreza Energética</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">BID: Pobreza Energética</a>
           </h1>
         </div>
 
@@ -100,10 +105,23 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="m_teorico" class="section level1 hasAnchor" number="4">
-<h1><span class="header-section-number">Capítulo 4</span> Marco Teórico<a href="m_teorico.html#m_teorico" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="m_teorico" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Capítulo 3</span> Marco Teórico<a href="m_teorico.html#m_teorico" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p><strong>¿Qué es pobreza Energética?</strong></p>
 <p>Nos referimos a Pobreza Energética cuando un hogar no tiene acceso equitativo a servicios energéticos de alta calidad (es decir, que sean adecuados, confiables, no contaminantes y seguros) para cubrir sus necesidades fundamentales y básicas que permitan sostener el desarrollo humano y económico de sus integrantes. <em>Fuente:<a href="http://redesvid.uchile.cl/pobreza-energetica/panel-de-indicadores/">http://redesvid.uchile.cl/pobreza-energetica/panel-de-indicadores/</a></em></p>
+<p>Un hogar se encuentra en situación de pobreza energética cuando no tiene acceso equitativo a servicios energéticos de alta calidad para cubrir sus necesidades fundamentales y básicas, que permitan sostener el desarrollo humano y económico de sus miembros. Las necesidades fundamentales son aquellas que implican impactos directos en la salud humana; mientras que las necesidades básicas corresponden a aquellos requerimientos energéticos cuya pertinencia depende de las particularidades culturales y territoriales.</p>
+<div class="figure">
+<img src="images/esquema_PE.png" alt="" />
+<p class="caption">Esquema conceptual Pobreza Energética - <a href="http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe%CC%81tica.-El-acceso-desigual-a-energi%CC%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf">Universidad de Chile</a></p>
+</div>
+<p>La pobreza energética se expresa en relación a dos grupos de necesidades: ‘<em>fundamentales</em>’ y ‘<em>básicas</em>’. Las necesidades <strong>fundamentales</strong> son aquellas que implican impactos directos en la salud humana. Su satisfacción se considera crítica, independiente del contexto territorial. La cocción y conservación de alimentos, las temperaturas mínima y máxima saludables, el acceso al agua y la disponibilidad de suministro eléctrico continuo para personas electrodependientes en salud, se encuentran en este primer grupo. Por otra parte, las necesidades <strong>básicas</strong> corresponden a aquellos requerimientos cuya pertinencia depende de las características socioecológicas (biofísicas, geográficas y climáticas), sociotécnicas (tecnológicas e infraestructurales) y socioculturales (normas, mercados, costumbres y expectativas relacionadas con calidad de vida y desarrollo humano), propias de un determinado territorio. El confort térmico, el agua caliente sanitaria, la iluminación, los electrodomésticos y dispositivos tecnológicos para la educación son ejemplos de este segundo grupo.</p>
+<p>Mientras las necesidades fundamentales se consideran de forma universal, las necesidades básicas requieren de una definición y ponderación en función de su pertinencia para una población en particular, situada en un territorio, en un contexto temporal definido y bajo condiciones socioculturales específicas.</p>
+<div class="figure">
+<img src="images/necedidades_energia.png" alt="" />
+<p class="caption">Necesidades fundamentales y básica de energía - <a href="http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe%CC%81tica.-El-acceso-desigual-a-energi%CC%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf">Universidad de Chile</a></p>
+</div>
+<p><strong>Referencias:</strong></p>
+<p><a href="http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe%CC%81tica.-El-acceso-desigual-a-energi%CC%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf">Pobreza Energética- El Acceso desigual a energía de caldiad como barrera para el desarrollo en Chile. Univerisad de Chile, 2020</a></p>
 
 </div>
             </section>
@@ -111,8 +129,8 @@
           </div>
         </div>
       </div>
-<a href="data_explorer.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="objetivos.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="objetivos.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data_explorer.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

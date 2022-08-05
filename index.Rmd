@@ -1,5 +1,5 @@
 --- 
-title: "BID: Probreza Energética"
+title: "BID: Pobreza Energética"
 author: "Centro de Inteligencia Territorial - UAI"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -12,11 +12,18 @@ github-repo: rstudio/bookdown_BID_PE
 description: "Estudio para la medición de indicadores de pobreza energética"
 ---
 
+
+
 # Introducción
+
+
+```{js, echo = FALSE}
+title=document.getElementById('header');
+title.innerHTML = '<img src="images/Logo_CIT_UAI_Negro.png" width="350">' + title.innerHTML
+```
 
 
 Apoyo para una Transición Energética Justa, Limpia y Sostenible en Chile:
 
 **Estudio para la medición de indicadores de pobreza energética**
- 
-Por completar....
+

@@ -16,4 +16,4 @@ AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
 
 BuildType: Website
-WebsitePath: docs
+WebsitePath: ~/OneDrive - Universidad Adolfo Ibanez/CIT/PROYECTOS_CIT/BID_PE/bookdown_BID_PE
