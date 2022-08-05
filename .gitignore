@@ -1,4 +1,7 @@
+_book_files/*
+
 # R and Rstudio specific files
+
 .Rproj.user
 .Rhistory
 .RData

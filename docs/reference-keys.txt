@@ -1,9 +1,0 @@
-introducción
-objetivos
-objetivos-generales
-objetivos-específicos
-m_teorico
-data_explorer
-lectura-de-archivos
-espaciales
-data_clean
