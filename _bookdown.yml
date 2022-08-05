@@ -1,7 +1,21 @@
 book_filename: "bookdown_BID_PE"
+output_dir: docs
+new_session: no
 language:
+  label:
+    fig: 'Figura '
+    tab: 'Tabla '
+    eq: 'Ecuación '
+    thm: 'Teorema '
+    lem: 'Lema '
+    def: 'Definición '
+    cor: 'Corolario '
+    prp: 'Proposición '
+    exm: 'Ejemplo '
+    exr: 'Ejercicio '
+    proof: 'Demostración. '
+    remark: 'Nota: '
+    solution: 'Solución. '
   ui:
-    chapter_name: "Capítulo "
-delete_merged_file: true
-rmd_files: ["index.Rmd", "objetivos.Rmd",  "m_teorico.Rmd", "data_explorer.Rmd",  "data_clean.Rmd"]
-
+    chapter_name: 'Capítulo '
+delete_merged_file: yes
