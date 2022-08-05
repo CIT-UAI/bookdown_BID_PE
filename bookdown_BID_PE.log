@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.10)  4 AUG 2022 10:51
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.10)  5 AUG 2022 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,21 +736,21 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 ] (./bookdown_BID_PE.toc
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 5.
+(Font)              scaled to size 7.0pt on input line 3.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 5.
+(Font)              scaled to size 5.0pt on input line 3.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 5.
+(Font)              scaled to size 10.00092pt on input line 3.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 5.
+(Font)              scaled to size 7.00064pt on input line 3.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 5.
+(Font)              scaled to size 5.00046pt on input line 3.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 5.
+(Font)              scaled to size 9.99893pt on input line 3.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 5.
+(Font)              scaled to size 6.99925pt on input line 3.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 5.
+(Font)              scaled to size 4.99947pt on input line 3.
 )
 \tf@toc=\write4
 \openout4 = `bookdown_BID_PE.toc'.
@@ -778,13 +778,13 @@ Chapter 5.
 No file bookdown_BID_PE.bbl.
 [13] (./bookdown_BID_PE.aux)
 Package rerunfilecheck Info: File `bookdown_BID_PE.out' has not changed.
-(rerunfilecheck)             Checksum: 37079E6EAA0949F02A00A11934148983;749.
+(rerunfilecheck)             Checksum: 9DBDD2D7A1805F9FA8C84501D13926F6;1066.
  ) 
 Here is how much of TeX's memory you used:
- 18395 strings out of 477884
- 341475 string characters out of 5846067
- 810328 words of memory out of 5000000
- 39054 multiletter control sequences out of 15000+600000
+ 18398 strings out of 477884
+ 341533 string characters out of 5846067
+ 811422 words of memory out of 5000000
+ 39057 multiletter control sequences out of 15000+600000
  475702 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,6n,121p,1012b,358s stack positions out of 10000i,1000n,20000p,200000b,200000s

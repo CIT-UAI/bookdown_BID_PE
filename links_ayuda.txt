@@ -1,4 +1,4 @@
-## book 
+## book
 https://cit-uai.github.io/Book_CIT/
 
 ##bookdown en español
@@ -9,3 +9,5 @@ https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab
 
 # publicar en github
 https://ichi.pro/es/como-publicar-proyectos-de-bookdown-con-acciones-de-github-en-paginas-de-github-121405518066462
+
+bookdown::render_book("index.Rmd", "bookdown::html_book", output_dir = "docs", bookdown::html_book(theme: "united"))
