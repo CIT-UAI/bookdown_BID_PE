@@ -47,6 +47,7 @@ kable_styling(
 
 ### Analisis Bases Espaciales
 
+
 ```{r lectura_shp}
 # lectura
 names_shps <- list.files(path = "data/shapes/", pattern = ".shp$") %>% 
@@ -59,9 +60,20 @@ names(files_shps) <-  names_shps
 
 ```
 
+Dentro de la carpeta llamada `BBDD mapa vulneravilidad` existen 4 archivos en formato shapefiles, con los siguientes nombres:
+
+- `r names_shps[1]`
+- `r names_shps[2]`
+- `r names_shps[3]`
+- `r names_shps[4]`
+
+
 ```{r}
 region = "COQUIMBO"
 ```
+
+
+Para visualizar los objetos esjetos espaciales se procedió a elegir una región de `r region`, continiación se procede a hacer exploración de las tablas de contenidos y visualización espacial por cada uno de ellos:
 
 <!-- base -->
 
@@ -86,7 +98,7 @@ kable_styling(
         position = "center", full_width = TRUE,  font_size = fsize) 
 ```
 
-**Visualización Espacial**:  Región de "`region`"
+**Visualización Espacial**:  Región de "`r region`"
 
 ```{r}
 
@@ -126,7 +138,7 @@ kable_styling(
         position = "center", full_width = TRUE,  font_size = fsize) 
 ```
 
-**Visualización Espacial**:  Región de "`region`"
+**Visualización Espacial**:  Región de "`r region`"
 
 ```{r}
 
@@ -166,7 +178,7 @@ kable_styling(
         position = "center", full_width = TRUE,  font_size = fsize) 
 ```
 
-**Visualización Espacial**:  Región de "`region`"
+**Visualización Espacial**:  Región de "`r region`"
 
 ```{r}
 
@@ -207,7 +219,7 @@ kable_styling(
         position = "center", full_width = TRUE,  font_size = fsize) 
 ```
 
-**Visualización Espacial**:  Región de "`region`"
+**Visualización Espacial**:  Región de "`r region`"
 
 ```{r}
 
