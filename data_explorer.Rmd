@@ -1,3 +1,8 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
 # Exploración de Datos {#data_explorer}
 
 ```{r setup, include=FALSE}
@@ -7,8 +12,15 @@ require(kableExtra)
 library(readxl)
 library(sf)
 library(dplyr)
-library(mapview)
+library(purrr)
 
+# visualización
+library(mapview)
+library(ggplot2)
+library(viridis)
+
+nhead = 5
+fsize = 10
 ```
 
 Las bases de datos recibidas de Probreza Energética (27-07-2022), corresponden a 3 carpetas, las cuales en el presente capítulo se procederá un análisis descriptivo general.
@@ -29,10 +41,186 @@ kable_styling(
   kable(campos, digits = 3, row.names = FALSE, align = "c",
         caption = NULL),
         bootstrap_options = c("striped", "hover", "condensed"),
-        position = "center", full_width = FALSE) 
+        position = "center", full_width = TRUE,  font_size = 11) 
 ```
 
 
-### Espaciales
+### Analisis Bases Espaciales
+
+```{r lectura_shp}
+# lectura
+names_shps <- list.files(path = "data/shapes/", pattern = ".shp$") %>% 
+  gsub(".shp", "", x = .)
+files_shps <-  list.files(path = "data/shapes", pattern = ".shp$",
+                          full.names = T) %>% 
+  map(st_read, quiet = T)
+
+names(files_shps) <-  names_shps
+
+```
+
+```{r}
+region = "COQUIMBO"
+```
+
+<!-- base -->
+
+```{r}
+indice = 1
+```
+
+#### `r names(files_shps)[indice]`
+
+**Tabla de Variables**:
+```{r}
+data_reg <- files_shps[[indice]] %>% filter(NOM_REGION == region)
+
+```
+
+```{r}
+kable_styling(
+  kable(data_reg %>% st_drop_geometry() %>% head(nhead), 
+        digits = 3, row.names = FALSE, align = "c",
+        caption = NULL),
+        bootstrap_options = c("striped", "hover", "condensed"),
+        position = "center", full_width = TRUE,  font_size = fsize) 
+```
+
+**Visualización Espacial**:  Región de "`region`"
+
+```{r}
+
+# Visualización ggplot y sf
+# ggplot() +
+#   geom_sf(data = data_reg, aes(color = EMPRESA_1), alpha= 0.8)+
+#   scale_color_viridis_d(na.value = "gray50")+
+#   ggtitle(paste0("Base: ", names(files_shps)[1], "\nRegión de: ", region)) +
+#   theme_bw() +
+#   theme(panel.grid.major = element_line(colour = "gray80"),
+#         panel.grid.minor = element_line(colour = "gray80"))
+
+ data_reg %>% mapview::mapview(zcol ="EMPRESA_1", cex = 3)
+```
+
+
+<!-- base -->
+
+```{r}
+indice = 2
+```
+
+#### `r names(files_shps)[indice]`
+
+**Tabla de Variables**:
+```{r}
+data_reg <- files_shps[[indice]] %>% filter(NOM_REGION == region)
+
+```
+
+```{r}
+kable_styling(
+  kable(data_reg %>% st_drop_geometry() %>% head(nhead), 
+        digits = 3, row.names = FALSE, align = "c",
+        caption = NULL),
+        bootstrap_options = c("striped", "hover", "condensed"),
+        position = "center", full_width = TRUE,  font_size = fsize) 
+```
+
+**Visualización Espacial**:  Región de "`region`"
+
+```{r}
+
+# Visualización ggplot y sf
+# ggplot() +
+#   geom_sf(data = data_reg, aes(color = EMPRESA_1), alpha= 0.8)+
+#   scale_color_viridis_d(na.value = "gray50")+
+#   ggtitle(paste0("Base: ", names(files_shps)[1], "\nRegión de: ", region)) +
+#   theme_bw() +
+#   theme(panel.grid.major = element_line(colour = "gray80"),
+#         panel.grid.minor = element_line(colour = "gray80"))
+
+ data_reg %>% mapview::mapview(zcol ="EMPRESA_1", cex = 3)
+```
+
+
+<!-- base -->
+
+```{r}
+indice = 3
+```
+
+#### `r names(files_shps)[indice]`
+
+**Tabla de Variables**:
+```{r}
+data_reg <- files_shps[[indice]] %>% filter(NOM_REGION == region)
+
+```
+
+```{r}
+kable_styling(
+  kable(data_reg %>% st_drop_geometry() %>% head(nhead), 
+        digits = 3, row.names = FALSE, align = "c",
+        caption = NULL),
+        bootstrap_options = c("striped", "hover", "condensed"),
+        position = "center", full_width = TRUE,  font_size = fsize) 
+```
+
+**Visualización Espacial**:  Región de "`region`"
+
+```{r}
+
+# Visualización ggplot y sf
+# ggplot() +
+#   geom_sf(data = data_reg, aes(color = EMPRESA_1), alpha= 0.8)+
+#   scale_color_viridis_d(na.value = "gray50")+
+#   ggtitle(paste0("Base: ", names(files_shps)[1], "\nRegión de: ", region)) +
+#   theme_bw() +
+#   theme(panel.grid.major = element_line(colour = "gray80"),
+#         panel.grid.minor = element_line(colour = "gray80"))
+
+ data_reg %>% mapview::mapview(zcol ="TIPO_SUM_S", cex = 3)
+```
+
+
+
+<!-- base -->
+
+```{r}
+indice = 4
+```
+
+#### `r names(files_shps)[indice]`
+
+**Tabla de Variables**:
+```{r}
+data_reg <- files_shps[[indice]] %>% filter(NOM_REGION == region)
+
+```
+
+```{r}
+kable_styling(
+  kable(data_reg %>% st_drop_geometry() %>% head(nhead), 
+        digits = 3, row.names = FALSE, align = "c",
+        caption = NULL),
+        bootstrap_options = c("striped", "hover", "condensed"),
+        position = "center", full_width = TRUE,  font_size = fsize) 
+```
+
+**Visualización Espacial**:  Región de "`region`"
+
+```{r}
+
+# Visualización ggplot y sf
+# ggplot() +
+#   geom_sf(data = data_reg, aes(color = EMPRESA_1), alpha= 0.8)+
+#   scale_color_viridis_d(na.value = "gray50")+
+#   ggtitle(paste0("Base: ", names(files_shps)[1], "\nRegión de: ", region)) +
+#   theme_bw() +
+#   theme(panel.grid.major = element_line(colour = "gray80"),
+#         panel.grid.minor = element_line(colour = "gray80"))
+
+ data_reg %>% mapview::mapview(zcol ="NOM_FV_IND", cex = 3)
+```
 
 

@@ -179,9 +179,9 @@ Las bases de datos recibidas de Probreza Energética (27-07-2022), corresponden 
 
 \textbf{Nombre Archivo}: ``\emph{Detalle de campos.xlsx}''
 
-\begin{table}
-\centering
-\begin{tabular}{c|c|c}
+\begingroup\fontsize{11}{13}\selectfont
+
+\begin{tabu} to \linewidth {>{\centering}X>{\centering}X>{\centering}X}
 \hline
 Nombre campo & Descripción & Fuente\\
 \hline
@@ -249,11 +249,123 @@ X & Longitud & Obtenida en Arcgis\\
 \hline
 Y & Latitud & Obtenida en Arcgis\\
 \hline
-\end{tabular}
-\end{table}
+\end{tabu}
+\endgroup{}
 
-\hypertarget{espaciales}{%
-\subsection{Espaciales}\label{espaciales}}
+\hypertarget{analisis-bases-espaciales}{%
+\subsection{Analisis Bases Espaciales}\label{analisis-bases-espaciales}}
+
+\hypertarget{viv_proy}{%
+\subsubsection{viv\_proy}\label{viv_proy}}
+
+\textbf{Tabla de Variables}:
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{tabu} to \linewidth {>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X}
+\hline
+REGION & NOM\_REGION & PROVINCIA & NOM\_PROVIN & COMUNA & NOM\_COMUNA & DESTINO\_VI & NOM\_DIRECC & N\_LETRA & EMPRESA\_ID & EMPRESA\_1 & DISTRITO & AREA & COD\_LOCALI & LOCALIDAD & COD\_ENTIDA & ENTIDAD & COD\_CATEGO & CATEGORIA & EST\_PROY\_E & NOM\_PRO\_EL & CODIGO\_IDI & NEAR\_DIST & MANZENT\_I & X & Y\\
+\hline
+04 & COQUIMBO & 042 & CHOAPA & 04203 & LOS VILOS & 6 & SN & SN & 7 & CONAFE & 5 & 2 & 23 & LOS CÓNDORES & 58 & EL LLANO & 8 & PARCELA-HIJUELA & RS & ELECTRIFICACION RURAL VALLE DE QUILIMARI & 30094239 & 41.720 & 4.203052e+12 & -71.304 & -32.092\\
+\hline
+04 & COQUIMBO & 042 & CHOAPA & 04203 & LOS VILOS & 6 & SN & SN & 7 & CONAFE & 5 & 2 & 16 & INFIERNILLO & 46 & INFIERNILLO & 8 & PARCELA-HIJUELA & RS & ELECTRIFICACION RURAL VALLE DE QUILIMARI & 30094239 & 28.217 & 4.203052e+12 & -71.299 & -32.079\\
+\hline
+04 & COQUIMBO & 042 & CHOAPA & 04203 & LOS VILOS & 6 & SN & SN & 7 & CONAFE & 4 & 2 & 23 & LOS CÓNDORES & 66 & RINCONADA & 8 & PARCELA-HIJUELA & RS & ELECTRIFICACION RURAL VALLE DE QUILIMARI & 30094239 & 83.881 & 4.203042e+12 & -71.242 & -32.078\\
+\hline
+04 & COQUIMBO & 042 & CHOAPA & 04203 & LOS VILOS & 6 & SN & SN & 18 & CGED & 5 & 2 & 16 & INFIERNILLO & 46 & INFIERNILLO & 8 & PARCELA-HIJUELA & EN EJECUCION & ELECTRIFICACION RURAL INFIERNILLO II & 30073621 & 367.058 & 4.203052e+12 & -71.311 & -32.041\\
+\hline
+04 & COQUIMBO & 042 & CHOAPA & 04203 & LOS VILOS & 6 & SN & SN & 18 & CGED & 5 & 2 & 16 & INFIERNILLO & 46 & INFIERNILLO & 8 & PARCELA-HIJUELA & EN EJECUCION & ELECTRIFICACION RURAL INFIERNILLO II & 30073621 & 327.209 & 4.203052e+12 & -71.310 & -32.041\\
+\hline
+\end{tabu}
+\endgroup{}
+
+\textbf{Visualización Espacial}: Región de ``\texttt{region}''
+
+\includegraphics{bookdown_BID_PE_files/figure-latex/unnamed-chunk-7-1.pdf}
+
+\hypertarget{viv_sin_energia}{%
+\subsubsection{viv\_sin\_energia}\label{viv_sin_energia}}
+
+\textbf{Tabla de Variables}:
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{tabu} to \linewidth {>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X}
+\hline
+NUMERAL & REGION & NOM\_REGION & PROVINCIA & NOM\_PROVIN & COMUNA & DISTRITO & AREA & COD\_LOCALI & LOCALIDAD & COD\_ENTIDA & ENTIDAD & COD\_CATEGO & CATEGORIA & MANZENT\_I & DESTINO\_VI & NOM\_DIRECC & N\_LETRA & EMPRESA\_ID & EMPRESA\_1 & NEAR\_DIST & Y & X & NOM\_COMUNA\\
+\hline
+24 & 04 & COQUIMBO & 042 & CHOAPA & 04203 & 6 & 2 & 15 & GUANGUALÍ & 42 & LO CLAUDIO & 8 & PARCELA-HIJUELA & 4.203062e+12 & 6 & SN & SN & 7 & CONAFE & 952.030 & -32.174 & -71.362 & LOS VILOS\\
+\hline
+78 & 04 & COQUIMBO & 042 & CHOAPA & 04203 & 7 & 2 & 32 & QUILIMARÍ & 96 & EL ARRAYÁN AFUERA & 8 & PARCELA-HIJUELA & 4.203072e+12 & 6 & SN & SN & 0 & NA & 3545.851 & -32.155 & -71.443 & LOS VILOS\\
+\hline
+79 & 04 & COQUIMBO & 042 & CHOAPA & 04203 & 7 & 2 & 32 & QUILIMARÍ & 96 & EL ARRAYÁN AFUERA & 8 & PARCELA-HIJUELA & 4.203072e+12 & 6 & SN & SN & 0 & NA & 3552.633 & -32.155 & -71.444 & LOS VILOS\\
+\hline
+82 & 04 & COQUIMBO & 042 & CHOAPA & 04203 & 6 & 2 & 901 & INDETERMINADA & 901 & INDETERMINADA & 15 & INDETERMINADA & 4.203063e+12 & 6 & SN & SN & 0 & NA & 1499.775 & -32.153 & -71.341 & LOS VILOS\\
+\hline
+98 & 04 & COQUIMBO & 042 & CHOAPA & 04203 & 7 & 2 & 29 & PICHIDANGUI & 901 & INDETERMINADA & 15 & INDETERMINADA & 4.203072e+12 & 6 & SN & SN & 7 & CONAFE & 1166.592 & -32.147 & -71.486 & LOS VILOS\\
+\hline
+\end{tabu}
+\endgroup{}
+
+\textbf{Visualización Espacial}: Región de ``\texttt{region}''
+
+\includegraphics{bookdown_BID_PE_files/figure-latex/unnamed-chunk-11-1.pdf}
+
+\hypertarget{viv_sist_aislado}{%
+\subsubsection{viv\_sist\_aislado}\label{viv_sist_aislado}}
+
+\textbf{Tabla de Variables}:
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{tabu} to \linewidth {>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X}
+\hline
+OBJECTID & NUMERAL & REGION & PROVINCIA & COMUNA & NOM\_REGION & NOM\_PROVIN & NOM\_COMUNA & DESTINO\_VI & NOM\_DIRECC & N\_LETRA & EMPRESA\_ID & EMPRESA\_1 & DISTRITO & AREA & COD\_LOCALI & LOCALIDAD & COD\_ENTIDA & ENTIDAD & COD\_CATEGO & CATEGORIA & MANZENT\_I & NOM\_SSAA & TIPO\_SUM\_S & NEAR\_DIST & X & Y\\
+\hline
+2168 & 67751 & 04 & 041 & 04101 & COQUIMBO & ELQUI & LA SERENA & 6 & AVENIDA LATORRE & SN & 0 & NA & 12 & 2 & 10 & COMUNIDAD AGRÍCOLA HISTÓRICA OLLA DE CALDERA & 78 & ALMIRANTE LATORRE & 4 & CASERÍO & 4.101122e+12 & ALMIRANTE LATORRE & PARCIAL & 21273.43 & -70.959 & -29.638\\
+\hline
+2169 & 67759 & 04 & 041 & 04101 & COQUIMBO & ELQUI & LA SERENA & 6 & SN & SN & 0 & NA & 12 & 2 & 10 & COMUNIDAD AGRÍCOLA HISTÓRICA OLLA DE CALDERA & 78 & ALMIRANTE LATORRE & 4 & CASERÍO & 4.101122e+12 & ALMIRANTE LATORRE & PARCIAL & 21459.73 & -70.956 & -29.637\\
+\hline
+2170 & 67762 & 04 & 041 & 04101 & COQUIMBO & ELQUI & LA SERENA & 6 & LOS AGUIRRE & SN & 0 & NA & 12 & 2 & 10 & COMUNIDAD AGRÍCOLA HISTÓRICA OLLA DE CALDERA & 78 & ALMIRANTE LATORRE & 4 & CASERÍO & 4.101122e+12 & ALMIRANTE LATORRE & PARCIAL & 21474.31 & -70.956 & -29.637\\
+\hline
+2171 & 67763 & 04 & 041 & 04101 & COQUIMBO & ELQUI & LA SERENA & 6 & SN & SN & 0 & NA & 12 & 2 & 10 & COMUNIDAD AGRÍCOLA HISTÓRICA OLLA DE CALDERA & 78 & ALMIRANTE LATORRE & 4 & CASERÍO & 4.101122e+12 & ALMIRANTE LATORRE & PARCIAL & 21520.10 & -70.955 & -29.637\\
+\hline
+2172 & 67771 & 04 & 041 & 04101 & COQUIMBO & ELQUI & LA SERENA & 6 & JOSE MIGUEL PIÑONES & SN & 0 & NA & 12 & 2 & 10 & COMUNIDAD AGRÍCOLA HISTÓRICA OLLA DE CALDERA & 78 & ALMIRANTE LATORRE & 4 & CASERÍO & 4.101122e+12 & ALMIRANTE LATORRE & PARCIAL & 21444.00 & -70.956 & -29.637\\
+\hline
+\end{tabu}
+\endgroup{}
+
+\textbf{Visualización Espacial}: Región de ``\texttt{region}''
+
+\includegraphics{bookdown_BID_PE_files/figure-latex/unnamed-chunk-15-1.pdf}
+
+\hypertarget{viv_sist_indiv}{%
+\subsubsection{viv\_sist\_indiv}\label{viv_sist_indiv}}
+
+\textbf{Tabla de Variables}:
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{tabu} to \linewidth {>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X}
+\hline
+OBJECTID & REGION & PROVINCIA & COMUNA & NOM\_REGION & NOM\_PROVIN & NOM\_COMUNA & DESTINO\_VI & NOM\_DIRECC & N\_LETRA & EMPRESA\_ID & EMPRESA\_1 & DISTRITO & AREA & COD\_LOCALI & LOCALIDAD & COD\_ENTIDA & ENTIDAD & COD\_CATEGO & CATEGORIA & MANZENT\_I & NOM\_FV\_IND & SUMINS\_FV & X & Y\\
+\hline
+172 & 04 & 042 & 04203 & COQUIMBO & CHOAPA & LOS VILOS & 6 & SN & SN & 0 & NA & 7 & 2 & 32 & QUILIMARÍ & 95 & EL ARRAYÁN ADENTRO & 8 & PARCELA-HIJUELA & 4.203072e+12 & FV INDIVIDUAL COQUIMBO & PARCIAL & -71.424 & -32.174\\
+\hline
+173 & 04 & 042 & 04203 & COQUIMBO & CHOAPA & LOS VILOS & 6 & SN & SN & 0 & NA & 7 & 2 & 32 & QUILIMARÍ & 95 & EL ARRAYÁN ADENTRO & 8 & PARCELA-HIJUELA & 4.203072e+12 & FV INDIVIDUAL COQUIMBO & PARCIAL & -71.424 & -32.173\\
+\hline
+174 & 04 & 042 & 04203 & COQUIMBO & CHOAPA & LOS VILOS & 6 & SN & SN & 7 & CONAFE & 6 & 2 & 15 & GUANGUALÍ & 42 & LO CLAUDIO & 8 & PARCELA-HIJUELA & 4.203062e+12 & FV INDIVIDUAL COQUIMBO & PARCIAL & -71.364 & -32.172\\
+\hline
+175 & 04 & 042 & 04203 & COQUIMBO & CHOAPA & LOS VILOS & 6 & SN & SN & 0 & NA & 7 & 2 & 32 & QUILIMARÍ & 95 & EL ARRAYÁN ADENTRO & 8 & PARCELA-HIJUELA & 4.203072e+12 & FV INDIVIDUAL COQUIMBO & PARCIAL & -71.424 & -32.171\\
+\hline
+176 & 04 & 042 & 04203 & COQUIMBO & CHOAPA & LOS VILOS & 6 & SN & SN & 0 & NA & 7 & 2 & 32 & QUILIMARÍ & 95 & EL ARRAYÁN ADENTRO & 8 & PARCELA-HIJUELA & 4.203072e+12 & FV INDIVIDUAL COQUIMBO & PARCIAL & -71.430 & -32.164\\
+\hline
+\end{tabu}
+\endgroup{}
+
+\textbf{Visualización Espacial}: Región de ``\texttt{region}''
+
+\includegraphics{bookdown_BID_PE_files/figure-latex/unnamed-chunk-19-1.pdf}
 
 \hypertarget{data_clean}{%
 \chapter{Limpieza de Datos}\label{data_clean}}
