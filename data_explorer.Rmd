@@ -27,7 +27,7 @@ Las bases de datos recibidas de Probreza Energética (27-07-2022), corresponden 
 
 ![Estructura de carpeta de Bases de Datos](images/bbdd_folders.png)
 
-## `BBDD mapa vulneravilidad`
+## BBDD mapa vulneravilidad
 
 ### Descripción de Variables
 
@@ -95,7 +95,8 @@ kable_styling(
         digits = 3, row.names = FALSE, align = "c",
         caption = NULL),
         bootstrap_options = c("striped", "hover", "condensed"),
-        position = "center", full_width = TRUE,  font_size = fsize) 
+        position = "center", full_width = FALSE,  font_size = fsize)%>%
+  scroll_box(width = "100%")
 ```
 
 **Visualización Espacial**:  Región de "`r region`"
@@ -133,9 +134,10 @@ data_reg <- files_shps[[indice]] %>% filter(NOM_REGION == region)
 kable_styling(
   kable(data_reg %>% st_drop_geometry() %>% head(nhead), 
         digits = 3, row.names = FALSE, align = "c",
-        caption = NULL),
+        caption =NULL),
         bootstrap_options = c("striped", "hover", "condensed"),
-        position = "center", full_width = TRUE,  font_size = fsize) 
+        position = "center", full_width = FALSE,  font_size = fsize) %>%
+  scroll_box(width = "100%")
 ```
 
 **Visualización Espacial**:  Región de "`r region`"
@@ -175,7 +177,8 @@ kable_styling(
         digits = 3, row.names = FALSE, align = "c",
         caption = NULL),
         bootstrap_options = c("striped", "hover", "condensed"),
-        position = "center", full_width = TRUE,  font_size = fsize) 
+        position = "center", full_width = TRUE,  font_size = fsize) %>%
+  scroll_box(width = "100%")
 ```
 
 **Visualización Espacial**:  Región de "`r region`"
@@ -216,7 +219,8 @@ kable_styling(
         digits = 3, row.names = FALSE, align = "c",
         caption = NULL),
         bootstrap_options = c("striped", "hover", "condensed"),
-        position = "center", full_width = TRUE,  font_size = fsize) 
+        position = "center", full_width = TRUE,  font_size = fsize) %>%
+  scroll_box(width = "100%")
 ```
 
 **Visualización Espacial**:  Región de "`r region`"
