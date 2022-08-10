@@ -21,7 +21,6 @@ indicadores-pe2050-y-consultoría-bid
 ind_internacionales
 propuesta-de-indicadores-1
 indicadores-de-gasto-energético
-test-referecnias
 data_explorer
 bbdd-mapa-vulneravilidad
 descripción-de-variables
