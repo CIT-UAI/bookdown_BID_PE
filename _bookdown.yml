@@ -20,4 +20,5 @@ language:
   ui:
     chapter_name: 'Capítulo '
 delete_merged_file: yes
-rmd_files: ["index.Rmd", "objetivos.Rmd", "m_teorico.Rmd","data_explorer.Rmd","referencias.Rmd"]
+rmd_files: ["index.Rmd", "objetivos.Rmd", "m_teorico.Rmd","data_explorer.Rmd",
+"gestion.Rmd", "referencias.Rmd"]

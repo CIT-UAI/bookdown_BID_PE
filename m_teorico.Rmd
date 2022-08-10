@@ -30,7 +30,7 @@ knitr::include_graphics("images/necedidades_energia.png")
 
 Capacidad de un territorio para garantizar acceso equitativo en cantidad y calidad a servicios energéticos resilientes y sostenibles, que permita el desarrollo económico y humano del territorio y sus habitantes. [@urquiza_water_2020]
 
-```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Seguridad Energética"}
+```{r, echo=FALSE, out.width="70%", fig.align='center', fig.cap="Seguridad Energética"}
 knitr::include_graphics("images/seguridad_ene.png")
 
 ```
@@ -103,8 +103,43 @@ kable_styling(
         position = "center", full_width = TRUE)
 ```
 
+## Desarrollo Metodológico
 
-<!-- ## Test referecnias -->
+Para efectos del proceso de construcción de indicadores se consideran diversas etapas que van desde I) la revisión de marco teórico, pasando por II) selección de variables, III) formulación matemática y finalizando con la IV) representación territorial. En el siguiente esquema se describen las etapas mencionadas.
+
+```{r des-met, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Esquema de Desarrollo Metodológico"}
+knitr::include_graphics("images/des_metodologico.png")
+```
+
+### Metodología para el Consumo Energético Real
+
+
+```{r met-consumo, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Esquema metodológico propuesto para identificar consumo energético real"}
+knitr::include_graphics("images/esq_consumo.png")
+```
+
+
+### Metodología para el Demanda Energética Real
+
+
+```{r met-demanda, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Esquema metodológico propuesto para estimar demanda energética teórica"}
+knitr::include_graphics("images/esq_demanda.png")
+```
+
+
+## Índice Territorial de Consumo Energético (ITCE) 
+
+Para el desarrollo del Índice Territorial de Consumo Energético, se utilizarán variables que serán la base para entrenar un modelo estimador de probabilidad, considerando su calidad, pertinencia y representatividad.  
+
+Estas variables serán de diferentes ámbitos, fuentes, formato que nos permitirán conocer un contexto sociodemográfico, económico, espacial y cultural del territorio y la vivienda donde se determina el consumo energético en un periodo de tiempo determinado. Para lo anterior, se debe analizar y definir el o las áreas de estudio y sus zonas de contexto, que se utilizaran como piloto para el territorio nacional en las detecciones de consumo, temperatura y humedad. Variables y/o insumos que en principio se sugiere a utilizar en cada contexto son los siguientes: 
+
+*	**Contexto sociodemográfico y económico: ** Base de datos de información predial del SII - Catastro de Campamentos Nacional (históricos y actual) – Censo de Población y Vivienda 2017 (INE) – Encuesta CASEN (MDS) – Registro Social de Hogares (MDS)– Tipos de Usos de Suelo- Encuesta Nacional de Empleo (INE) – Indicador de escolaridad de jefe de hogar por manzana (IEJ – MBHT) - Indicador de empleo por manzana (IEM – MBHT) - Indicador de participación juvenil en empleo y estudio (IPJ – MBHT) - Indicador de Resiliencia de Hogares (IRH – MBHT) - Indicador de suficiencia de viviendas (ISV – MBHT) - Indicador de calidad de la vivienda (IVI – MBHT) - Matriz de Bienestar Humano Territorial (MBHT), entre otros.  
+
+* **Contexto territorial: ** Red Vial – Acceso a Servicios básicos (agua potable, electricidad, internet) – Indicador de seguridad ante delitos graves contra las personas (IGPE – MBHT) - Indicador de seguridad ante delitos graves contra la propiedad (IGPR – MBHT) - Indicador de seguridad ante delitos leves contra las personas (ILPE – MBHT) - Indicador de seguridad ante delitos leves contra la propiedad (ILPR – MBHT) – Zonas de riesgos Naturales – Zonas de riesgos Antrópicos – Zonas de sacrificio, entre otros. 
+
+*	**Contexto físico y ambiental:  ** Imágenes Satelitales (Sentinel- 2, Landsat - 8) – Índice de Vegetación de diferencia Normalizada (NDVI) – Indicador de Cobertura Vegetal (ICV – MBHT) – Land Surface Temperature (LST-temperatura superficial terrestre) - Indicador de Amplitud Térmica Anual (IATA – MBHT) – Modelo de Elevación Digital (DEM) – datos de Plataforma RENAM (Temperatura, Humedad, Calidad del aire, Ruido, Demanda y Consumo eléctrico)– Identificación de sitios eriazos - VIIRS Night lights (Índice de Luces Nocturnas), entre otros.  
+*	**Contexto energético: ** Consumo energético por vivienda georreferenciada (latitud y longitud o dirección), que se obtenga como variables la temporalidad (5 años), horario, materialidad de la vivienda, temperatura, humedad, entre otros.  
+
 
 
 

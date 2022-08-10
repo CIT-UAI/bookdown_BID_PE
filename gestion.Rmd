@@ -1,0 +1,23 @@
+# Gestión del Proyecto {#gestion}
+
+## Visión Global {#vision}
+
+```{r vision, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Visión Global del Proyecto"}
+knitr::include_graphics("images/vision.png")
+```
+
+## Roles
+
+```{r roles, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Roles en el Proyecto"}
+knitr::include_graphics("images/roles.png")
+```
+
+
+## Cronograma del proyecto 
+
+```{r crono-1, echo=FALSE, out.width="120%", fig.align='center', fig.cap="Cronograma del proyecto, Actividades A,B y C"}
+knitr::include_graphics("images/cronograma_1.png")
+```
+```{r crono-2, echo=FALSE, out.width="120%", fig.align='center', fig.cap="Cronograma del proyecto, Actividades D, E y F"}
+knitr::include_graphics("images/cronograma_2.png")
+```
