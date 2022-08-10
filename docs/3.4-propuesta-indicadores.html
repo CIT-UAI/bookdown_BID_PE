@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="3.4 Propuesta Indicadores | BID: Pobreza Energética" />
+<meta property="og:type" content="book" />
+
+<meta property="og:description" content="Estudio para la medición de indicadores de pobreza energética" />
+<meta name="github-repo" content="rstudio/bookdown_BID_PE" />
+
+
+<meta name="date" content="2022-08-09" />
+
+
+<meta name="description" content="Estudio para la medición de indicadores de pobreza energética">
+
+<title>3.4 Propuesta Indicadores | BID: Pobreza Energética</title>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.1.1/leaflet.js"></script>
+<script src="libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="libs/leaflet-providers-plugin-2.1.1/leaflet-providers-plugin.js"></script>
+<link href="libs/HomeButton-0.0.1/home-button.css" rel="stylesheet" />
+<script src="libs/HomeButton-0.0.1/home-button.js"></script>
+<script src="libs/HomeButton-0.0.1/easy-button-src.min.js"></script>
+<script src="libs/clipboard-0.0.1/setClipboardText.js"></script>
+<link href="libs/mapviewCSS-0.0.1/mapview-popup.css" rel="stylesheet" />
+<link href="libs/mapviewCSS-0.0.1/mapview.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+/* show arrow before summary tag as in bootstrap
+TODO: remove if boostrap in updated in html_document (rmarkdown#1485) */
+details > summary {
+  display: list-item;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li><a href="index.html#introducción" id="toc-introducción"><span class="toc-section-number">1</span> Introducción</a></li>
+<li class="has-sub"><a href="2-objetivos.html#objetivos" id="toc-objetivos"><span class="toc-section-number">2</span> Objetivos</a>
+<ul>
+<li><a href="2.1-objetivos-generales.html#objetivos-generales" id="toc-objetivos-generales"><span class="toc-section-number">2.1</span> Objetivos Generales</a></li>
+<li><a href="2.2-objetivos-específicos.html#objetivos-específicos" id="toc-objetivos-específicos"><span class="toc-section-number">2.2</span> Objetivos Específicos</a></li>
+</ul></li>
+<li class="has-sub"><a href="3-m_teorico.html#m_teorico" id="toc-m_teorico"><span class="toc-section-number">3</span> Marco Teórico</a>
+<ul>
+<li class="has-sub"><a href="3.1-definición-de-conceptos.html#definición-de-conceptos" id="toc-definición-de-conceptos"><span class="toc-section-number">3.1</span> Definición de Conceptos</a>
+<ul>
+<li><a href="3.1-definición-de-conceptos.html#qué-es-pobreza-energética" id="toc-qué-es-pobreza-energética"><span class="toc-section-number">3.1.1</span> ¿Qué es pobreza Energética?</a></li>
+<li><a href="3.1-definición-de-conceptos.html#seguridad-energética" id="toc-seguridad-energética"><span class="toc-section-number">3.1.2</span> Seguridad Energética</a></li>
+</ul></li>
+<li class="has-sub"><a href="3.2-propuesta-de-indicadores.html#propuesta-de-indicadores" id="toc-propuesta-de-indicadores"><span class="toc-section-number">3.2</span> Propuesta de Indicadores</a>
+<ul>
+<li><a href="3.2-propuesta-de-indicadores.html#acceso-equitativo" id="toc-acceso-equitativo"><span class="toc-section-number">3.2.1</span> Acceso Equitativo</a></li>
+<li><a href="3.2-propuesta-de-indicadores.html#calidad-y-cantidad" id="toc-calidad-y-cantidad"><span class="toc-section-number">3.2.2</span> Calidad y Cantidad</a></li>
+<li><a href="3.2-propuesta-de-indicadores.html#indicadores-pe2050-y-consultoría-bid" id="toc-indicadores-pe2050-y-consultoría-bid"><span class="toc-section-number">3.2.3</span> Indicadores PE2050 y consultoría BID</a></li>
+</ul></li>
+<li><a href="3.3-indicadores-internacionales.html#indicadores-internacionales" id="toc-indicadores-internacionales"><span class="toc-section-number">3.3</span> Indicadores Internacionales</a></li>
+<li><a href="3.4-propuesta-indicadores.html#propuesta-indicadores" id="toc-propuesta-indicadores"><span class="toc-section-number">3.4</span> Propuesta Indicadores</a></li>
+<li><a href="3.5-indicadores-de-gasto-energético.html#indicadores-de-gasto-energético" id="toc-indicadores-de-gasto-energético"><span class="toc-section-number">3.5</span> Indicadores de Gasto Energético</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-data_explorer.html#data_explorer" id="toc-data_explorer"><span class="toc-section-number">4</span> Exploración de Datos</a>
+<ul>
+<li class="has-sub"><a href="4.1-bbdd-mapa-vulneravilidad.html#bbdd-mapa-vulneravilidad" id="toc-bbdd-mapa-vulneravilidad"><span class="toc-section-number">4.1</span> BBDD mapa vulneravilidad</a>
+<ul>
+<li><a href="4.1-bbdd-mapa-vulneravilidad.html#descripción-de-variables" id="toc-descripción-de-variables"><span class="toc-section-number">4.1.1</span> Descripción de Variables</a></li>
+<li><a href="4.1-bbdd-mapa-vulneravilidad.html#analisis-bases-espaciales" id="toc-analisis-bases-espaciales"><span class="toc-section-number">4.1.2</span> Analisis Bases Espaciales</a></li>
+</ul></li>
+</ul></li>
+<li><a href="5-referencias.html#referencias" id="toc-referencias"><span class="toc-section-number">5</span> Referencias</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="propuesta-indicadores" class="section level2" number="3.4">
+<h2><span class="header-section-number">3.4</span> Propuesta Indicadores</h2>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-8"></span>
+<img src="images/esquema_indicadores.png" alt="Esquema de propuesta des Indicadores" width="100%" />
+<p class="caption">
+Figura 3.7: Esquema de propuesta des Indicadores
+</p>
+</div>
+</div>
+<p style="text-align: center;">
+<a href="3.3-indicadores-internacionales.html"><button class="btn btn-default">Previous</button></a>
+<a href="3.5-indicadores-de-gasto-energético.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+</html>

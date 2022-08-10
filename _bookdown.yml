@@ -16,7 +16,8 @@ language:
     proof: 'Demostración. '
     remark: 'Nota: '
     solution: 'Solución. '
+    references: 'Referencias '
   ui:
     chapter_name: 'Capítulo '
 delete_merged_file: yes
-rmd_files: ["index.Rmd", "objetivos.Rmd", "m_teorico.Rmd",  "data_explorer.Rmd", "data_clean.Rmd"]
+rmd_files: ["index.Rmd", "objetivos.Rmd", "m_teorico.Rmd","data_explorer.Rmd","referencias.Rmd"]

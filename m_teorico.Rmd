@@ -1,25 +1,114 @@
-# Marco Teórico {#m_teorico}
+# Marco Teórico {#m-teorico}
 
 
-**¿Qué es pobreza Energética?**
+## Definición de Conceptos
 
-Nos referimos a Pobreza Energética cuando un hogar no tiene acceso equitativo a servicios energéticos de alta calidad (es decir, que sean adecuados, confiables, no contaminantes y seguros) para cubrir sus necesidades fundamentales y básicas que permitan sostener el desarrollo humano y económico de sus integrantes. _Fuente:[http://redesvid.uchile.cl/pobreza-energetica/panel-de-indicadores/](http://redesvid.uchile.cl/pobreza-energetica/panel-de-indicadores/)_
+### ¿Qué es pobreza Energética? {#def-PE}
 
+Nos referimos a Pobreza Energética cuando un hogar no tiene acceso equitativo a servicios energéticos de alta calidad (es decir, que sean adecuados, confiables, no contaminantes y seguros) para cubrir sus necesidades fundamentales y básicas que permitan sostener el desarrollo humano y económico de sus integrantes.
 
 Un hogar se encuentra en situación de pobreza energética cuando no tiene acceso equitativo a servicios energéticos de alta calidad para cubrir sus necesidades fundamentales y básicas, que permitan sostener el desarrollo humano y económico de sus miembros. Las necesidades fundamentales son aquellas que implican impactos directos en la salud humana; mientras que las necesidades básicas corresponden a aquellos requerimientos energéticos cuya pertinencia depende de las particularidades culturales y territoriales.
 
-![Esquema conceptual Pobreza Energética - [Universidad de Chile](http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe%CC%81tica.-El-acceso-desigual-a-energi%CC%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf)](images/esquema_PE.png)
+
+```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Esquema conceptual Pobreza Energética"}
+knitr::include_graphics("images/esquema_PE.png")
+
+```
 
 
 La pobreza energética se expresa en relación a dos grupos de necesidades: '_fundamentales_' y '_básicas_'. Las necesidades **fundamentales** son aquellas que implican impactos directos en la salud humana. Su satisfacción se considera crítica, independiente del contexto territorial. La cocción y conservación de alimentos, las temperaturas mínima y máxima saludables, el acceso al agua y la disponibilidad de suministro eléctrico continuo para personas electrodependientes en salud, se encuentran en este primer grupo. Por otra parte, las necesidades **básicas** corresponden a aquellos requerimientos cuya pertinencia depende de las características socioecológicas (biofísicas, geográficas y climáticas), sociotécnicas (tecnológicas e infraestructurales) y socioculturales (normas, mercados, costumbres y expectativas relacionadas con calidad de vida y desarrollo humano), propias de un determinado territorio. El confort térmico, el agua caliente sanitaria, la iluminación, los electrodomésticos y dispositivos tecnológicos para la educación son ejemplos de este segundo grupo.
 
 Mientras las necesidades fundamentales se consideran de forma universal, las necesidades básicas requieren de una definición y ponderación en función de su pertinencia para una población en particular, situada en un territorio, en un contexto temporal definido y bajo condiciones socioculturales específicas.
 
-![Necesidades fundamentales y básica de energía - [Universidad de Chile](http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe%CC%81tica.-El-acceso-desigual-a-energi%CC%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf)](images/necedidades_energia.png)
+
+```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Necesidades fundamentales y básica de energía"}
+knitr::include_graphics("images/necedidades_energia.png")
+
+```
+
+### Seguridad Energética 
+
+Capacidad de un territorio para garantizar acceso equitativo en cantidad y calidad a servicios energéticos resilientes y sostenibles, que permita el desarrollo económico y humano del territorio y sus habitantes. [@urquiza_water_2020]
+
+```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Seguridad Energética"}
+knitr::include_graphics("images/seguridad_ene.png")
+
+```
 
 
 
 
-**Referencias:**
+## Propuesta de Indicadores
 
-[Pobreza Energética- El Acceso desigual a energía de caldiad como barrera para el desarrollo en Chile. Univerisad de Chile, 2020](http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe%CC%81tica.-El-acceso-desigual-a-energi%CC%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf)
+
+### Acceso Equitativo
+
+```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Estándares de acceso equitativo"}
+knitr::include_graphics("images/a_equitativo.png")
+
+```
+
+### Calidad y Cantidad
+
+```{r, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Estándares Calidad y Cantidad"}
+knitr::include_graphics("images/calidad_cant.png")
+
+```
+
+### Indicadores PE2050 y consultoría BID
+
+**Indicadores Consultoría BID**
+
+* Consumo de energía bajo condición de confort térmico vs consumo energía real (con resolución a nivel de manzana y temporalidad a ser definida)
+* Gasto mensual de energía bajo condición de confort térmico vs gasto en situación real (con resolución a nivel de manzana y temporalidad a ser definida)
+* Otro criterio prioritario es segmentar en base a distintas variables socio económicas (al menos nivel socio económico, pertinencia indígena y género)
+
+
+**Indicadores Política Energética 2050**
+
+* Porcentaje de hogares con acceso a electricidad de forma permanente respecto al total de hogares existentes.
+* Porcentaje de hogares que acceden a calefacción, agua caliente sanitaria y cocción de alimentos a partir de fuentes de energía limpias de bajas emisiones.
+* Gasto energético en el hogar (contrastado con definición establecida de gasto asequible). Se pueden considerar 3 indicadores: gasto excesivo (gasto que ubica al hogar bajo la línea de pobreza al considerar el ingreso y los otros gastos), sub-gasto (gasto menor al de hogares similares, implicando que no se alcanza el confort térmico), y porcentaje de las principales categorías de artefactos y equipos que se venden en el mercado que corresponden a equipos energéticamente eficientes.
+* Porcentaje de viviendas que tienen un acondicionamiento térmico equivalente a la reglamentación térmica 2021 y 2031, del total del parque construido.
+
+
+## Indicadores Internacionales {#ind_internacionales}
+
+```{r echo=FALSE, out.width="100%", fig.align='center', fig.cap="Indicadores Internacionales"}
+knitr::include_graphics("images/ind_internacionales.png")
+```
+
+## Propuesta de Indicadores
+
+```{r nice-fig, echo=FALSE, out.width="100%", fig.align='center', fig.cap="Esquema de propuesta de Indicadores"}
+knitr::include_graphics("images/esquema_indicadores.png")
+```
+
+
+## Indicadores de Gasto Energético
+
+```{r t-GE, echo = FALSE}
+ind_propuestos <- read.csv("data/excel/ind_propuestos.csv", encoding="UTF-8")
+
+# require(knitr)
+# kable(ind_propuestos, digits = 3, row.names = FALSE, align = "c",
+#               caption = "Indicadores de Gasto Energético. VIII - Encuesta de Presupuestos Familiares 2016-2017")
+
+suppressPackageStartupMessages(require(knitr))
+suppressPackageStartupMessages(require(kableExtra))
+kable_styling(
+  kable(ind_propuestos, digits = 3, row.names = FALSE, align = "c",
+              caption = "Indicadores de Gasto Energético. VIII - Encuesta de Presupuestos Familiares 2016-2017", format = "html"),
+        bootstrap_options = c("striped", "hover", "condensed"),
+        position = "center", full_width = TRUE)
+```
+
+
+<!-- ## Test referecnias -->
+
+
+
+<!-- Referencia a tablas  \@ref(tab:t-GE) -->
+
+
+<!--  \@ref(def-PE) -->

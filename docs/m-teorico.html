@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capítulo 3 Marco Teórico | BID: Pobreza Energética</title>
+  <meta name="description" content="Estudio para la medición de indicadores de pobreza energética" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capítulo 3 Marco Teórico | BID: Pobreza Energética" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Estudio para la medición de indicadores de pobreza energética" />
+  <meta name="github-repo" content="rstudio/bookdown_BID_PE" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capítulo 3 Marco Teórico | BID: Pobreza Energética" />
+  
+  <meta name="twitter:description" content="Estudio para la medición de indicadores de pobreza energética" />
+  
+
+
+
+<meta name="date" content="2022-08-10" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="objetivos.html"/>
+<link rel="next" href="data_explorer.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.1.1/leaflet.js"></script>
+<script src="libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="libs/leaflet-providers-plugin-2.1.1/leaflet-providers-plugin.js"></script>
+<link href="libs/HomeButton-0.0.1/home-button.css" rel="stylesheet" />
+<script src="libs/HomeButton-0.0.1/home-button.js"></script>
+<script src="libs/HomeButton-0.0.1/easy-button-src.min.js"></script>
+<script src="libs/clipboard-0.0.1/setClipboardText.js"></script>
+<link href="libs/mapviewCSS-0.0.1/mapview-popup.css" rel="stylesheet" />
+<link href="libs/mapviewCSS-0.0.1/mapview.css" rel="stylesheet" />
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introducción</a></li>
+<li class="chapter" data-level="2" data-path="objetivos.html"><a href="objetivos.html"><i class="fa fa-check"></i><b>2</b> Objetivos</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="objetivos.html"><a href="objetivos.html#objetivos-generales"><i class="fa fa-check"></i><b>2.1</b> Objetivos Generales</a></li>
+<li class="chapter" data-level="2.2" data-path="objetivos.html"><a href="objetivos.html#objetivos-específicos"><i class="fa fa-check"></i><b>2.2</b> Objetivos Específicos</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="m-teorico.html"><a href="m-teorico.html"><i class="fa fa-check"></i><b>3</b> Marco Teórico</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="m-teorico.html"><a href="m-teorico.html#definición-de-conceptos"><i class="fa fa-check"></i><b>3.1</b> Definición de Conceptos</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="m-teorico.html"><a href="m-teorico.html#def-PE"><i class="fa fa-check"></i><b>3.1.1</b> ¿Qué es pobreza Energética?</a></li>
+<li class="chapter" data-level="3.1.2" data-path="m-teorico.html"><a href="m-teorico.html#seguridad-energética"><i class="fa fa-check"></i><b>3.1.2</b> Seguridad Energética</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="m-teorico.html"><a href="m-teorico.html#propuesta-de-indicadores"><i class="fa fa-check"></i><b>3.2</b> Propuesta de Indicadores</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="m-teorico.html"><a href="m-teorico.html#acceso-equitativo"><i class="fa fa-check"></i><b>3.2.1</b> Acceso Equitativo</a></li>
+<li class="chapter" data-level="3.2.2" data-path="m-teorico.html"><a href="m-teorico.html#calidad-y-cantidad"><i class="fa fa-check"></i><b>3.2.2</b> Calidad y Cantidad</a></li>
+<li class="chapter" data-level="3.2.3" data-path="m-teorico.html"><a href="m-teorico.html#indicadores-pe2050-y-consultoría-bid"><i class="fa fa-check"></i><b>3.2.3</b> Indicadores PE2050 y consultoría BID</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="m-teorico.html"><a href="m-teorico.html#ind_internacionales"><i class="fa fa-check"></i><b>3.3</b> Indicadores Internacionales</a></li>
+<li class="chapter" data-level="3.4" data-path="m-teorico.html"><a href="m-teorico.html#propuesta-de-indicadores-1"><i class="fa fa-check"></i><b>3.4</b> Propuesta de Indicadores</a></li>
+<li class="chapter" data-level="3.5" data-path="m-teorico.html"><a href="m-teorico.html#indicadores-de-gasto-energético"><i class="fa fa-check"></i><b>3.5</b> Indicadores de Gasto Energético</a></li>
+<li class="chapter" data-level="3.6" data-path="m-teorico.html"><a href="m-teorico.html#test-referecnias"><i class="fa fa-check"></i><b>3.6</b> Test referecnias</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data_explorer.html"><a href="data_explorer.html"><i class="fa fa-check"></i><b>4</b> Exploración de Datos</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="data_explorer.html"><a href="data_explorer.html#bbdd-mapa-vulneravilidad"><i class="fa fa-check"></i><b>4.1</b> BBDD mapa vulneravilidad</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="data_explorer.html"><a href="data_explorer.html#descripción-de-variables"><i class="fa fa-check"></i><b>4.1.1</b> Descripción de Variables</a></li>
+<li class="chapter" data-level="4.1.2" data-path="data_explorer.html"><a href="data_explorer.html#analisis-bases-espaciales"><i class="fa fa-check"></i><b>4.1.2</b> Analisis Bases Espaciales</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i><b>5</b> Referencias</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">BID: Pobreza Energética</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="m-teorico" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Capítulo 3</span> Marco Teórico<a href="m-teorico.html#m-teorico" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="definición-de-conceptos" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Definición de Conceptos<a href="m-teorico.html#definición-de-conceptos" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="def-PE" class="section level3 hasAnchor" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> ¿Qué es pobreza Energética?<a href="m-teorico.html#def-PE" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Nos referimos a Pobreza Energética cuando un hogar no tiene acceso equitativo a servicios energéticos de alta calidad (es decir, que sean adecuados, confiables, no contaminantes y seguros) para cubrir sus necesidades fundamentales y básicas que permitan sostener el desarrollo humano y económico de sus integrantes.</p>
+<p>Un hogar se encuentra en situación de pobreza energética cuando no tiene acceso equitativo a servicios energéticos de alta calidad para cubrir sus necesidades fundamentales y básicas, que permitan sostener el desarrollo humano y económico de sus miembros. Las necesidades fundamentales son aquellas que implican impactos directos en la salud humana; mientras que las necesidades básicas corresponden a aquellos requerimientos energéticos cuya pertinencia depende de las particularidades culturales y territoriales.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="images/esquema_PE.png" alt="Esquema conceptual Pobreza Energética" width="100%" />
+<p class="caption">
+Figura 3.1: Esquema conceptual Pobreza Energética
+</p>
+</div>
+<p>La pobreza energética se expresa en relación a dos grupos de necesidades: ‘<em>fundamentales</em>’ y ‘<em>básicas</em>’. Las necesidades <strong>fundamentales</strong> son aquellas que implican impactos directos en la salud humana. Su satisfacción se considera crítica, independiente del contexto territorial. La cocción y conservación de alimentos, las temperaturas mínima y máxima saludables, el acceso al agua y la disponibilidad de suministro eléctrico continuo para personas electrodependientes en salud, se encuentran en este primer grupo. Por otra parte, las necesidades <strong>básicas</strong> corresponden a aquellos requerimientos cuya pertinencia depende de las características socioecológicas (biofísicas, geográficas y climáticas), sociotécnicas (tecnológicas e infraestructurales) y socioculturales (normas, mercados, costumbres y expectativas relacionadas con calidad de vida y desarrollo humano), propias de un determinado territorio. El confort térmico, el agua caliente sanitaria, la iluminación, los electrodomésticos y dispositivos tecnológicos para la educación son ejemplos de este segundo grupo.</p>
+<p>Mientras las necesidades fundamentales se consideran de forma universal, las necesidades básicas requieren de una definición y ponderación en función de su pertinencia para una población en particular, situada en un territorio, en un contexto temporal definido y bajo condiciones socioculturales específicas.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
+<img src="images/necedidades_energia.png" alt="Necesidades fundamentales y básica de energía" width="100%" />
+<p class="caption">
+Figura 3.2: Necesidades fundamentales y básica de energía
+</p>
+</div>
+</div>
+<div id="seguridad-energética" class="section level3 hasAnchor" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Seguridad Energética<a href="m-teorico.html#seguridad-energética" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Capacidad de un territorio para garantizar acceso equitativo en cantidad y calidad a servicios energéticos resilientes y sostenibles, que permita el desarrollo económico y humano del territorio y sus habitantes. <span class="citation">(<a href="#ref-urquiza_water_2020" role="doc-biblioref"><strong>urquiza_water_2020?</strong></a>)</span></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="images/seguridad_ene.png" alt="Seguridad Energética" width="100%" />
+<p class="caption">
+Figura 3.3: Seguridad Energética
+</p>
+</div>
+</div>
+</div>
+<div id="propuesta-de-indicadores" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Propuesta de Indicadores<a href="m-teorico.html#propuesta-de-indicadores" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="acceso-equitativo" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Acceso Equitativo<a href="m-teorico.html#acceso-equitativo" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
+<img src="images/a_equitativo.png" alt="Estándares de acceso equitativo" width="100%" />
+<p class="caption">
+Figura 3.4: Estándares de acceso equitativo
+</p>
+</div>
+</div>
+<div id="calidad-y-cantidad" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Calidad y Cantidad<a href="m-teorico.html#calidad-y-cantidad" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-6"></span>
+<img src="images/calidad_cant.png" alt="Estándares Calidad y Cantidad" width="100%" />
+<p class="caption">
+Figura 3.5: Estándares Calidad y Cantidad
+</p>
+</div>
+</div>
+<div id="indicadores-pe2050-y-consultoría-bid" class="section level3 hasAnchor" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> Indicadores PE2050 y consultoría BID<a href="m-teorico.html#indicadores-pe2050-y-consultoría-bid" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>Indicadores Consultoría BID</strong></p>
+<ul>
+<li>Consumo de energía bajo condición de confort térmico vs consumo energía real (con resolución a nivel de manzana y temporalidad a ser definida)</li>
+<li>Gasto mensual de energía bajo condición de confort térmico vs gasto en situación real (con resolución a nivel de manzana y temporalidad a ser definida)</li>
+<li>Otro criterio prioritario es segmentar en base a distintas variables socio económicas (al menos nivel socio económico, pertinencia indígena y género)</li>
+</ul>
+<p><strong>Indicadores Política Energética 2050</strong></p>
+<ul>
+<li>Porcentaje de hogares con acceso a electricidad de forma permanente respecto al total de hogares existentes.</li>
+<li>Porcentaje de hogares que acceden a calefacción, agua caliente sanitaria y cocción de alimentos a partir de fuentes de energía limpias de bajas emisiones.</li>
+<li>Gasto energético en el hogar (contrastado con definición establecida de gasto asequible). Se pueden considerar 3 indicadores: gasto excesivo (gasto que ubica al hogar bajo la línea de pobreza al considerar el ingreso y los otros gastos), sub-gasto (gasto menor al de hogares similares, implicando que no se alcanza el confort térmico), y porcentaje de las principales categorías de artefactos y equipos que se venden en el mercado que corresponden a equipos energéticamente eficientes.</li>
+<li>Porcentaje de viviendas que tienen un acondicionamiento térmico equivalente a la reglamentación térmica 2021 y 2031, del total del parque construido.</li>
+</ul>
+</div>
+</div>
+<div id="ind_internacionales" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Indicadores Internacionales<a href="m-teorico.html#ind_internacionales" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-7"></span>
+<img src="images/ind_internacionales.png" alt="Indicadores Internacionales" width="100%" />
+<p class="caption">
+Figura 3.6: Indicadores Internacionales
+</p>
+</div>
+</div>
+<div id="propuesta-de-indicadores-1" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Propuesta de Indicadores<a href="m-teorico.html#propuesta-de-indicadores-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:nice-fig"></span>
+<img src="images/esquema_indicadores.png" alt="Esquema de propuesta de Indicadores" width="100%" />
+<p class="caption">
+Figura 3.7: Esquema de propuesta de Indicadores
+</p>
+</div>
+</div>
+<div id="indicadores-de-gasto-energético" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Indicadores de Gasto Energético<a href="m-teorico.html#indicadores-de-gasto-energético" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:t-GE">Tabla 3.1: </span>Indicadores de Gasto Energético. VIII - Encuesta de Presupuestos Familiares 2016-2017
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+Indicador
+</th>
+<th style="text-align:center;">
+Operacionalización.original
+</th>
+<th style="text-align:center;">
+Operacionalización.para.Chile
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+MIS based
+</td>
+<td style="text-align:center;">
+Ingreso disponible del hogar – (Costos de vivienda + Gasto energético del hogar) &lt; Línea de pobreza equivalente
+</td>
+<td style="text-align:center;">
+Ingreso disponible del hogar – (Costos de vivienda + Gasto energético del hogar) &lt; Línea de pobreza equivalente
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Ten percent rule
+</td>
+<td style="text-align:center;">
+Hogares cuyos gastos requeridos son más del 10% de sus ingresos disponibles totales
+</td>
+<td style="text-align:center;">
+Hogares cuyos gastos efectivos son más del 10% de sus ingresos disponibles totales
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Low Income High Cost
+</td>
+<td style="text-align:center;">
+Hogares cuyos gastos requeridos son mayores a la mediana nacional y el ingreso residual cae debajo de la línea de la pobreza (UK).
+</td>
+<td style="text-align:center;">
+Hogares cuyos gastos efectivos son mayores a la mediana nacional y el ingreso residual cae debajo de la línea de la pobreza (UK).
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Hidden Energy Poverty
+</td>
+<td style="text-align:center;">
+Gasto energético del hogar &lt; 1/2 de la mediana de gastos de viviendas del mismo tipo y composición (dentro de los primeros 8 deciles)
+</td>
+<td style="text-align:center;">
+Gasto energético del hogar &lt; 1/2 de la mediana de gastos de viviendas del mismo tipo y composición (dentro de los primeros 8 deciles
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="test-referecnias" class="section level2 hasAnchor" number="3.6">
+<h2><span class="header-section-number">3.6</span> Test referecnias<a href="m-teorico.html#test-referecnias" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Referencia a tablas <a href="m-teorico.html#tab:t-GE">3.1</a></p>
+<p><a href="m-teorico.html#def-PE">3.1.1</a></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="objetivos.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data_explorer.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown_BID_PE.pdf", "bookdown_BID_PE.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

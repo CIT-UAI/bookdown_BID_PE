@@ -6,3 +6,4 @@ _book_files/*
 .Rhistory
 .RData
 .Ruserdata"
+.DS_Store

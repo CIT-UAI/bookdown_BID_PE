@@ -1,6 +1,8 @@
 --- 
 title: "BID: Pobreza Energética"
-author: "Centro de Inteligencia Territorial - UAI"
+author:
+- name: "Denis Berroeta González (denis.berroeta@uai.cl)"
+  affiliation: "Universidad Adolfo Ibáñez"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook

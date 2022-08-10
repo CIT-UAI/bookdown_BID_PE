@@ -60,6 +60,29 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 \usepackage{booktabs}
 \usepackage{amsthm}
 \makeatletter
@@ -92,13 +115,12 @@
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
   pdftitle={BID: Pobreza Energética},
-  pdfauthor={Centro de Inteligencia Territorial - UAI},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
 \title{BID: Pobreza Energética}
-\author{Centro de Inteligencia Territorial - UAI}
-\date{2022-08-06}
+\author{true}
+\date{2022-08-09}
 
 \begin{document}
 \maketitle
@@ -134,16 +156,23 @@ Medir Indicadores de Probreza Energética en el sector residencial, con la escal
 \hypertarget{m_teorico}{%
 \chapter{Marco Teórico}\label{m_teorico}}
 
-\textbf{¿Qué es pobreza Energética?}
+\hypertarget{definiciuxf3n-de-conceptos}{%
+\section{Definición de Conceptos}\label{definiciuxf3n-de-conceptos}}
 
-Nos referimos a Pobreza Energética cuando un hogar no tiene acceso equitativo a servicios energéticos de alta calidad (es decir, que sean adecuados, confiables, no contaminantes y seguros) para cubrir sus necesidades fundamentales y básicas que permitan sostener el desarrollo humano y económico de sus integrantes. \emph{Fuente:\url{http://redesvid.uchile.cl/pobreza-energetica/panel-de-indicadores/}}
+\hypertarget{quuxe9-es-pobreza-energuxe9tica}{%
+\subsection{¿Qué es pobreza Energética?}\label{quuxe9-es-pobreza-energuxe9tica}}
+
+Nos referimos a Pobreza Energética cuando un hogar no tiene acceso equitativo a servicios energéticos de alta calidad (es decir, que sean adecuados, confiables, no contaminantes y seguros) para cubrir sus necesidades fundamentales y básicas que permitan sostener el desarrollo humano y económico de sus integrantes.
 
 Un hogar se encuentra en situación de pobreza energética cuando no tiene acceso equitativo a servicios energéticos de alta calidad para cubrir sus necesidades fundamentales y básicas, que permitan sostener el desarrollo humano y económico de sus miembros. Las necesidades fundamentales son aquellas que implican impactos directos en la salud humana; mientras que las necesidades básicas corresponden a aquellos requerimientos energéticos cuya pertinencia depende de las particularidades culturales y territoriales.
 
 \begin{figure}
-\centering
-\includegraphics{images/esquema_PE.png}
-\caption{Esquema conceptual Pobreza Energética - \href{http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe\%CC\%81tica.-El-acceso-desigual-a-energi\%CC\%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf}{Universidad de Chile}}
+
+{\centering \includegraphics[width=1\linewidth]{images/esquema_PE} 
+
+}
+
+\caption{Esquema conceptual Pobreza Energética}\label{fig:unnamed-chunk-2}
 \end{figure}
 
 La pobreza energética se expresa en relación a dos grupos de necesidades: `\emph{fundamentales}' y `\emph{básicas}'. Las necesidades \textbf{fundamentales} son aquellas que implican impactos directos en la salud humana. Su satisfacción se considera crítica, independiente del contexto territorial. La cocción y conservación de alimentos, las temperaturas mínima y máxima saludables, el acceso al agua y la disponibilidad de suministro eléctrico continuo para personas electrodependientes en salud, se encuentran en este primer grupo. Por otra parte, las necesidades \textbf{básicas} corresponden a aquellos requerimientos cuya pertinencia depende de las características socioecológicas (biofísicas, geográficas y climáticas), sociotécnicas (tecnológicas e infraestructurales) y socioculturales (normas, mercados, costumbres y expectativas relacionadas con calidad de vida y desarrollo humano), propias de un determinado territorio. El confort térmico, el agua caliente sanitaria, la iluminación, los electrodomésticos y dispositivos tecnológicos para la educación son ejemplos de este segundo grupo.
@@ -151,14 +180,107 @@ La pobreza energética se expresa en relación a dos grupos de necesidades: `\em
 Mientras las necesidades fundamentales se consideran de forma universal, las necesidades básicas requieren de una definición y ponderación en función de su pertinencia para una población en particular, situada en un territorio, en un contexto temporal definido y bajo condiciones socioculturales específicas.
 
 \begin{figure}
-\centering
-\includegraphics{images/necedidades_energia.png}
-\caption{Necesidades fundamentales y básica de energía - \href{http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe\%CC\%81tica.-El-acceso-desigual-a-energi\%CC\%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf}{Universidad de Chile}}
+
+{\centering \includegraphics[width=1\linewidth]{images/necedidades_energia} 
+
+}
+
+\caption{Necesidades fundamentales y básica de energía}\label{fig:unnamed-chunk-3}
 \end{figure}
 
-\textbf{Referencias:}
+\hypertarget{seguridad-energuxe9tica}{%
+\subsection{Seguridad Energética}\label{seguridad-energuxe9tica}}
 
-\href{http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe\%CC\%81tica.-El-acceso-desigual-a-energi\%CC\%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf}{Pobreza Energética- El Acceso desigual a energía de caldiad como barrera para el desarrollo en Chile. Univerisad de Chile, 2020}
+Capacidad de un territorio para garantizar acceso equitativo en cantidad y calidad a servicios energéticos resilientes y sostenibles, que permita el desarrollo económico y humano del territorio y sus habitantes. \citep{urquiza_water_2020}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/seguridad_ene} 
+
+}
+
+\caption{Seguridad Energética}\label{fig:unnamed-chunk-4}
+\end{figure}
+
+\hypertarget{propuesta-de-indicadores}{%
+\section{Propuesta de Indicadores}\label{propuesta-de-indicadores}}
+
+\hypertarget{acceso-equitativo}{%
+\subsection{Acceso Equitativo}\label{acceso-equitativo}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/a_equitativo} 
+
+}
+
+\caption{Estándares de acceso equitativo}\label{fig:unnamed-chunk-5}
+\end{figure}
+
+\hypertarget{calidad-y-cantidad}{%
+\subsection{Calidad y Cantidad}\label{calidad-y-cantidad}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/calidad_cant} 
+
+}
+
+\caption{Estándares Calidad y Cantidad}\label{fig:unnamed-chunk-6}
+\end{figure}
+
+\hypertarget{indicadores-pe2050-y-consultoruxeda-bid}{%
+\subsection{Indicadores PE2050 y consultoría BID}\label{indicadores-pe2050-y-consultoruxeda-bid}}
+
+\textbf{Indicadores Consultoría BID}
+
+\begin{itemize}
+\tightlist
+\item
+  Consumo de energía bajo condición de confort térmico vs consumo energía real (con resolución a nivel de manzana y temporalidad a ser definida)
+\item
+  Gasto mensual de energía bajo condición de confort térmico vs gasto en situación real (con resolución a nivel de manzana y temporalidad a ser definida)
+\item
+  Otro criterio prioritario es segmentar en base a distintas variables socio económicas (al menos nivel socio económico, pertinencia indígena y género)
+\end{itemize}
+
+\textbf{Indicadores Política Energética 2050}
+
+\begin{itemize}
+\tightlist
+\item
+  Porcentaje de hogares con acceso a electricidad de forma permanente respecto al total de hogares existentes.
+\item
+  Porcentaje de hogares que acceden a calefacción, agua caliente sanitaria y cocción de alimentos a partir de fuentes de energía limpias de bajas emisiones.
+\item
+  Gasto energético en el hogar (contrastado con definición establecida de gasto asequible). Se pueden considerar 3 indicadores: gasto excesivo (gasto que ubica al hogar bajo la línea de pobreza al considerar el ingreso y los otros gastos), sub-gasto (gasto menor al de hogares similares, implicando que no se alcanza el confort térmico), y porcentaje de las principales categorías de artefactos y equipos que se venden en el mercado que corresponden a equipos energéticamente eficientes.
+\item
+  Porcentaje de viviendas que tienen un acondicionamiento térmico equivalente a la reglamentación térmica 2021 y 2031, del total del parque construido.
+\end{itemize}
+
+\hypertarget{indicadores-internacionales}{%
+\section{Indicadores Internacionales}\label{indicadores-internacionales}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/ind_internacionales} 
+
+}
+
+\caption{Indicadores Internacionales}\label{fig:unnamed-chunk-7}
+\end{figure}
+
+\hypertarget{propuesta-indicadores}{%
+\section{Propuesta Indicadores}\label{propuesta-indicadores}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/esquema_indicadores} 
+
+}
+
+\caption{Esquema de propuesta des Indicadores}\label{fig:unnamed-chunk-8}
+\end{figure}
 
 \hypertarget{data_explorer}{%
 \chapter{Exploración de Datos}\label{data_explorer}}
@@ -299,7 +421,7 @@ REGION & NOM\_REGION & PROVINCIA & NOM\_PROVIN & COMUNA & NOM\_COMUNA & DESTINO\
 
 \textbf{Visualización Espacial}: Región de ``COQUIMBO''
 
-\includegraphics{bookdown_BID_PE_files/figure-latex/unnamed-chunk-7-1.pdf}
+\includegraphics{bookdown_BID_PE_files/figure-latex/unnamed-chunk-14-1.pdf}
 
 \hypertarget{viv_sin_energia}{%
 \subsubsection{viv\_sin\_energia}\label{viv_sin_energia}}
@@ -329,7 +451,7 @@ NUMERAL & REGION & NOM\_REGION & PROVINCIA & NOM\_PROVIN & COMUNA & DISTRITO & A
 
 \textbf{Visualización Espacial}: Región de ``COQUIMBO''
 
-\includegraphics{bookdown_BID_PE_files/figure-latex/unnamed-chunk-11-1.pdf}
+\includegraphics{bookdown_BID_PE_files/figure-latex/unnamed-chunk-18-1.pdf}
 
 \hypertarget{viv_sist_aislado}{%
 \subsubsection{viv\_sist\_aislado}\label{viv_sist_aislado}}
@@ -357,7 +479,7 @@ OBJECTID & NUMERAL & REGION & PROVINCIA & COMUNA & NOM\_REGION & NOM\_PROVIN & N
 
 \textbf{Visualización Espacial}: Región de ``COQUIMBO''
 
-\includegraphics{bookdown_BID_PE_files/figure-latex/unnamed-chunk-15-1.pdf}
+\includegraphics{bookdown_BID_PE_files/figure-latex/unnamed-chunk-22-1.pdf}
 
 \hypertarget{viv_sist_indiv}{%
 \subsubsection{viv\_sist\_indiv}\label{viv_sist_indiv}}
@@ -385,10 +507,14 @@ OBJECTID & REGION & PROVINCIA & COMUNA & NOM\_REGION & NOM\_PROVIN & NOM\_COMUNA
 
 \textbf{Visualización Espacial}: Región de ``COQUIMBO''
 
-\includegraphics{bookdown_BID_PE_files/figure-latex/unnamed-chunk-19-1.pdf}
+\includegraphics{bookdown_BID_PE_files/figure-latex/unnamed-chunk-26-1.pdf}
 
-\hypertarget{data_clean}{%
-\chapter{Limpieza de Datos}\label{data_clean}}
+\hypertarget{referencias}{%
+\chapter{Referencias}\label{referencias}}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{0}{0}
+\end{CSLReferences}
 
   \bibliography{book.bib,packages.bib}
 

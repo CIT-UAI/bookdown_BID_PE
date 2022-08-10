@@ -11,9 +11,8 @@
 <meta property="og:description" content="Estudio para la medición de indicadores de pobreza energética" />
 <meta name="github-repo" content="rstudio/bookdown_BID_PE" />
 
-<meta name="author" content="Centro de Inteligencia Territorial - UAI" />
 
-<meta name="date" content="2022-08-06" />
+<meta name="date" content="2022-08-09" />
 
 
 <meta name="description" content="Estudio para la medición de indicadores de pobreza energética">
@@ -60,6 +59,28 @@
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -101,7 +122,23 @@ details > summary {
 <li><a href="2.1-objetivos-generales.html#objetivos-generales" id="toc-objetivos-generales"><span class="toc-section-number">2.1</span> Objetivos Generales</a></li>
 <li><a href="2.2-objetivos-específicos.html#objetivos-específicos" id="toc-objetivos-específicos"><span class="toc-section-number">2.2</span> Objetivos Específicos</a></li>
 </ul></li>
-<li><a href="3-m_teorico.html#m_teorico" id="toc-m_teorico"><span class="toc-section-number">3</span> Marco Teórico</a></li>
+<li class="has-sub"><a href="3-m_teorico.html#m_teorico" id="toc-m_teorico"><span class="toc-section-number">3</span> Marco Teórico</a>
+<ul>
+<li class="has-sub"><a href="3.1-definición-de-conceptos.html#definición-de-conceptos" id="toc-definición-de-conceptos"><span class="toc-section-number">3.1</span> Definición de Conceptos</a>
+<ul>
+<li><a href="3.1-definición-de-conceptos.html#qué-es-pobreza-energética" id="toc-qué-es-pobreza-energética"><span class="toc-section-number">3.1.1</span> ¿Qué es pobreza Energética?</a></li>
+<li><a href="3.1-definición-de-conceptos.html#seguridad-energética" id="toc-seguridad-energética"><span class="toc-section-number">3.1.2</span> Seguridad Energética</a></li>
+</ul></li>
+<li class="has-sub"><a href="3.2-propuesta-de-indicadores.html#propuesta-de-indicadores" id="toc-propuesta-de-indicadores"><span class="toc-section-number">3.2</span> Propuesta de Indicadores</a>
+<ul>
+<li><a href="3.2-propuesta-de-indicadores.html#acceso-equitativo" id="toc-acceso-equitativo"><span class="toc-section-number">3.2.1</span> Acceso Equitativo</a></li>
+<li><a href="3.2-propuesta-de-indicadores.html#calidad-y-cantidad" id="toc-calidad-y-cantidad"><span class="toc-section-number">3.2.2</span> Calidad y Cantidad</a></li>
+<li><a href="3.2-propuesta-de-indicadores.html#indicadores-pe2050-y-consultoría-bid" id="toc-indicadores-pe2050-y-consultoría-bid"><span class="toc-section-number">3.2.3</span> Indicadores PE2050 y consultoría BID</a></li>
+</ul></li>
+<li><a href="3.3-indicadores-internacionales.html#indicadores-internacionales" id="toc-indicadores-internacionales"><span class="toc-section-number">3.3</span> Indicadores Internacionales</a></li>
+<li><a href="3.4-propuesta-de-indicadores-1.html#propuesta-de-indicadores-1" id="toc-propuesta-de-indicadores-1"><span class="toc-section-number">3.4</span> Propuesta de Indicadores</a></li>
+<li><a href="3.5-indicadores-de-gasto-energético.html#indicadores-de-gasto-energético" id="toc-indicadores-de-gasto-energético"><span class="toc-section-number">3.5</span> Indicadores de Gasto Energético</a></li>
+</ul></li>
 <li class="has-sub"><a href="4-data_explorer.html#data_explorer" id="toc-data_explorer"><span class="toc-section-number">4</span> Exploración de Datos</a>
 <ul>
 <li class="has-sub"><a href="4.1-bbdd-mapa-vulneravilidad.html#bbdd-mapa-vulneravilidad" id="toc-bbdd-mapa-vulneravilidad"><span class="toc-section-number">4.1</span> BBDD mapa vulneravilidad</a>
@@ -110,7 +147,7 @@ details > summary {
 <li><a href="4.1-bbdd-mapa-vulneravilidad.html#analisis-bases-espaciales" id="toc-analisis-bases-espaciales"><span class="toc-section-number">4.1.2</span> Analisis Bases Espaciales</a></li>
 </ul></li>
 </ul></li>
-<li><a href="5-data_clean.html#data_clean" id="toc-data_clean"><span class="toc-section-number">5</span> Limpieza de Datos</a></li>
+<li><a href="5-referencias.html#referencias" id="toc-referencias"><span class="toc-section-number">5</span> Referencias</a></li>
 </ul>
 </div>
 </div>
@@ -119,26 +156,10 @@ details > summary {
 <div class="col-sm-12">
 <div id="m_teorico" class="section level1" number="3">
 <h1><span class="header-section-number">Capítulo 3</span> Marco Teórico</h1>
-<p><strong>¿Qué es pobreza Energética?</strong></p>
-<p>Nos referimos a Pobreza Energética cuando un hogar no tiene acceso equitativo a servicios energéticos de alta calidad (es decir, que sean adecuados, confiables, no contaminantes y seguros) para cubrir sus necesidades fundamentales y básicas que permitan sostener el desarrollo humano y económico de sus integrantes. <em>Fuente:<a href="http://redesvid.uchile.cl/pobreza-energetica/panel-de-indicadores/">http://redesvid.uchile.cl/pobreza-energetica/panel-de-indicadores/</a></em></p>
-<p>Un hogar se encuentra en situación de pobreza energética cuando no tiene acceso equitativo a servicios energéticos de alta calidad para cubrir sus necesidades fundamentales y básicas, que permitan sostener el desarrollo humano y económico de sus miembros. Las necesidades fundamentales son aquellas que implican impactos directos en la salud humana; mientras que las necesidades básicas corresponden a aquellos requerimientos energéticos cuya pertinencia depende de las particularidades culturales y territoriales.</p>
-<div class="figure">
-<img src="images/esquema_PE.png" alt="" />
-<p class="caption">Esquema conceptual Pobreza Energética - <a href="http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe%CC%81tica.-El-acceso-desigual-a-energi%CC%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf">Universidad de Chile</a></p>
-</div>
-<p>La pobreza energética se expresa en relación a dos grupos de necesidades: ‘<em>fundamentales</em>’ y ‘<em>básicas</em>’. Las necesidades <strong>fundamentales</strong> son aquellas que implican impactos directos en la salud humana. Su satisfacción se considera crítica, independiente del contexto territorial. La cocción y conservación de alimentos, las temperaturas mínima y máxima saludables, el acceso al agua y la disponibilidad de suministro eléctrico continuo para personas electrodependientes en salud, se encuentran en este primer grupo. Por otra parte, las necesidades <strong>básicas</strong> corresponden a aquellos requerimientos cuya pertinencia depende de las características socioecológicas (biofísicas, geográficas y climáticas), sociotécnicas (tecnológicas e infraestructurales) y socioculturales (normas, mercados, costumbres y expectativas relacionadas con calidad de vida y desarrollo humano), propias de un determinado territorio. El confort térmico, el agua caliente sanitaria, la iluminación, los electrodomésticos y dispositivos tecnológicos para la educación son ejemplos de este segundo grupo.</p>
-<p>Mientras las necesidades fundamentales se consideran de forma universal, las necesidades básicas requieren de una definición y ponderación en función de su pertinencia para una población en particular, situada en un territorio, en un contexto temporal definido y bajo condiciones socioculturales específicas.</p>
-<div class="figure">
-<img src="images/necedidades_energia.png" alt="" />
-<p class="caption">Necesidades fundamentales y básica de energía - <a href="http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe%CC%81tica.-El-acceso-desigual-a-energi%CC%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf">Universidad de Chile</a></p>
-</div>
-<p><strong>Referencias:</strong></p>
-<p><a href="http://redesvid.uchile.cl/pobreza-energetica/wp-content/uploads/2020/09/Policy-Paper-Pobreza-Energe%CC%81tica.-El-acceso-desigual-a-energi%CC%81a-de-calidad-como-barrera-para-el-desarrollo-en-Chile.pdf">Pobreza Energética- El Acceso desigual a energía de caldiad como barrera para el desarrollo en Chile. Univerisad de Chile, 2020</a></p>
-
 </div>
 <p style="text-align: center;">
 <a href="2.2-objetivos-específicos.html"><button class="btn btn-default">Previous</button></a>
-<a href="4-data_explorer.html"><button class="btn btn-default">Next</button></a>
+<a href="3.1-definición-de-conceptos.html"><button class="btn btn-default">Next</button></a>
 </p>
 </div>
 </div>

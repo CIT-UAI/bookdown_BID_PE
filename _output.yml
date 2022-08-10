@@ -1,6 +1,7 @@
-bookdown::html_book:
+bookdown::html_document2:
   theme: united
-  css: style.css
+  css: "style.css"
+  always_allow_html: true
   config:
     toc:
       before: |
