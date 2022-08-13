@@ -13,7 +13,11 @@ library(purrr)
 library(mapview)
 library(ggplot2)
 library(viridis)
-
+library(sjPlot)
+library(sjmisc)
+library(sjlabelled)
+library(ggplot2)
+theme_set(theme_bw())
 nhead = 5
 fsize = 10
 ```
@@ -26,7 +30,7 @@ Las bases de datos recibidas de Probreza Energética (27-07-2022), corresponden 
 
 ### Descripción de Variables
 
-**Nombre Archivo**: "_Detalle de campos.xlsx_"
+**Nombre Archivo**: "*Detalle de campos.xlsx*"
 
 ```{r echo=FALSE}
 
@@ -39,9 +43,7 @@ kable_styling(
         position = "center", full_width = TRUE,  font_size = 11) 
 ```
 
-
 ### Analisis Bases Espaciales
-
 
 ```{r lectura_shp}
 # lectura
@@ -57,16 +59,18 @@ names(files_shps) <-  names_shps
 
 Dentro de la carpeta llamada `BBDD mapa vulneravilidad` existen 4 archivos en formato shapefiles, con los siguientes nombres:
 
-- `r names_shps[1]`
-- `r names_shps[2]`
-- `r names_shps[3]`
-- `r names_shps[4]`
-
+-   `r names_shps[1]`
+-   `r names_shps[2]`
+-   `r names_shps[3]`
+-   `r names_shps[4]`
 
 ```{r}
 region = "COQUIMBO"
+var1 <- "EST_PROY_E"
+var2 <- "EMPRESA_1"
+var3 <- "TIPO_SUM_S"
+var4 <- "NOM_FV_IND"
 ```
-
 
 Para visualizar los objetos esjetos espaciales se procedió a elegir una región de `r region`, continiación se procede a hacer exploración de las tablas de contenidos y visualización espacial por cada uno de ellos:
 
@@ -78,7 +82,16 @@ indice = 1
 
 #### `r names(files_shps)[indice]`
 
-**Tabla de Variables**:
+```{r frec-1}
+files_shps[[indice]] %>% 
+  st_drop_geometry() %>% 
+  plot_frq(!!!var2, title = paste0("Frecuencia de ",  var2))
+```
+
+
+
+**Tabla de Variables**: Región de "`r region`"
+
 ```{r}
 data_reg <- files_shps[[indice]] %>% filter(NOM_REGION == region)
 
@@ -94,7 +107,7 @@ kable_styling(
   scroll_box(width = "100%")
 ```
 
-**Visualización Espacial**:  Región de "`r region`"
+**Visualización Espacial**: Región de "`r region`"
 
 ```{r}
 
@@ -107,19 +120,29 @@ kable_styling(
 #   theme(panel.grid.major = element_line(colour = "gray80"),
 #         panel.grid.minor = element_line(colour = "gray80"))
 
- data_reg %>% mapview::mapview(zcol ="EMPRESA_1", cex = 3)
+ data_reg %>% mapview::mapview(zcol =var1, cex = 3)
 ```
-
 
 <!-- base -->
 
 ```{r}
 indice = 2
+
 ```
 
 #### `r names(files_shps)[indice]`
 
+```{r frec-2}
+files_shps[[indice]] %>% 
+  st_drop_geometry() %>% 
+  plot_frq(!!!var2, title = paste0("Frecuencia de ",  var2))
+```
+
+
+
+
 **Tabla de Variables**:
+
 ```{r}
 data_reg <- files_shps[[indice]] %>% filter(NOM_REGION == region)
 
@@ -135,7 +158,7 @@ kable_styling(
   scroll_box(width = "100%")
 ```
 
-**Visualización Espacial**:  Región de "`r region`"
+**Visualización Espacial**: Región de "`r region`"
 
 ```{r}
 
@@ -148,9 +171,8 @@ kable_styling(
 #   theme(panel.grid.major = element_line(colour = "gray80"),
 #         panel.grid.minor = element_line(colour = "gray80"))
 
- data_reg %>% mapview::mapview(zcol ="EMPRESA_1", cex = 3)
+ data_reg %>% mapview::mapview(zcol =var2, cex = 3)
 ```
-
 
 <!-- base -->
 
@@ -160,7 +182,16 @@ indice = 3
 
 #### `r names(files_shps)[indice]`
 
+```{r frec-3}
+files_shps[[indice]] %>% 
+  st_drop_geometry() %>% 
+  plot_frq(!!!var3, title = paste0("Frecuencia de ",  var3))
+```
+
+
+
 **Tabla de Variables**:
+
 ```{r}
 data_reg <- files_shps[[indice]] %>% filter(NOM_REGION == region)
 
@@ -176,7 +207,7 @@ kable_styling(
   scroll_box(width = "100%")
 ```
 
-**Visualización Espacial**:  Región de "`r region`"
+**Visualización Espacial**: Región de "`r region`"
 
 ```{r}
 
@@ -189,10 +220,8 @@ kable_styling(
 #   theme(panel.grid.major = element_line(colour = "gray80"),
 #         panel.grid.minor = element_line(colour = "gray80"))
 
- data_reg %>% mapview::mapview(zcol ="TIPO_SUM_S", cex = 3)
+ data_reg %>% mapview::mapview(zcol =var3, cex = 3)
 ```
-
-
 
 <!-- base -->
 
@@ -202,7 +231,14 @@ indice = 4
 
 #### `r names(files_shps)[indice]`
 
+```{r frec-4}
+files_shps[[indice]] %>% 
+  st_drop_geometry() %>% 
+  plot_frq(!!!var4, title = paste0("Frecuencia de ",  var4))
+```
+
 **Tabla de Variables**:
+
 ```{r}
 data_reg <- files_shps[[indice]] %>% filter(NOM_REGION == region)
 
@@ -218,7 +254,7 @@ kable_styling(
   scroll_box(width = "100%")
 ```
 
-**Visualización Espacial**:  Región de "`r region`"
+**Visualización Espacial**: Región de "`r region`"
 
 ```{r}
 
@@ -231,7 +267,5 @@ kable_styling(
 #   theme(panel.grid.major = element_line(colour = "gray80"),
 #         panel.grid.minor = element_line(colour = "gray80"))
 
- data_reg %>% mapview::mapview(zcol ="NOM_FV_IND", cex = 3)
+ data_reg %>% mapview::mapview(zcol =var4, cex = 3)
 ```
-
-
