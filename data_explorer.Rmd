@@ -17,10 +17,18 @@ library(sjPlot)
 library(sjmisc)
 library(sjlabelled)
 library(ggplot2)
+library(plotly)
 theme_set(theme_bw())
+
+# recursos
+source("R/funciones.R")
+
+
+#variables globales
 nhead = 5
 fsize = 10
 ```
+
 
 Las bases de datos recibidas de Probreza Energética (27-07-2022), corresponden a 3 carpetas, las cuales en el presente capítulo se procederá un análisis descriptivo general.
 
@@ -67,9 +75,9 @@ Dentro de la carpeta llamada `BBDD mapa vulneravilidad` existen 4 archivos en fo
 ```{r}
 region = "COQUIMBO"
 var1 <- "EST_PROY_E"
-var2 <- "EMPRESA_1"
-var3 <- "TIPO_SUM_S"
-var4 <- "NOM_FV_IND"
+var2 <- "CATEGORIA"
+var3 <- "CATEGORIA"
+var4 <- "CATEGORIA"
 ```
 
 Para visualizar los objetos esjetos espaciales se procedió a elegir una región de `r region`, continiación se procede a hacer exploración de las tablas de contenidos y visualización espacial por cada uno de ellos:
@@ -81,14 +89,6 @@ indice = 1
 ```
 
 #### `r names(files_shps)[indice]`
-
-```{r frec-1}
-files_shps[[indice]] %>% 
-  st_drop_geometry() %>% 
-  plot_frq(!!!var2, title = paste0("Frecuencia de ",  var2))
-```
-
-
 
 **Tabla de Variables**: Región de "`r region`"
 
@@ -105,6 +105,12 @@ kable_styling(
         bootstrap_options = c("striped", "hover", "condensed"),
         position = "center", full_width = FALSE,  font_size = fsize)%>%
   scroll_box(width = "100%")
+```
+
+
+```{r frec-1}
+
+g_freq(data_sf = files_shps, indice=indice, variable = var1)
 ```
 
 **Visualización Espacial**: Región de "`r region`"
@@ -132,13 +138,6 @@ indice = 2
 
 #### `r names(files_shps)[indice]`
 
-```{r frec-2}
-files_shps[[indice]] %>% 
-  st_drop_geometry() %>% 
-  plot_frq(!!!var2, title = paste0("Frecuencia de ",  var2))
-```
-
-
 
 
 **Tabla de Variables**:
@@ -157,6 +156,12 @@ kable_styling(
         position = "center", full_width = FALSE,  font_size = fsize) %>%
   scroll_box(width = "100%")
 ```
+
+```{r frec-2}
+
+g_freq(data_sf = files_shps, indice=indice, variable = var2)
+```
+
 
 **Visualización Espacial**: Región de "`r region`"
 
@@ -182,12 +187,6 @@ indice = 3
 
 #### `r names(files_shps)[indice]`
 
-```{r frec-3}
-files_shps[[indice]] %>% 
-  st_drop_geometry() %>% 
-  plot_frq(!!!var3, title = paste0("Frecuencia de ",  var3))
-```
-
 
 
 **Tabla de Variables**:
@@ -206,6 +205,12 @@ kable_styling(
         position = "center", full_width = TRUE,  font_size = fsize) %>%
   scroll_box(width = "100%")
 ```
+
+```{r frec-3}
+
+g_freq(data_sf = files_shps, indice=indice, variable = var3)
+```
+
 
 **Visualización Espacial**: Región de "`r region`"
 
@@ -231,11 +236,6 @@ indice = 4
 
 #### `r names(files_shps)[indice]`
 
-```{r frec-4}
-files_shps[[indice]] %>% 
-  st_drop_geometry() %>% 
-  plot_frq(!!!var4, title = paste0("Frecuencia de ",  var4))
-```
 
 **Tabla de Variables**:
 
@@ -252,6 +252,10 @@ kable_styling(
         bootstrap_options = c("striped", "hover", "condensed"),
         position = "center", full_width = TRUE,  font_size = fsize) %>%
   scroll_box(width = "100%")
+```
+```{r frec-4}
+
+g_freq(data_sf = files_shps, indice=indice, variable = var4)
 ```
 
 **Visualización Espacial**: Región de "`r region`"
