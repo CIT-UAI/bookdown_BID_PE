@@ -62,6 +62,191 @@ libro_cod %>% datatable( class = 'cell-border stripe',
   formatStyle(columns = colnames(.$x$data), `font-size` = '12px')
 ```
 
+### BBDD Sindicado
+
+Base  de resupuestas del Estudio de Caracterización Residencial comunal 2018, que contiene 3500 registros, con 552 variables, por sus grandes dimensiones no puede ser representada en su totalidad en el presente documento.
+
+
+
+
+
+**Cantidad de Registros por Comuna**
+
+A continuación se represetará la cantidad de registros existe por comuna
+
+```{r}
+# sindicado <- read.xlsx("data/excel/BBDD Estudio Caracterización Residencial 2018_vcomuna.xlsx", sheet = "BBDD Sindicado")
+sindicado <-  readRDS("data/rds/sindicado_2018.rds")
+cant_com <- sindicado %>% group_by(Comuna) %>% 
+  summarise(Cantidad = n()) %>% 
+  arrange(desc(Cantidad))
+
+cant_com %>% 
+  datatable( class = 'cell-border stripe', 
+                         filter = 'top', 
+                         options = list(pageLength = 20),
+                         caption = htmltools::tags$caption(
+                           style = 'caption-side: bottom; text-align: center;',
+                           htmltools::em('Tabla de Libro de Códigos')) ,
+                         rownames = FALSE)%>% 
+  formatStyle(columns = colnames(.$x$data), `font-size` = '12px')
+```
+
+<br>
+
+**Zona Térmica**
+
+
+La tabla que cintinua representa la cantidad de registros por Zona Térmica.
+
+
+
+```{r}
+
+cant_zt <- sindicado %>% group_by(ZT) %>% 
+  summarise(Zona_Termica = n()) %>% 
+  arrange(ZT) %>% 
+  mutate(ZT =as.factor(ZT))
+
+
+kable_styling(
+  kable(cant_zt, digits = 3, row.names = FALSE, align = "c",
+        caption = NULL),
+        bootstrap_options = c("striped", "hover", "condensed"),
+        position = "center", full_width = TRUE,  font_size = 14) 
+# cant_zt%>% 
+#   datatable( class = 'cell-border stripe', 
+#                          filter = 'top', 
+#                          options = list(pageLength = 20),
+#                          caption = htmltools::tags$caption(
+#                            style = 'caption-side: bottom; text-align: center;',
+#                            htmltools::em('Tabla de Libro de Códigos')) ,
+#                          rownames = FALSE)%>% 
+#   formatStyle(columns = colnames(.$x$data), `font-size` = '14px')
+
+```
+
+```{r}
+fig <- plot_ly(data =cant_zt, 
+  x = ~ZT, 
+  y = ~Zona_Termica, 
+  type = "bar",
+  color =~ZT,
+  colors = viridis(nrow(cant_zt)),
+  text = ~Zona_Termica, textposition = 'auto'
+)
+fig <- fig %>% 
+  layout(title = "Cantidad de Registros por Zona Térmica",
+         xaxis = list(title = "Zona Térmica"),
+         yaxis = list(title = "Cantidad de Registros"))
+fig
+```
+
+
+<br>
+
+**Zona Geográfica ("Urbano/Rural")**
+
+
+```{r}
+
+base_zona <- data.frame(Zona = c("Urbano", "Rural"),
+                       Zona_Goegrafica = 1:2)
+
+
+cant_zona_g <- sindicado %>%
+  rename (Zona_Goegrafica ="Urbano/Rural") %>% 
+  group_by(Zona_Goegrafica) %>% 
+  summarise(Cantidad = n()) %>% 
+  arrange(Zona_Goegrafica)  %>% 
+  left_join(base_zona, by = "Zona_Goegrafica") %>% 
+  select(Zona, Codigo =Zona_Goegrafica, Cantidad) %>% 
+  mutate(Codigo = as.factor(Codigo))
+  
+kable_styling(
+  kable(cant_zona_g, digits = 3, row.names = FALSE, align = "c",
+        caption = NULL),
+        bootstrap_options = c("striped", "hover", "condensed"),
+        position = "center", full_width = TRUE,  font_size = 14) 
+
+# cant_zona_g%>% 
+#   datatable( class = 'cell-border stripe', 
+#                          filter = 'top', 
+#                          options = list(pageLength = 20),
+#                          caption = htmltools::tags$caption(
+#                            style = 'caption-side: bottom; text-align: center;',
+#                            htmltools::em('Tabla de Libro de Códigos')) ,
+#                          rownames = FALSE)%>% 
+#   formatStyle(columns = colnames(.$x$data), `font-size` = '14px')
+
+```
+
+```{r}
+fig <- plot_ly(data = cant_zona_g, 
+  x = ~Zona, 
+  y = ~Cantidad, 
+  type = "bar", 
+  color = ~Zona, 
+  colors = viridis(nrow(cant_zona_g)),
+  text = ~Cantidad, textposition = 'auto'
+)
+fig <- fig %>% 
+  layout(title = "Cantidad de Registros por Nivel Socioeconómico",
+         xaxis = list(title = "NSE"),
+         yaxis = list(title = "Cantidad de Registros"))
+fig
+```
+
+<br>
+
+**Nivel Socioeconómico** 
+
+
+```{r}
+
+base_nse <- data.frame(Nivel = c("C1", "C2", "C3", "D-E"),
+                       NSE = 1:4)
+cant_nse <- sindicado %>% group_by(NSE) %>% 
+  summarise(Cantidad = n()) %>% 
+  arrange(NSE) %>% 
+  left_join(base_nse, by = "NSE")
+
+
+kable_styling(
+  kable(cant_nse, digits = 3, row.names = FALSE, align = "c",
+        caption = NULL),
+        bootstrap_options = c("striped", "hover", "condensed"),
+        position = "center", full_width = TRUE,  font_size = 14) 
+
+
+# cant_nse%>% 
+#   datatable( class = 'cell-border stripe', 
+#                          filter = 'top', 
+#                          options = list(pageLength = 20),
+#                          caption = htmltools::tags$caption(
+#                            style = 'caption-side: bottom; text-align: center;',
+#                            htmltools::em('Tabla de Libro de Códigos')) ,
+#                          rownames = FALSE)%>% 
+#   formatStyle(columns = colnames(.$x$data), `font-size` = '14px')
+
+```
+
+```{r}
+fig <- plot_ly(data =cant_nse, 
+  x = ~NSE, 
+  y = ~Cantidad, 
+  type = "bar", 
+  color = ~Nivel, 
+  colors = viridis(nrow(cant_nse)),
+  text = ~Cantidad, textposition = 'auto'
+)
+fig <- fig %>% 
+  layout(title = "Cantidad de Registros por Nivel Socioeconómico",
+         xaxis = list(title = "NSE"),
+         yaxis = list(title = "Cantidad de Registros"))
+fig
+```
+
 
 ## BBDD mapa vulneravilidad
 

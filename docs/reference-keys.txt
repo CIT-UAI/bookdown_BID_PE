@@ -35,6 +35,7 @@ metodología-para-el-demanda-energética-real
 data_explorer
 bbdd-estudio-caracterización-residencial-2018_vcomuna
 libro-de-código
+bbdd-sindicado
 bbdd-mapa-vulneravilidad
 descripción-de-variables
 analisis-bases-espaciales
