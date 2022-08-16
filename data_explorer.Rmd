@@ -18,6 +18,8 @@ library(sjmisc)
 library(sjlabelled)
 library(ggplot2)
 library(plotly)
+library(DT)
+
 theme_set(theme_bw())
 
 # recursos
@@ -33,6 +35,33 @@ fsize = 10
 Las bases de datos recibidas de Probreza Energética (27-07-2022), corresponden a 3 carpetas, las cuales en el presente capítulo se procederá un análisis descriptivo general.
 
 ![Estructura de carpeta de Bases de Datos](images/bbdd_folders.png)
+
+
+## BBDD Estudio Caracterización Residencial 2018_vcomuna
+
+Corresponde un artivo excel llamado `BBDD Estudio Caracterización Residencial 2018_vcomuna.xlsx` correspondiente a la encuesta realizada a nivel nacional, que contiene dos hojas:
+
+* Libro de codigo: Glosario de preguntas de la encuesta.
+* BBDD Sindicado: Respuestas de la encuesta por comuna.
+
+
+### Libro de Código
+
+```{r}
+
+libro_cod <- readRDS("data/rds/libro_codigo.rds") %>% 
+  select(-3, -c(11:ncol(.)))
+
+libro_cod %>% datatable( class = 'cell-border stripe', 
+                         filter = 'top', 
+                         options = list(pageLength = 10),
+                         caption = htmltools::tags$caption(
+                           style = 'caption-side: bottom; text-align: center;',
+                           htmltools::em('Tabla de Libro de Códigos')) ,
+                         rownames = FALSE)%>% 
+  formatStyle(columns = colnames(.$x$data), `font-size` = '12px')
+```
+
 
 ## BBDD mapa vulneravilidad
 

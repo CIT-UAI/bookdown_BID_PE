@@ -1,0 +1,503 @@
+"","Variable","Etiqueta","Tipo.de.variable","1","2","3","4","5","6","7","8","9","10","11","12","88","99"
+"1","Folio","Folio","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","FE","Factor de expansión","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","NSE","Nivel socioeconomico","Numérico","C1","C2","C3","D-E",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4","ZT","Zona Térmica","Numérico","Zona 1","Zona 2","Zona 3","Zona 4","Zona 5","Zona 6","Zona 7",NA,NA,NA,NA,NA,NA,NA
+"5","Zona_Geografica","Zona Geográfica","Numérico","Urbano","Rural",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6","F1","F1. ¿En este hogar usted es?","Numérico","El jefe de hogar","El/la dueño(a) de casa","La persona que paga las cuentas del hogar","Otro",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","F2","F2. ¿Se desarrolla alguna actividad económica en esta vivienda?, tal como lavado de ropa a terceros, planchado a terceros, Almacén, Kiosco con refrigerador o preparación de alimentos a terceros","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8","P1","P1. Tipología de la vivienda","Numérico","Casa aislada","Casa pareada","Casa en fila","Departamento",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","P2","P2. ¿Cuántos muros principales de su departamento dan al exterior del edificio?","Numérico","Un muro","Dos muros","Tres muros","Los cuatro muros",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10","P3_A","P3.A ¿En qué piso se encuentra este departamento?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"11","P3_B","P3.B ¿Cuál es el número total de pisos de este edificio?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"12","P4","P4. ¿Cuántos pisos tiene su vivienda?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"13","P5","P5. Aproximadamente  ¿En qué año fue construida esta vivienda?","Numérico","De 2008 en adelante","Entre 2001 y 2007","Entre 1977 y 2000","Antes de 1976",NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"14","P6","P6.Para quienes respondan 1 en pregunta anterior, ¿En qué año específico fue construida su vivienda?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"15","P7","P7. Aproximadamente ¿Cuántos metros cuadrados construidos tiene esta vivienda?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"16","P8_A","P8.A ¿Cuál es el material principal con el que están construidos los muros exteriores de esta vivienda?","Numérico","Albañilería/ Ladrillos","Madera/ Tabiquería liviana","Adobe","Hormigón armado","Hormigón celular","Bloques de hormigón","Otro",NA,NA,NA,NA,NA,NA,NA
+"17","P8_B","P8.B ¿Algún otro?","Numérico","Albañilería/ Ladrillos","Madera/ Tabiquería liviana","Adobe","Hormigón armado","Hormigón celular","Bloques de hormigón","Otro",NA,NA,NA,NA,NA,NA,NA
+"18","P8_Otro","P8. Otro, especifique","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"19","P9_A","P9.A ¿Su vivienda cuenta con material de aislación…? En los Muros","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"20","P9_B","P9.B ¿Su vivienda cuenta con material de aislación…? En el Techo","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"21","P10_A_Pequeño","P10.A ¿Cuántas ventanas de los siguientes tipos tiene esta vivienda? Vidrio Simple - Pequeña","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"22","P10_A_Mediano","P10.A ¿Cuántas ventanas de los siguientes tipos tiene esta vivienda? Vidrio Simple - Mediana","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"23","P10_A_Grande","P10.A ¿Cuántas ventanas de los siguientes tipos tiene esta vivienda? Vidrio Simple - Grande","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"24","P10_B_Pequeño","P10.B ¿Cuántas ventanas de los siguientes tipos tiene esta vivienda? Doble Vidrio - Pequeña","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"25","P10_B_Mediano","P10.B ¿Cuántas ventanas de los siguientes tipos tiene esta vivienda? Doble Vidrio - Mediana","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"26","P10_B_Grande","P10.A ¿Cuántas ventanas de los siguientes tipos tiene esta vivienda? Doble Vidrio - Grande","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"27","P11_A","P11.A ¿En los últimos 5 años ha realizado usted algunas de las siguientes intervenciones en su vivienda para mejorar la calidad térmica o aislación? Cambio de Ventana Vidrio Simple a Termopanel","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"28","P11_B","P11.B ¿En los últimos 5 años ha realizado usted algunas de las siguientes intervenciones en su vivienda para mejorar la calidad térmica o aislación? Aislación en el Techo","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"29","P11_C","P11.C ¿En los últimos 5 años ha realizado usted algunas de las siguientes intervenciones en su vivienda para mejorar la calidad térmica o aislación? Aislación en los Muros","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"30","P11_D","P11.D ¿En los últimos 5 años ha realizado usted algunas de las siguientes intervenciones en su vivienda para mejorar la calidad térmica o aislación? Sellos en las ventanas y/o puertas","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"31","P11_E","P11.E ¿En los últimos 5 años ha realizado usted algunas de las siguientes intervenciones en su vivienda para mejorar la calidad térmica o aislación? Sellos en las ventanas y/o puertas","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"32","P11_E_Otro","P11.E Especificar otro","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"33","P12","P12. ¿Su vivienda tiene un sistema solar fotovoltaico?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"34","P13","P13. ¿El sistema fotovoltaico está en correcto funcionamiento?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"35","P13.1","P13.1 ¿Le ha hecho mantención al sistema fotovoltaico?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"36","P14_A","P14.A ¿Qué tipo de sistema fotovoltaico posee en su vivienda? Sistema sin conexión a la red","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"37","P14_B","P14.B ¿Qué tipo de sistema fotovoltaico posee en su vivienda? Sistema conectado a la red eléctrica","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"38","P15","P15. ¿Tiene su última cuenta de electricidad a mano?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"39","P15_Medidor","P15. Nº de Medidor","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"40","P16_Cliente","P16. Número de cliente","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"41","P16_Consumo","P16. Consumo último mes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"42","P17_Consumo_Verano","P17. ¿Cuánto gasta en electricidad, en pesos, en un mes de VERANO?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"43","P17_Consumo_Invierno","P17. ¿Cuánto gasta en electricidad, en pesos, en un mes de INVIERNO?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"44","P18","P18. En esta vivienda ¿Alguna vez se ha tomado alguna medida para ahorrar electricidad?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"45","P19","P19. ¿Qué medidas se han tomado en esta vivienda para ahorrar electricidad?","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"46","P20","P20. ¿Su vivienda utiliza Gas Natural?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"47","P21","P21. ¿Cuál es el nombre de su empresa proveedora de gas natural?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"48","P22","P22. ¿Tiene su última cuenta de gas natural a mano?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"49","P22_Medidor","P22. Nº de Medidor","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"50","P23_Cliente","P23. Número de cliente","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"51","P23_Consumo","P23. Consumo último mes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"52","P24_Consumo_Verano","P24. ¿Cuánto gasta en gas natural, en pesos, en un mes de VERANO?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"53","P24_Consumo_Invierno","P24. ¿Cuánto gasta en gas natural, en pesos, en un mes de INVIERNO?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"54","P25","P25. ¿Su vivienda utiliza Gas Licuado con Medidor Individual?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"55","P26","P26. ¿Cuál es el nombre de su empresa proveedora de gas licuado con medidor?","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"56","P27","P27. ¿Tiene su última cuenta de gas licuado con medidor a mano?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"57","P27_Medidor","P27. Nº de Medidor","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"58","P28_Cliente","P27. Número de cliente","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"59","P28_Consumo","P28. Consumo último mes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"60","P29_Consumo_Verano","P29. ¿Cuánto gasta en gas licuado con medidor individual, en pesos, en un mes de VERANO?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"61","P29_Consumo_Invierno","P29. ¿Cuánto gasta en gas licuado con medidor individual, en pesos, en un mes de INVIERNO?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","P30","P30. ¿Su vivienda utiliza Gas Licuado en Balón?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"63","P31_Invierno_5kg_Cantidad","P31. ¿Qué balones y cuántos son lo que compra en INVIERNO (JULIO)? 5 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"64","P31_Invierno_5kg_Frecuencia","P31. ¿Cada cuánto tiempo (días o meses)  lo hace en INVIERNO (JULIO)? 5 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"65","P31_Invierno_5kg_Gasto","P31. ¿Y Cuánto dinero gasta cada vez que compra en ese formato de INVIERNO (JULIO)? 5 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"66","P31_Invierno_11kg_Cantidad","P31.¿Qué balones y cuántos son lo que compra en INVIERNO (JULIO)? 11 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"67","P31_Invierno_11kg_Frecuencia","P31. ¿Cada cuánto tiempo (días o meses)  lo hace en INVIERNO (JULIO)? 11 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"68","P31_Invierno_11kg_Gasto","P31. ¿Y Cuánto dinero gasta cada vez que compra en ese formato de INVIERNO (JULIO)? 11 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"69","P31_Invierno_15kg_Cantidad","P31.¿Qué balones y cuántos son lo que compra en INVIERNO (JULIO)? 15 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"70","P31_Invierno_15kg_Frecuencia","P31. ¿Cada cuánto tiempo (días o meses)  lo hace en INVIERNO (JULIO)? 15 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"71","P31_Invierno_15kg_Gasto","P31. ¿Y Cuánto dinero gasta cada vez que compra en ese formato de INVIERNO (JULIO)? 15 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"72","P31_Invierno_45kg_Cantidad","P31.¿Qué balones y cuántos son lo que compra en INVIERNO (JULIO)? 45 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"73","P31_Invierno_45kg_Frecuencia","P31. ¿Cada cuánto tiempo (días o meses)  lo hace en INVIERNO (JULIO)? 45 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"74","P31_Invierno_45kg_Gasto","P31. ¿Y Cuánto dinero gasta cada vez que compra en ese formato de INVIERNO (JULIO)? 45 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"75","P31_Verano_5kg_Cantidad","P31. ¿Qué balones y cuántos son lo que compra en VERANO (ENERO)? 5 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"76","P31_Verano_5kg_Frecuencia","P31. ¿Cada cuánto tiempo (días o meses)  lo hace en VERANO (ENERO)? 5 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"77","P31_Verano_5kg_Gasto","P31. ¿Y Cuánto dinero gasta cada vez que compra en ese formato de VERANO (ENERO)? 5 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"78","P31_Verano_11kg_Cantidad","P31.¿Qué balones y cuántos son lo que compra en VERANO (ENERO)? 11 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"79","P31_Verano_11kg_Frecuencia","P31. ¿Cada cuánto tiempo (días o meses)  lo hace en VERANO (ENERO)? 11 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"80","P31_Verano_11kg_Gasto","P31. ¿Y Cuánto dinero gasta cada vez que compra en ese formato de VERANO (ENERO)? 11 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81","P31_Verano_15kg_Cantidad","P31.¿Qué balones y cuántos son lo que compra en VERANO (ENERO)? 15 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"82","P31_Verano_15kg_Frecuencia","P31. ¿Cada cuánto tiempo (días o meses)  lo hace en VERANO (ENERO)? 15 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83","P31_Verano_15kg_Gasto","P31. ¿Y Cuánto dinero gasta cada vez que compra en ese formato de VERANO (ENERO)? 15 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"84","P31_Verano_45kg_Cantidad","P31.¿Qué balones y cuántos son lo que compra en VERANO (ENERO)? 45 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"85","P31_Verano_45kg_Frecuencia","P31. ¿Cada cuánto tiempo (días o meses)  lo hace en VERANO (ENERO)? 45 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"86","P31_Verano_45kg_Gasto","P31. ¿Y Cuánto dinero gasta cada vez que compra en ese formato de VERANO (ENERO)? 45 KG","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"87","P32","P32. ¿Su vivienda utiliza Gas Licuado a Granel Individual?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"88","P33.1_A","P33. ¿Qué tipo de estanque tiene y cada cuánto tiempo lo llena en INVIERNO (JULIO)?","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"89","P33.1_B","P33. Y Cuánto dinero gasta aproximadamente cuando lo llena en los meses de INVIERNO (JULIO)?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"90","P33.2_A","P33. ¿Qué tipo de estanque tiene y cada cuánto tiempo lo llena en VERANO (ENERO)?","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"91","P33.2_B","P33. Y Cuánto dinero gasta aproximadamente cuando lo llena en los meses de VERANO (ENERO)?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"92","P34","P34. En esta vivienda ¿Se usa leña?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"93","P35","P35. ¿Para cuáles de los siguientes usos consume leña?","Numérico","Calefacción","Cocción","Agua caliente sanitaria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"94","P36_UN1_A","P36. Para un año, ¿Cuánta leña se utiliza en esta vivienda? Unidad de Compra 1: CANTIDAD AL AÑO","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"95","P36_UN1_B","P36. Para un año, ¿Cuánta leña se utiliza en esta vivienda?  Unidad de Compra 1: UNIDAD DE MEDIDA","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"96","P36_UN1_C","P36. Para un año, ¿Cuánta leña se utiliza en esta vivienda?  Unidad de Compra 1: GASTO MENSUAL","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"97","P36_UN2_A","P36. Para un año, ¿Cuánta leña se utiliza en esta vivienda?  Unidad de Compra 2: CANTIDAD AL AÑO","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"98","P36_UN2_B","P36. Para un año, ¿Cuánta leña se utiliza en esta vivienda?  Unidad de Compra 2: UNIDAD DE MEDIDA","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"99","P36_UN2_C","P36. Para un año, ¿Cuánta leña se utiliza en esta vivienda?  Unidad de Compra 2: GASTO ANUAL","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"100","P37","P 37. La leña que ud usa, ¿es leña certificada?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"101","P38","P38. En esta vivienda ¿Se utiliza agua caliente por cañería, es decir que provenga de un calefont, caldera  u otro sistema?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"102","P39_A","P39.A Calefont con encendido eléctrico","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"103","P39_B","P39.B Calefont con encendido manual","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"104","P39_C","P39.C Caldera personal","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"105","P39_D","P39.D Central de Agua Caliente del edificio o condominio","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"106","P39_E","P39.E Termo a gas personal","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"107","P39_F","P39.F Termo eléctrico personal","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"108","P39_G","P39.G Eléctrico directo (ducha eléctrica)","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"109","P39_H","P39.H Serpentín en estufa a leña con estanque","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"110","P39_I","P39.I Colector solar personal termosifón","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"111","P39_J","P39.J Colector solar personal forzado","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"112","P39_K","P39.K Colector solar colectivo","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"113","P39_L","P39.L Bomba de Calor geotermia","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"114","P39_M","P39.M Otros","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"115","P39_M_Otro","P39.M Otros. Especificar","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"116","P40_A","P40. ¿Qué energético utiliza el artefacto PRINCIPAL para calentar agua en esta vivienda?","Numérico","Gas de ciudad","Gas Natural","Gas Licuado","Electricidad","Leña",NA,"Otro",NA,NA,NA,NA,NA,NA,"NS-NR"
+"117","P40_A_Otro","P40. Otro","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"118","P40_B","P40. ¿Qué energético utiliza el artefacto SECUNDARIO para calentar agua en esta vivienda?","Numérico","Gas de ciudad","Gas Natural","Gas Licuado","Electricidad","Leña",NA,"Otro",NA,NA,NA,NA,NA,NA,"NS-NR"
+"119","P40_B_Otro","P40. Otro","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"120","P41_A","P41.A ¿Con qué frecuencia utiliza agua caliente sanitaria, en las siguientes actividades? Ducha","Numérico","Siempre","Frecuentemente","A veces","Casi nunca","Nunca",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"121","P41_B","P41.B ¿Con qué frecuencia utiliza agua caliente sanitaria, en las siguientes actividades? Baño de Tina","Numérico","Siempre","Frecuentemente","A veces","Casi nunca","Nunca",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"122","P41_C","P41.C ¿Con qué frecuencia utiliza agua caliente sanitaria, en las siguientes actividades? Lavado de Manos","Numérico","Siempre","Frecuentemente","A veces","Casi nunca","Nunca",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"123","P41_D","P41.D ¿Con qué frecuencia utiliza agua caliente sanitaria, en las siguientes actividades? Lavado de Loza","Numérico","Siempre","Frecuentemente","A veces","Casi nunca","Nunca",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"124","P41_E","P41.E ¿Con qué frecuencia utiliza agua caliente sanitaria, en las siguientes actividades? Lavado de Ropa","Numérico","Siempre","Frecuentemente","A veces","Casi nunca","Nunca",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"125","P41_F","P41.F ¿Con qué frecuencia utiliza agua caliente sanitaria, en las siguientes actividades? Otros","Numérico","Siempre","Frecuentemente","A veces","Casi nunca","Nunca",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"126","P41_F_Otro","P41.F Especificar otro","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"127","P42","P42. ¿El Agua Caliente Sanitaria lo paga en cuenta individual o a través de gastos comunes?","Numérico","En cuenta individual","En gastos comunes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"128","P42.1","P42.1 Dentro del total de Gastos Comunes, ¿Cuánto paga mensualmente por ACS?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"129","P43","P43. En general, ¿Mantienen el piloto del calefont encendido o lo apaga mientras no se utiliza?","Numérico","Se mantiene encendido","Se apaga cuando no se usa","No tiene piloto/Encendido automático",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"130","P44","P44. ¿Su calefont tiene control automático de la temperatura?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"131","P45","P45. Aproximadamente ¿Cuántos años tiene su calefont?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"132","P46","P46. ¿Ha realizado alguna mantención a su calefont?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"133","P47","P47. ¿Cuántas veces ha realizado mantención a su calefont?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"134","P48","P48. En esta vivienda ¿Se utilizan aireadores/difusores de agua para la ducha?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"135","P49","P49. En esta vivienda ¿Se ha tomado alguna otra medida para ahorrar energía en agua caliente?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"136","P50","P50. ¿Qué medidas se han tomado?","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"137","P51_A","P51.A En esta vivienda ¿Cuáles de los siguientes artefactos utiliza para cocinar? - Cocina a Gas Licuado","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"138","P51_B","P51.B En esta vivienda ¿Cuáles de los siguientes artefactos utiliza para cocinar? - Cocina a Gas Natural","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"139","P51_C","P51.C En esta vivienda ¿Cuáles de los siguientes artefactos utiliza para cocinar? - Cocina eléctrica/ encimera","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"140","P51_D","P51.D En esta vivienda ¿Cuáles de los siguientes artefactos utiliza para cocinar? - Cocina a inducción","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"141","P51_E","P51.E En esta vivienda ¿Cuáles de los siguientes artefactos utiliza para cocinar? - Cocina a leña","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"142","P51_F","P51.F En esta vivienda ¿Cuáles de los siguientes artefactos utiliza para cocinar? - Otro","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"143","P51_F_Otro","P51.F Especificar otro","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"144","P52_A","P52.A En esta vivienda ¿Aproximadamente con qué frecuencia se utiliza la cocina en INVIERNO (JULIO)?","Numérico","3 o más veces al día","2 veces al día","Una vez al día","3 a 6 veces a la semana","1 a 2 veces a la semana","Menos de una vez a la semana",NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"145","P52_B","P52.B En esta vivienda ¿Aproximadamente con qué frecuencia se utiliza la cocina en VERANO (ENERO)?","Numérico","3 o más veces al día","2 veces al día","Una vez al día","3 a 6 veces a la semana","1 a 2 veces a la semana","Menos de una vez a la semana",NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"146","P53","P53. En esta vivienda ¿se utiliza un horno?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"147","P54","P54. ¿Qué combustible utiliza su horno?","Numérico","Gas de ciudad","Gas Natural","Gas Licuado","Electricidad",NA,NA,"Otro",NA,NA,NA,NA,NA,NA,"NS-NR"
+"148","P54_Otro","P54.1 Especificar otro","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"149","P55_Verano","P55. En esta vivienda ¿Aproximadamente con qué frecuencia se utiliza este horno en VERANO (ENERO)?","Numérico","Todos los días: dos o más veces al día","Todos los días: una vez al día","Unas 4 veces por semana","Una vez por semana","Menos de 2 veces al mes",NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"150","P55_Invierno","P55. En esta vivienda ¿Aproximadamente con qué frecuencia se utiliza este horno en INVIERNO (JULIO)?","Numérico","Todos los días: dos o más veces al día","Todos los días: una vez al día","Unas 4 veces por semana","Una vez por semana","Menos de 2 veces al mes",NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"151","P56","P56. En esta vivienda ¿se utiliza un hornillo eléctrico?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"152","P57_Verano","P57. En esta vivienda, ¿Aproximadamente con qué frecuencia se utiliza el hornillo u horno eléctrico pequeño en VERANO (ENERO)?","Numérico","Todos los días: dos o más veces al día","Todos los días: una vez al día","Unas 4 veces por semana","Una vez por semana","Menos de 2 veces al mes",NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"153","P57_Invierno","P57. En esta vivienda, ¿Aproximadamente con qué frecuencia se utiliza el hornillo u horno eléctrico pequeño en INVIERNO (JULIO)?","Numérico","Todos los días: dos o más veces al día","Todos los días: una vez al día","Unas 4 veces por semana","Una vez por semana","Menos de 2 veces al mes",NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"154","P58","P58. En su vivienda ¿se utiliza un horno de microondas?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"155","P59_Verano","P59. En esta vivienda ¿Aproximadamente con qué frecuencia se utiliza el horno de microondas en VERANO (ENERO)?","Numérico","3 o más veces al día","Dos veces al día","Una vez al día","3 / 6 veces a la semana","1 / 2 veces a la semana","Menos de una vez a la semana",NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"156","P59_Invierno","P59. En esta vivienda ¿Aproximadamente con qué frecuencia se utiliza el horno de microondas en INVIERNO (JULIO)?","Numérico","4 o más veces al día","Dos veces al día","Una vez al día","4 / 6 veces a la semana","2 / 2 veces a la semana","Menos de una vez a la semana",NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"157","P60","P60. En esta vivienda, ¿Se utiliza algún tipo de calefacción?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"158","P61","P61. ¿Qué energético utiliza para calefaccionar su vivienda?","Numérico","Gas Natural","Gas Licuado con balones","Gas Licuado granel","Gas Licuado medidor","Electricidad","Parafina","Leña","Pellet","Geotermia","Otro",NA,NA,NA,NA
+"159","P61.1_Otro","P61.1. En caso de ser otro, especificar","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"160","P62","P62. Pensando en mes de julio de un invierno normal, Cuánto gasta en pesos, en gas Licuado?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"161","P63_Kilos","P63. ¿Cuánto litros consume al mes y cuánto gasta en pesos, en parafina?  Kilos","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"162","P63_Gasto","P63. ¿Cuánto litros consume al mes y cuánto gasta en pesos, en parafina?  Gasto","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"163","P64_Kilos","P64. ¿Cuánto litros consume al mes y cuánto gasta en pesos, en pellet?  Kilos","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"164","P64_Gasto","P64. ¿Cuánto litros consume al mes y cuánto gasta en pesos, en pellet?  Gasto","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"165","P65","P65. ¿Qué tipo de calefacción usa?","Numérico","Estufa o calefactor individual","Calefacción central","Ambos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"166","P66","P66. En total, ¿Cuántos calefactores individuales utiliza en su vivienda?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"167","P67","P67. Fuente de energía que utiliza","Numérico","Gas Natural","Gas Licuado con balones","Gas Licuado granel","Gas Licuado medidor","Electricidad","Parafina","Leña","Pellet","Geotermia","Otro",NA,NA,NA,NA
+"168","P67.1_Otro","P67.1. En caso de ser otro, especificar","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"169","P68","P68. Indique tipo de calefactor o estufa","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"170","P69","P69. Antigüedad del equipo","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"171","P70_Ene","P70. ¿Qué meses la/lo utiliza? Enero","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"172","P70_Feb","P70. ¿Qué meses la/lo utiliza? Febrero","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"173","P70_Mar","P70. ¿Qué meses la/lo utiliza? Marzo","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"174","P70_Abr","P70. ¿Qué meses la/lo utiliza? Abril","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"175","P70_May","P70. ¿Qué meses la/lo utiliza? Mayo","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"176","P70_Jun","P70. ¿Qué meses la/lo utiliza? Junio","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"177","P70_Jul","P70. ¿Qué meses la/lo utiliza? Julio","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"178","P70_Ago","P70. ¿Qué meses la/lo utiliza? Agosto","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"179","P70_Sep","P70. ¿Qué meses la/lo utiliza? Septiembre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"180","P70_Oct","P70. ¿Qué meses la/lo utiliza? Octubre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"181","P70_Nov","P70. ¿Qué meses la/lo utiliza? Noviembre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"182","P70_Dic","P70. ¿Qué meses la/lo utiliza? Diciembre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"183","P71_Horas_Ene","71. ¿Cuántas horas del día se encuentra encendida en cada mes que usa calefacción? Enero","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"184","P71_Horas_Feb","71. ¿Cuántas horas del día se encuentra encendida en cada mes que usa calefacción? Febrero","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"185","P71_Horas_Mar","71. ¿Cuántas horas del día se encuentra encendida en cada mes que usa calefacción? Marzo","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"186","P71_Horas_Abr","71. ¿Cuántas horas del día se encuentra encendida en cada mes que usa calefacción? Abril","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"187","P71_Horas_May","71. ¿Cuántas horas del día se encuentra encendida en cada mes que usa calefacción? Mayo","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"188","P71_Horas_Jun","71. ¿Cuántas horas del día se encuentra encendida en cada mes que usa calefacción? Junio","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"189","P71_Horas_Jul","71. ¿Cuántas horas del día se encuentra encendida en cada mes que usa calefacción? Julio","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"190","P71_Horas_Ago","71. ¿Cuántas horas del día se encuentra encendida en cada mes que usa calefacción? Agosto","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"191","P71_Horas_Sep","71. ¿Cuántas horas del día se encuentra encendida en cada mes que usa calefacción? Septiembre","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"192","P71_Horas_Oct","71. ¿Cuántas horas del día se encuentra encendida en cada mes que usa calefacción? Octubre","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"193","P71_Horas_Nov","71. ¿Cuántas horas del día se encuentra encendida en cada mes que usa calefacción? Noviembre","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"194","P71_Horas_Dic","71. ¿Cuántas horas del día se encuentra encendida en cada mes que usa calefacción? Diciembre","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"195","P72","P72. Fuente de energía que utiliza","Numérico","Gas Natural","Gas Licuado con balones","Gas Licuado granel","Gas Licuado medidor","Electricidad","Parafina","Leña","Pellet","Geotermia","Otro",NA,NA,NA,NA
+"196","P72.1","P72.1 En caso de ser otro, especificar","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"197","P73","P73. Indique tipo de calefactor o estufa","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"198","P74","P74. Antigüedad del equipo","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"199","P75_Ene","P75. ¿Qué meses la/lo utiliza? Enero","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"200","P75_Feb","P75. ¿Qué meses la/lo utiliza? Febrero","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"201","P75_Mar","P75. ¿Qué meses la/lo utiliza? Marzo","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"202","P75_Abr","P75. ¿Qué meses la/lo utiliza? Abril","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"203","P75_May","P75. ¿Qué meses la/lo utiliza? Mayo","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"204","P75_Jun","P75. ¿Qué meses la/lo utiliza? Junio","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"205","P75_Jul","P75. ¿Qué meses la/lo utiliza? Julio","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"206","P75_Ago","P75. ¿Qué meses la/lo utiliza? Agosto","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"207","P75_Sep","P75. ¿Qué meses la/lo utiliza? Septiembre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"208","P75_Oct","P75. ¿Qué meses la/lo utiliza? Octubre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"209","P75_Nov","P75. ¿Qué meses la/lo utiliza? Noviembre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"210","P75_Dic","P75. ¿Qué meses la/lo utiliza? Diciembre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"211","P76_Horas_Ene","P76. ¿Cuántas horas del día se encuentra encendida en Enero?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"212","P76_Horas_Feb","P76. ¿Cuántas horas del día se encuentra encendida en Febrero?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"213","P76_Horas_Mar","P76. ¿Cuántas horas del día se encuentra encendida en Marzo?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"214","P76_Horas_Abr","P76. ¿Cuántas horas del día se encuentra encendida en Abril?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"215","P76_Horas_May","P76. ¿Cuántas horas del día se encuentra encendida en Mayo?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"216","P76_Horas_Jun","P76. ¿Cuántas horas del día se encuentra encendida en Junio?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"217","P76_Horas_Jul","P76. ¿Cuántas horas del día se encuentra encendida en Julio?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"218","P76_Horas_Ago","P76. ¿Cuántas horas del día se encuentra encendida en Agosto?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"219","P76_Horas_Sep","P76. ¿Cuántas horas del día se encuentra encendida en Septiembre?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"220","P76_Horas_Oct","P76. ¿Cuántas horas del día se encuentra encendida en Octubre?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"221","P76_Horas_Nov","P76. ¿Cuántas horas del día se encuentra encendida en Noviembre?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"222","P76_Horas_Dic","P76. ¿Cuántas horas del día se encuentra encendida en Diciembre?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"223","P77","P77. ¿Utiliza calefacción central en su hogar?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"224","P78","P78. ¿Su sistema de calefacción central funciona a través de un radiador, piso de losa radiante o algún otro?","Numérico","Radiador","Piso de losa radiante","Otro",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"225","P78.1","P78.1 Especificar otro","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"226","P79","P79. Para la calefacción central de esta vivienda ¿Se utiliza un dispositivo propio de la vivienda o es del condominio / edificio?","Numérico","En cuenta individual","En gastos comunes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"227","P79.1","P79.1 ¿Calefacción lo paga en cuenta individual o a través de gastos comunes?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"228","P79.2","P79.2. Dentro del total de Gastos comunes, ¿cuánto paga en pesos?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"229","P80","P80. ¿Qué combustible utiliza su caldera?","Numérico","Gas Natural","Gas Licuado con balones","Gas Licuado granel","Gas Licuado medidor","Electricidad","Parafina","Leña","Pellet","Geotermia","Otro",NA,NA,NA,"NS-NR"
+"230","P80.1","P80.1. Sólo si responde Eléctrico, ¿Qué tipo es?","Numérico","Resistencia","Bomba de calor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"231","P81_Ene","P81. Aproximadamente ¿Qué meses del año utiliza la calefacción central en su vivienda? Enero","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"232","P81_Feb","P81. Aproximadamente ¿Qué meses del año utiliza la calefacción central en su vivienda? Febrero","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"233","P81_Mar","P81. Aproximadamente ¿Qué meses del año utiliza la calefacción central en su vivienda? Marzo","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"234","P81_Abr","P81. Aproximadamente ¿Qué meses del año utiliza la calefacción central en su vivienda? Abril","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"235","P81_May","P81. Aproximadamente ¿Qué meses del año utiliza la calefacción central en su vivienda? Mayo","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"236","P81_Jun","P81. Aproximadamente ¿Qué meses del año utiliza la calefacción central en su vivienda? Junio","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"237","P81_Jul","P81. Aproximadamente ¿Qué meses del año utiliza la calefacción central en su vivienda? Julio","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"238","P81_Ago","P81. Aproximadamente ¿Qué meses del año utiliza la calefacción central en su vivienda? Agosto","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"239","P81_Sep","P81. Aproximadamente ¿Qué meses del año utiliza la calefacción central en su vivienda? Septiembre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"240","P81_Oct","P81. Aproximadamente ¿Qué meses del año utiliza la calefacción central en su vivienda? Octubre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"241","P81_Nov","P81. Aproximadamente ¿Qué meses del año utiliza la calefacción central en su vivienda? Noviembre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"242","P81_Dic","P81. Aproximadamente ¿Qué meses del año utiliza la calefacción central en su vivienda? Diciembre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"243","P82_Horas_Ene","P82. ¿Cuántas horas del día se encuentra encendida en Enero?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"244","P82_Horas_Feb","P82. ¿Cuántas horas del día se encuentra encendida en Febrero?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"245","P82_Horas_Mar","P82. ¿Cuántas horas del día se encuentra encendida en Marzo?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"246","P82_Horas_Abr","P82. ¿Cuántas horas del día se encuentra encendida en Abril?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"247","P82_Horas_May","P82. ¿Cuántas horas del día se encuentra encendida en Mayo?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"248","P82_Horas_Jun","P82. ¿Cuántas horas del día se encuentra encendida en Junio?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"249","P82_Horas_Jul","P82. ¿Cuántas horas del día se encuentra encendida en Julio?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"250","P82_Horas_Ago","P82. ¿Cuántas horas del día se encuentra encendida en Agosto?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"251","P82_Horas_Sep","P82. ¿Cuántas horas del día se encuentra encendida en Septiembre?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"252","P82_Horas_Oct","P82. ¿Cuántas horas del día se encuentra encendida en Octubre?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"253","P82_Horas_Nov","P82. ¿Cuántas horas del día se encuentra encendida en Noviembre?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"254","P82_Horas_Dic","P82. ¿Cuántas horas del día se encuentra encendida en Diciembre?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"255","P83","P83. En esta vivienda, ¿Se calefacciona la vivienda completa o sólo las habitaciones que estén ocupadas?","Numérico","La vivienda completa","Solo las habitaciones ocupadas",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"256","P84","P84. En esta vivienda, ¿Cómo definiría la temperatura a la que se mantiene la vivienda en invierno por medio de la calefacción?","Numérico","Muy fría","Fría","Ni fría ni calurosa","Calurosa","Muy calurosa",NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"257","P85","P85. En esta vivienda ¿Alguna vez se ha tomado alguna medida para ahorrar en calefacción?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"258","P86","P86. ¿Qué medidas se han tomado en esta vivienda para ahorrar en calefacción?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"259","P87","P87. En esta vivienda, ¿Se utilizan equipos de aire acondicionado?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"260","P88","P88. ¿Cuántos equipos de aire acondicionado tiene en su hogar?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"261","P89_Equipo1","P89. Indique tipo de equipo de aire acondicionado Equipo 1","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"262","P89_Equipo2","P89. Indique tipo de equipo de aire acondicionado Equipo 2","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"263","P89_Equipo3","P89. Indique tipo de equipo de aire acondicionado Equipo 3","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"264","P90_Etiqueta_Equipo1","P90. Si tiene etiqueta de eficiencia energética, indique la calificación Equipo 1","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"265","P90_Etiqueta_Equipo2","P90. Si tiene etiqueta de eficiencia energética, indique la calificación Equipo 2","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"266","P90_Etiqueta_Equipo3","P90. Si tiene etiqueta de eficiencia energética, indique la calificación Equipo 3","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"267","P91_Ene","P91. ¿Qué meses la/lo utiliza? Enero","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"268","P91_Feb","P91. ¿Qué meses la/lo utiliza? Febrero","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"269","P91_Mar","P91. ¿Qué meses la/lo utiliza? Marzo","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"270","P91_Abr","P91. ¿Qué meses la/lo utiliza? Abril","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"271","P91_May","P91. ¿Qué meses la/lo utiliza? Mayo","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"272","P91_Jun","P91. ¿Qué meses la/lo utiliza? Junio","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"273","P91_Jul","P91. ¿Qué meses la/lo utiliza? Julio","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"274","P91_Ago","P91. ¿Qué meses la/lo utiliza? Agosto","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"275","P91_Sep","P91. ¿Qué meses la/lo utiliza? Septiembre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"276","P91_Oct","P91. ¿Qué meses la/lo utiliza? Octubre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"277","P91_Nov","P91. ¿Qué meses la/lo utiliza? Noviembre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"278","P91_Dic","P91. ¿Qué meses la/lo utiliza? Diciembre","Numérico","Sí",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"279","P92_Horas_Ene","P92. ¿Cuántas horas del día se encuentra encendida en Enero?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"280","P92_Horas_Feb","P92. ¿Cuántas horas del día se encuentra encendida en Febrero?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"281","P92_Horas_Mar","P92. ¿Cuántas horas del día se encuentra encendida en Marzo?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"282","P92_Horas_Abr","P92. ¿Cuántas horas del día se encuentra encendida en Abril?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"283","P92_Horas_May","P92. ¿Cuántas horas del día se encuentra encendida en Mayo?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"284","P92_Horas_Jun","P92. ¿Cuántas horas del día se encuentra encendida en Junio?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"285","P92_Horas_Jul","P92. ¿Cuántas horas del día se encuentra encendida en Julio?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"286","P92_Horas_Ago","P92. ¿Cuántas horas del día se encuentra encendida en Agosto?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"287","P92_Horas_Sep","P92. ¿Cuántas horas del día se encuentra encendida en Septiembre?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"288","P92_Horas_Oct","P92. ¿Cuántas horas del día se encuentra encendida en Octubre?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"289","P92_Horas_Nov","P92. ¿Cuántas horas del día se encuentra encendida en Noviembre?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"290","P92_Horas_Dic","P92. ¿Cuántas horas del día se encuentra encendida en Diciembre?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"291","P93_Living_A","P93.A ¿Cuántas luces tiene en cada los siguientes recintos de la vivienda? Living","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"292","P93_Living_B1","P93.B1 ¿De qué tipo es cada una? Living - Ampolletas Corrientes Menores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"293","P93_Living_B2","P93.B2 ¿De qué tipo es cada una? Living - Ampolletas Corrientes Mayores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"294","P93_Living_B3","P93.B3 ¿De qué tipo es cada una? Living - Ampolletas eficientes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"295","P93_Living_B4","P93.B4 ¿De qué tipo es cada una? Living - Tubos fluorescentes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"296","P93_Living_B5","P93.B5 ¿De qué tipo es cada una? Living - Focos LED","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"297","P93_Living_B6","P93.B6 ¿De qué tipo es cada una? Living - Focos dicroicos/ halógenos","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"298","P93_Living_99","P93.99 ¿De qué tipo es cada una? Living -  NS-NR","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"299","P93_Living_C","P93.C ¿Aproximadamente cuántas horas al día permanecen encendidas las luces de esta habitación? Living","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"300","P93_Comedor_A","P93.A ¿Cuántas luces tiene en cada los siguientes recintos de la vivienda? Comedor","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"301","P93_Comedor_B1","P93.B1 ¿De qué tipo es cada una? Comedor - Ampolletas Corrientes Menores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"302","P93_Comedor_B2","P93.B2 ¿De qué tipo es cada una? Comedor - Ampolletas Corrientes Mayores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"303","P93_Comedor_B3","P93.B3 ¿De qué tipo es cada una? Comedor - Ampolletas eficientes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"304","P93_Comedor_B4","P93.B4 ¿De qué tipo es cada una? Comedor - Tubos fluorescentes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"305","P93_Comedor_B5","P93.B5 ¿De qué tipo es cada una? Comedor - Focos LED","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"306","P93_Comedor_B6","P93.B6 ¿De qué tipo es cada una? Comedor - Focos dicroicos/ halógenos","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"307","P93_Comedor_99","P93.99 ¿De qué tipo es cada una? Comedor -  NS-NR","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"308","P93_Comedor_C","P93.C ¿Aproximadamente cuántas horas al día permanecen encendidas las luces de esta habitación? Comedor","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"309","P93_Cocina_A","P93.A ¿Cuántas luces tiene en cada los siguientes recintos de la vivienda? Cocina","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"310","P93_Cocina_B1","P93.B1 ¿De qué tipo es cada una? Cocina - Ampolletas Corrientes Menores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"311","P93_Cocina_B2","P93.B2 ¿De qué tipo es cada una? Cocina - Ampolletas Corrientes Mayores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"312","P93_Cocina_B3","P93.B3 ¿De qué tipo es cada una? Cocina - Ampolletas eficientes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"313","P93_Cocina_B4","P93.B4 ¿De qué tipo es cada una? Cocina - Tubos fluorescentes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"314","P93_Cocina_B5","P93.B5 ¿De qué tipo es cada una? Cocina - Focos LED","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"315","P93_Cocina_B6","P93.B6 ¿De qué tipo es cada una? Cocina - Focos dicroicos/ halógenos","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"316","P93_Cocina_99","P93.99 ¿De qué tipo es cada una? Cocina -  NS-NR","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"317","P93_Cocina_C","P93.C ¿Aproximadamente cuántas horas al día permanecen encendidas las luces de esta habitación? Cocina","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"318","P93_Baños_A","P93.A ¿Cuántas luces tiene en cada los siguientes recintos de la vivienda? Baños","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"319","P93_Baños_B1","P93.B1 ¿De qué tipo es cada una? Baños - Ampolletas Corrientes Menores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"320","P93_Baños_B2","P93.B2 ¿De qué tipo es cada una? Baños - Ampolletas Corrientes Mayores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"321","P93_Baños_B3","P93.B3 ¿De qué tipo es cada una? Baños - Ampolletas eficientes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"322","P93_Baños_B4","P93.B4 ¿De qué tipo es cada una? Baños - Tubos fluorescentes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"323","P93_Baños_B5","P93.B5 ¿De qué tipo es cada una? Baños - Focos LED","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"324","P93_Baños_B6","P93.B6 ¿De qué tipo es cada una? Baños - Focos dicroicos/ halógenos","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"325","P93_Baños_99","P93.99 ¿De qué tipo es cada una? Baños -  NS-NR","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"326","P93_Baños_C","P93.C ¿Aproximadamente cuántas horas al día permanecen encendidas las luces de esta habitación? Baños","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"327","P93_Dormitorios_A","P93.A ¿Cuántas luces tiene en cada los siguientes recintos de la vivienda? Dormitorios","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"328","P93_Dormitorios_B1","P93.B1 ¿De qué tipo es cada una? Dormitorios - Ampolletas Corrientes Menores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"329","P93_Dormitorios_B2","P93.B2 ¿De qué tipo es cada una? Dormitorios - Ampolletas Corrientes Mayores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"330","P93_Dormitorios_B3","P93.B3 ¿De qué tipo es cada una? Dormitorios - Ampolletas eficientes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"331","P93_Dormitorios_B4","P93.B4 ¿De qué tipo es cada una? Dormitorios - Tubos fluorescentes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"332","P93_Dormitorios_B5","P93.B5 ¿De qué tipo es cada una? Dormitorios - Focos LED","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"333","P93_Dormitorios_B6","P93.B6 ¿De qué tipo es cada una? Dormitorios - Focos dicroicos/ halógenos","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"334","P93_Dormitorios_99","P93.99 ¿De qué tipo es cada una? Dormitorios -  NS-NR","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"335","P93_Dormitorios_C","P93.C ¿Aproximadamente cuántas horas al día permanecen encendidas las luces de esta habitación? Dormitorios","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"336","P93_Pasillos_A","P93.A ¿Cuántas luces tiene en cada los siguientes recintos de la vivienda? Pasillos","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"337","P93_Pasillos_B1","P93.B1 ¿De qué tipo es cada una? Pasillos - Ampolletas Corrientes Menores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"338","P93_Pasillos_B2","P93.B2 ¿De qué tipo es cada una? Pasillos - Ampolletas Corrientes Mayores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"339","P93_Pasillos_B3","P93.B3 ¿De qué tipo es cada una? Pasillos - Ampolletas eficientes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"340","P93_Pasillos_B4","P93.B4 ¿De qué tipo es cada una? Pasillos - Tubos fluorescentes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"341","P93_Pasillos_B5","P93.B5 ¿De qué tipo es cada una? Pasillos - Focos LED","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"342","P93_Pasillos_B6","P93.B6 ¿De qué tipo es cada una? Pasillos - Focos dicroicos/ halógenos","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"343","P93_Pasillos_99","P93.99 ¿De qué tipo es cada una? Pasillos -  NS-NR","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"344","P93_Pasillos_C","P93.C ¿Aproximadamente cuántas horas al día permanecen encendidas las luces de esta habitación? Pasillos","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"345","P93_Patios_A","P93.A ¿Cuántas luces tiene en cada los siguientes recintos de la vivienda? Patios","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"346","P93_Patios_B1","P93.B1 ¿De qué tipo es cada una? Patios - Ampolletas Corrientes Menores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"347","P93_Patios_B2","P93.B2 ¿De qué tipo es cada una? Patios - Ampolletas Corrientes Mayores a 60W","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"348","P93_Patios_B3","P93.B3 ¿De qué tipo es cada una? Patios - Ampolletas eficientes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"349","P93_Patios_B4","P93.B4 ¿De qué tipo es cada una? Patios - Tubos fluorescentes","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"350","P93_Patios_B5","P93.B5 ¿De qué tipo es cada una? Patios - Focos LED","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"351","P93_Patios_B6","P93.B6 ¿De qué tipo es cada una? Patios - Focos dicroicos/ halógenos","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"352","P93_Patios_99","P93.99 ¿De qué tipo es cada una? Patios -  NS-NR","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"353","P93_Patios_C","P93.C ¿Aproximadamente cuántas horas al día permanecen encendidas las luces de esta habitación? Patios","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"354","P94","P94. En esta vivienda ¿Cuántos refrigeradores enchufados hay en su hogar?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"355","P95.1_A_Tipo","P95.1A ¿De qué tipo es el (son los) refrigerador(es) que tiene enchufado(s)?","Numérico","Tipo 1","Tipo 2","Tipo 3","Tipo 4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"356","P95.1_B_Calificación","P95.1B ¿El (Los) refrigerador(es) tiene etiqueta de eficiencia energética?","Numérico","A++","A+","A","B","C","No tiene etiquetado",NA,NA,NA,NA,NA,NA,NA,NA
+"357","P95.2_A_Tipo","P95.2A ¿De qué tipo es el (son los) refrigerador(es) que tiene enchufado(s)?","Numérico","Tipo 1","Tipo 2","Tipo 3","Tipo 4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"358","P95.2_B_Calificación","P95.2B ¿El (Los) refrigerador(es) tiene etiqueta de eficiencia energética?","Numérico","A++","A+","A","B","C","No tiene etiquetado",NA,NA,NA,NA,NA,NA,NA,NA
+"359","P96","P96. En general ¿Mantiene el freezer de su refrigerador con escarcha o sin escarcha?","Numérico","Con escarcha","Sin escarcha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"360","P97","P97. Aparte de los refrigeradores, en su vivienda ¿se utiliza freezers o congeladores funcionando?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"361","P98","P98. ¿Cuántos freezers o congeladores utiliza en esta vivienda?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"362","P99.1_A_Tipo","P99.1A ¿De qué tipo son los freezers o congeladores que tiene funcionando?","Numérico","Mediano","Grande",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"363","P99.1_B_Calificación","P99.1B ¿Tiene etiqueta de eficiencia energética?","Numérico",NA,NA,"A+","A","B","C",NA,NA,NA,NA,NA,NA,NA,NA
+"364","P99.2_A_Tipo","P99.2A ¿De qué tipo son los freezers o congeladores que tiene funcionando?","Numérico","Mediano","Grande",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"365","P99.2_B_Calificación","P99.2B ¿Tiene etiqueta de eficiencia energética?","Numérico",NA,NA,"A+","A","B","C",NA,NA,NA,NA,NA,NA,NA,NA
+"366","P100","P100. En su vivienda, ¿utiliza la cafetera eléctrica?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"367","P101","P101. ¿Cuántas veces al día utiliza la cafetera eléctrica?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"368","P102","P102. En su vivienda ¿Se utiliza hervidor eléctrico de agua?","En su vivienda ¿se utiliza hervidor eléctrico de agua?","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"369","P103_A_Verano","P103.A En un día normal de verano, aproximadamente ¿Cuántas veces usa el hervidor eléctico de agua al día?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"370","P103_B_Invierno","P103.B En un día normal de invierno, aproximadamente ¿Cuántas veces usa el hervidor eléctico de agua al día?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"371","P104","P104. ¿Utilizan termos o similar para mantener agua caliente?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"372","P105","P105. En esta vivienda ¿Se lava la loza con agua caliente?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"373","P106","P106. En esta vivienda, cuando lava la loza con agua caliente ¿cómo lava?","Numérico","Sólo manualmente","Sólo con lavavajilla","Ambos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"374","P107_A","P107.A Si lava manual, ¿Cuál es la frecuencia del  lavado de loza con agua caliente en VERANO (ENERO)?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"375","P107_B","P107.B Si lava manual, ¿Cuál es la frecuencia del  lavado de loza con agua caliente en INVIERNO (JULIO)?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"376","P108_Veces","P108. Si lava con lavavajillas, ¿Cuál es la frecuencia del  lavado de loza con lavavajilla?  VECES","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"377","P108_Frecuencia","P108. Si lava con lavavajillas, ¿Cuál es la frecuencia del  lavado de loza con lavavajilla?  FRECUENCIA","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"378","P109","P109. En esta vivienda ¿se utiliza una máquina lavadora de ropa?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"379","P110","P110. En una semana normal de VERANO (ENERO), aproximadamente ¿Cuántas cargas de ropa lava semanalmente?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"380","P111","P111. En una semana normal de INVIERNO (JULIO), aproximadamente ¿Cuántas cargas de ropa lava semanalmente?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"381","P112","P112. En general ¿Con qué temperatura de agua realiza sus lavados de ropa en esta vivienda?","Numérico","Agua fría","Agua tibia","Agua caliente",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"382","P113","P113. ¿Cómo calienta el agua la lavadora que posee en su vivienda?","Numérico","A gas","Eléctrica","Eléctrica con conexión a tubería",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"383","P114","P114. ¿Qué tipo de lavadora utilizan en esta vivienda?","Numérico","Automática con carga superior","Automática con carga frontal","Semi-automática con carga superior","Lavadora con secadora","Lavadora a vapor",NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"384","P115","P115. ¿En su vivienda se utiliza secadora de ropa?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"385","P116","P116. ¿Qué tipo de secadora posee su vivienda?","Numérico","A gas","Eléctrica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"386","P117","P117. ¿Qué tipo de secadora de ropa utilizan?","Numérico","Incluida en la lavadora","De tambor eléctrico","De tambor a gas","Bolsa ligera",NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"387","P118","P118. En una semana normal de VERANO (ENERO), aproximadamente ¿Cuántas cargas de ropa seca semanalmente en la secadora?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"388","P119","P119. En una semana normal de INVIERNO (JULIO), aproximadamente ¿Cuántas cargas de ropa seca semanalmente en la secadora?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"389","P120","P120. En esta vivienda ¿se utiliza plancha de ropa?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"390","P121","P121. En una semana normal, aproximadamente ¿Cuántas veces a la semana utilizan la plancha de ropa?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"391","P122","P122. Aproximadamente ¿Cuántos minutos utiliza la plancha de ropa en cada uso?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"392","P123","P123. En esta vivienda ¿Se utiliza algún computador o notebook?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"393","P124.1_A","P124.A ¿cuántos computadores tiene esta vivienda, según tipo? Computador Fijo","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"394","P124.1_B","P124.B En una semana normal, Aproximadamente ¿Cuántas horas al día utiliza los computadores de esta vivienda? Computador Fijo","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"395","P124.1_C","P124.C Aproximadamente ¿cuál es la antigüedad promedio de sus equipos? Computador Fijo","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"396","P124.2_A","P124.A ¿cuántos computadores tiene esta vivienda, según tipo?  Laptop/Notebook","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"397","P124.2_B","P124.B En una semana normal, Aproximadamente ¿Cuántas horas al día utiliza los computadores de esta vivienda? Laptop/Notebook","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"398","P124.2_C","P124.C Aproximadamente ¿cuál es la antigüedad promedio de sus equipos? Laptop/Notebook","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"399","P125","P125. En esta vivienda ¿se utilizan televisores?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"400","P126_TV1_A","P126.A ¿De qué tipo es cada uno de los televisores de esta vivienda? TV 1","Numérico","Tradicional o análogo","LCD/LED o Plasma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"401","P126_TV1_B","P126.B Aproximadamente ¿De qué tamaño es cada una de las pantallas de los televisores de esta vivienda? TV 1","Numérico","55'' o menor","56'' a 70''","Más de 70''",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"402","P126_TV1_C","P126.C Este televisor ¿Utiliza algún aparato decodificador para recibir televisión por cable o satelital? TV 1","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"403","P126_TV1_D","P126.D En una semana normal, Aproximadamente ¿Cuántas horas a la semana utiliza cada uno de los televisores de esta vivienda?  TV 1","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"404","P126_TV1_E","P126.E ¿Tiene etiqueta de eficiencia energética? TV 1","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"405","P126_TV2_A","P126.A ¿De qué tipo es cada uno de los televisores de esta vivienda? TV 2","Numérico","Tradicional o análogo","LCD/LED o Plasma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"406","P126_TV2_B","P126.B Aproximadamente ¿De qué tamaño es cada una de las pantallas de los televisores de esta vivienda? TV 2","Numérico","55'' o menor","56'' a 70''","Más de 70''",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"407","P126_TV2_C","P126.C Este televisor ¿Utiliza algún aparato decodificador para recibir televisión por cable o satelital? TV 2","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"408","P126_TV2_D","P126.D En una semana normal, Aproximadamente ¿Cuántas horas a la semana utiliza cada uno de los televisores de esta vivienda?  TV 2","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"409","P126_TV2_E","P126.E ¿Tiene etiqueta de eficiencia energética? TV 2","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"410","P126_TV3_A","P126.A ¿De qué tipo es cada uno de los televisores de esta vivienda? TV 3","Numérico","Tradicional o análogo","LCD/LED o Plasma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"411","P126_TV3_B","P126.B Aproximadamente ¿De qué tamaño es cada una de las pantallas de los televisores de esta vivienda? TV 3","Numérico","55'' o menor","56'' a 70''","Más de 70''",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"412","P126_TV3_C","P126.C Este televisor ¿Utiliza algún aparato decodificador para recibir televisión por cable o satelital? TV 3","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"413","P126_TV3_D","P126.D En una semana normal, Aproximadamente ¿Cuántas horas a la semana utiliza cada uno de los televisores de esta vivienda?  TV 3","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"414","P126_TV3_E","P126.E ¿Tiene etiqueta de eficiencia energética? TV 3","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"415","P126_TV4_A","P126.A ¿De qué tipo es cada uno de los televisores de esta vivienda? TV 4","Numérico","Tradicional o análogo","LCD/LED o Plasma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"416","P126_TV4_B","P126.B Aproximadamente ¿De qué tamaño es cada una de las pantallas de los televisores de esta vivienda? TV 4","Numérico","55'' o menor","56'' a 70''","Más de 70''",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"417","P126_TV4_C","P126.C Este televisor ¿Utiliza algún aparato decodificador para recibir televisión por cable o satelital? TV 4","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"418","P126_TV4_D","P126.D En una semana normal, Aproximadamente ¿Cuántas horas a la semana utiliza cada uno de los televisores de esta vivienda?  TV 4","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"419","P126_TV4_E","P126.E ¿Tiene etiqueta de eficiencia energética? TV 4","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"420","P126_TV5_A","P126.A ¿De qué tipo es cada uno de los televisores de esta vivienda? TV 5","Numérico","Tradicional o análogo","LCD/LED o Plasma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"421","P126_TV5_B","P126.B Aproximadamente ¿De qué tamaño es cada una de las pantallas de los televisores de esta vivienda? TV 5","Numérico","55'' o menor","56'' a 70''","Más de 70''",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"422","P126_TV5_C","P126.C Este televisor ¿Utiliza algún aparato decodificador para recibir televisión por cable o satelital? TV 5","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"423","P126_TV5_D","P126.D En una semana normal, Aproximadamente ¿Cuántas horas a la semana utiliza cada uno de los televisores de esta vivienda?  TV 5","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"424","P126_TV5_E","P126.E ¿Tiene etiqueta de eficiencia energética? TV 5","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"425","P127","P127. En esta vivienda ¿Utilizan consolas de videojuegos?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"426","P128","P128. En esta vivienda ¿Utilizan equipos musicales, radios u otro?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"427","P129.1_A","129.1A ¿Cuántos equipos musicales tiene según tipo? Radio portátil eléctrica","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"428","P129.1_B","129.1B En una semana normal, Aproximadamente ¿Cuántas horas a la semana lo utilizan? Radio portátil eléctrica","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"429","P129.2_A","129.2A ¿Cuántos equipos musicales tiene según tipo?  Minicomponente","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"430","P129.2_B","129.2B En una semana normal, Aproximadamente ¿Cuántas horas a la semana lo utilizan? Minicomponente","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"431","P129.3_A","129.3A ¿Cuántos equipos musicales tiene según tipo? Parlante bluetooth","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"432","P129.3_B","129.3B En una semana normal, Aproximadamente ¿Cuántas horas a la semana lo utilizan? Parlante bluetooth","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"433","P130_1","130.1 En general, los siguientes equipos eléctricos ¿Los mantienen enchufados mientras no están en uso? Televisor","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"434","P130_2","130.2 En general, los siguientes equipos eléctricos ¿Los mantienen enchufados mientras no están en uso? Equipo de música o Radio","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"435","P130_3","130.3 En general, los siguientes equipos eléctricos ¿Los mantienen enchufados mientras no están en uso? Microonda","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"436","P130_4","130.4 En general, los siguientes equipos eléctricos ¿Los mantienen enchufados mientras no están en uso? Hervidor","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"437","P130_5","130.5 En general, los siguientes equipos eléctricos ¿Los mantienen enchufados mientras no están en uso? Cafetera","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"438","P130_6","130.6 En general, los siguientes equipos eléctricos ¿Los mantienen enchufados mientras no están en uso? Computador","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"439","P130_7","130.7 En general, los siguientes equipos eléctricos ¿Los mantienen enchufados mientras no están en uso? Decodificadores","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"440","P130_8","130.8 En general, los siguientes equipos eléctricos ¿Los mantienen enchufados mientras no están en uso? Consola de videojuegos","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"441","P130_9","130.9 En general, los siguientes equipos eléctricos ¿Los mantienen enchufados mientras no están en uso? Lavadora de ropa","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"442","P130_10","130.10 En general, los siguientes equipos eléctricos ¿Los mantienen enchufados mientras no están en uso? Lavavajilla","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"443","P130_11","130.11 En general, los siguientes equipos eléctricos ¿Los mantienen enchufados mientras no están en uso? Secadora de ropa","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"444","P131","P131. En esta vivienda ¿Se utiliza aspiradora?","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"445","P132","P132. ¿Cuántas horas a la semana se utiliza la aspiradora?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"446","P133","P133. En esta vivienda ¿tienen cargadores de celular?","Numérico","Sí","No",NA,NA,NA,NA,NA,"No tiene",NA,NA,NA,NA,NA,"NS-NR"
+"447","P134","P134. ¿Cuántos cargadores se utilizan en su vivienda?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"448","P135","P135. Generalmente, ¿los cargadores…","Numérico","Los enchufa solo para cargar los celulares","Los mantiene siempre enchufados",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"449","P136","P136. En su vivienda ¿Existe una piscina permanente o fija?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"450","P137_Largo","P137. Aproximadamente ¿De qué tamaño es su piscina? Largo promedio","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"451","P137_Ancho","P137. Aproximadamente ¿De qué tamaño es su piscina? Ancho promedio","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"452","P137_Profundidad","P137. Aproximadamente ¿De qué tamaño es su piscina? Profundidad promedio","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"453","P138","P138. ¿Utilizan algún sistema de calefacción en la piscina?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"454","P139","P139. ¿Qué sistema de calefacción utiliza en la piscina?","Numérico","Colectores solares","Bomba de calor para piscina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"455","P140_1","P140.1 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Bicicleta eléctrica o scooter eléctrico","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"456","P140_2","P140.2 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Auto eléctrico/ híbrido","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"457","P140_3","P140.3 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Auto a gas","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"458","P140_4","P140.4 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Impresora","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"459","P140_5","P140.5 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Afeitadora eléctrica","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"460","P140_6","P140.6 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Campana de extracción","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"461","P140_7","P140.7 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Ventilador","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"462","P140_8","P140.8 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Secador de pelo","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"463","P140_9","P140.9 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Secador de mano","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"464","P140_10","P140.10 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Jugueras","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"465","P140_11","P140.11 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Procesadora de alimentos","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"466","P140_12","P140.12 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Alisador o plancha de pelo","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"467","P140_13","P140.13 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Motobomba eléctrica","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"468","P140_14","P140.14 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Motobomba a combustión","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"469","P140_15","P140.15 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Taladro eléctrico","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"470","P140_16","P140.16 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Frazada eléctrica/ calientacamas eléctrico","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"471","P140_17","P140.17 ¿Cuáles de los siguientes equipos tiene y se utilizan en su vivienda? Equipos de respaldo","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"472","P141_1","P141.1 ¿Cuál de los siguientes equipos piensa adquirir durante el 2019? Bicicleta eléctrica","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"473","P141_2","P141.2 ¿Cuál de los siguientes equipos piensa adquirir durante el 2019? Scooter eléctrico","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"474","P141_3","P141.3 ¿Cuál de los siguientes equipos piensa adquirir durante el 2019? Auto eléctrico/híbrido","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"475","P141_4","P141.4 ¿Cuál de los siguientes equipos piensa adquirir durante el 2019? Auto a gas","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"476","P142","P142. ¿Cuál es la principal razón para adquirir un medio de transporte eléctrico?","Numérico","Ahorro","Medioambiente","No conforme con actual medio de transporte","Entretención/moda",NA,NA,NA,"Otro",NA,NA,NA,NA,NA,"NS-NR"
+"477","P142_Otro","P142. Especificar otro","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"478","P143","P143. ¿Y Cuál es la principal razón para NO ADQUIRIR un medio de transporte eléctrico?","Numérico","Costo","Autonomía","No sabe/ desconocimiento",NA,NA,NA,NA,"Otro",NA,NA,NA,NA,NA,"NS-NR"
+"479","P143_Otro","P143. Especificar otro","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"480","P144","P144. Zona geográfica de la vivienda","Numérico","Urbana","Rural",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"481","P145","P145. ¿Cómo obtiene el agua potable de su vivienda…?","Numérico","A través de un pozo propio","Por cañería entregada por una empresa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Otra forma","NS-NR"
+"482","P146","P146. Para obtener el agua potable, ¿Qué tipo de bomba utiliza?","Numérico","Manual","Eléctrica","Solar","A combustión (bencina/petróleo)","Eólico",NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"483","P147","P147. ¿De que forma riega la huerta o cultivo…?","Numérico","Con un pozo propio","Por cañería entregada por una empresa","Por canal de regadío o río","No tiene huerta",NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"484","P148","P148. ¿Utiliza la misma bomba para el agua potable y para regar?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"485","P149","P149. ¿Qué tipo de bomba utiliza para regar?","Numérico","Manual","Eléctrica","Solar","A combustión (bencina/petróleo)","Eólico",NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"486","P150","P150. Si su vivienda cuenta con colector solar y/o sistema fotovoltaico, con esta tecnología ¿ha tenido un impacto en la reducción de sus cuentas?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NS-NR"
+"487","P151_Verano","P151. En general ¿Cómo definiría el confort térmico de vivienda en términos de la temperatura en VERANO (ENERO)?","Numérico","Muy fría","Fría","Ni fría ni calurosa","Calurosa","Muy calurosa",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"488","P151_Invierno","P151. En general ¿Cómo definiría el confort térmico de vivienda en términos de la temperatura en INVIERNO (JULIO)?","Numérico","Muy fría","Fría","Ni fría ni calurosa","Calurosa","Muy calurosa",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"489","P152_Agua","P152. ¿Cómo califica usted la calidad del servicio entregado por las empresas distribuidoras de AGUA en su hogar?","Numérico","Muy mal servicio","Mal servicio","Ni bueno ni malo","Buen servicio","Excelente servicio",NA,NA,NA,"NS-NR",NA,NA,NA,"No aplica",NA
+"490","P152_Electricidad","P152. ¿Cómo califica usted la calidad del servicio entregado por las empresas distribuidoras de ENERGÍA en su hogar?","Numérico","Muy mal servicio","Mal servicio","Ni bueno ni malo","Buen servicio","Excelente servicio",NA,NA,NA,"NS-NR",NA,NA,NA,"No aplica",NA
+"491","P152_GL","P152. ¿Cómo califica usted la calidad del servicio entregado por las empresas distribuidoras de GAS LICUADO en su hogar?","Numérico","Muy mal servicio","Mal servicio","Ni bueno ni malo","Buen servicio","Excelente servicio",NA,NA,NA,"NS-NR",NA,NA,NA,"No aplica",NA
+"492","P152_GN","P152. ¿Cómo califica usted la calidad del servicio entregado por las empresas distribuidoras de GAS NATURAL en su hogar?","Numérico","Muy mal servicio","Mal servicio","Ni bueno ni malo","Buen servicio","Excelente servicio",NA,NA,NA,"NS-NR",NA,NA,NA,"No aplica",NA
+"493","P153","P153. ¿Cuál es el nº total de personas que habitan en su hogar?","Numérico",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"494","151.1","P151.1 Del número total, ¿Cuántas son...?","Numérico","Menor a 3 años","3-15 años","16-24 años","25-60 años","Mayor a 60 años",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"495","P154","P154. ¿Aproximadamente, ¿Cuál es el ingreso monetario total de su hogar al mes?","Numérico","$0 a $100.000","$100.001 a $250.000","$250.001 a $500.000","$500.001 a $750.00","$750.001 a $1.000.000","$1.000.001 a $1.500.000","$1.500.001 a $2.000.000","$2.000.001 o más",NA,NA,NA,NA,NA,NA
+"496","P155","P155. ¿Qué nivel de estudios posee la persona que aporta el ingreso principal de su hogar?","Numérico","Básica incompleta o menos","Básica completa","Media incompleta","Media humanista-científica completa","Media Técnica Completa","Superior Técnica Incompleta","Superior Técnica Completa","Universitaria Completa","Postgrado o Magíster/Doctorado",NA,NA,NA,NA,"NS-NR"
+"497","P156","P156. ¿En cuál de estas situaciones se encuentra la persona que aporta el ingreso principal de su hogar?","Numérico","Trabajando por ingreso","Sin trabajar pero tiene empleo","Buscando trabajo habiendo trabajado antes","Busca trabajo por primera vez","En quehaceres de su hogar","Estudiando","Jubilado o rentista","Incapacitado permanente para trabajar","NS-NR",NA,NA,NA,NA,NA
+"498","P157","P157. ¿Cuál es la actividad principal de la persona que aporta el ingreso principal de su hogar?","Numérico","Trabajos menores","Oficio no calificado","Oficio calificado","Empleado","Profesional, ejecutivo y gerente","Patrón, empleador, alto ejecutivo","Dueñas de casa","Estudiante",NA,"Rentista","Jubilado","Incapacitado",NA,"NS-NR"
+"499","P158","158. ¿Usted autoriza a IN_DATA de CDT a utilizar los datos que figuran en sus cuentas de electricidad y gas, de manera confidencial, solo para fines estadísticos?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,"NS-NR",NA,NA,NA,NA,NA
+"500","P159","P159. Para un futuro estudio, ¿A usted le gustaría participar en una encuesta de consumo energético con respuestas por internet y un incentivo para contestar la encuesta una vez al año?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,"NS-NR",NA,NA,NA,NA,NA
+"501","P160","P160. ¿Nos podría dar un correo electrónico que usted utilice regularmente?","Numérico","Sí","No",NA,NA,NA,NA,NA,NA,"NS-NR",NA,NA,NA,NA,NA
+"502","P160_Otro","P160. Anotar mail","Cadena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
