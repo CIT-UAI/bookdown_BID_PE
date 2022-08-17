@@ -9,6 +9,8 @@ tab:t-GE
 fig:des-met
 fig:met-consumo
 fig:met-demanda
+tab:unnamed-chunk-9
+tab:unnamed-chunk-11
 fig:vision
 fig:roles
 fig:crono-1
@@ -33,11 +35,15 @@ metodología-para-el-consumo-energético-real
 metodología-para-el-demanda-energética-real
 índice-territorial-de-consumo-energético-itce
 data_explorer
+bbdd---residencial-cev---minvu-2019
+estrucura-del-directorio
+data-minvu-demandas-climatización-tipologías.xlsx
 bbdd-estudio-caracterización-residencial-2018_vcomuna
 libro-de-código
 bbdd-sindicado
 bbdd-mapa-vulneravilidad
-descripción-de-variables
+estructura-del-directorio
+detalle-de-campos.xlsx
 analisis-bases-espaciales
 viv_proy
 viv_sin_energia

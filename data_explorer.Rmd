@@ -19,6 +19,7 @@ library(sjlabelled)
 library(ggplot2)
 library(plotly)
 library(DT)
+library(tidyr)
 
 theme_set(theme_bw())
 
@@ -35,6 +36,118 @@ fsize = 10
 Las bases de datos recibidas de Probreza Energética (27-07-2022), corresponden a 3 carpetas, las cuales en el presente capítulo se procederá un análisis descriptivo general.
 
 ![Estructura de carpeta de Bases de Datos](images/bbdd_folders.png)
+
+## BBDD - Residencial CEV - MINVU 2019
+
+### Estrucura del Directorio
+
+```
+├── Caracterización tipologías viviendas hasta 2018.pdf
+├── ID587.19.LE19_INFORME.FINAL.pdf
+├── climas tipo
+│   ├── A - Arica-Estaciones.epw
+│   ├── B - Calama-Estaciones.epw
+│   ├── C - La Serena-Estaciones.epw
+│   ├── D - Pudahuel-Estaciones.epw
+│   ├── E - Concepcion-Estaciones.epw
+│   ├── F - Chillan-Estaciones.epw
+│   ├── G - Puerto Montt-Estaciones.epw
+│   └── I - Punta Arenas-Estaciones.epw
+└── data MINVU demandas climatización tipologías.xlsx
+```
+
+
+### `data MINVU demandas climatización tipologías.xlsx`
+
+**Promedio tipologia-zona de Demanda calefacción [kWh/m²año]**:
+
+```{r}
+demanda_cal <- readRDS("data/rds/dem_calefaccion.rds") 
+# names(demanda_cal)
+demanda_cal %>% datatable( class = 'cell-border stripe', 
+                         filter = 'top',
+                         options = list(pageLength = 10),
+                         caption = htmltools::tags$caption(
+                           style = 'caption-side: bottom; text-align: center;',
+                           htmltools::em('Demanda calefacción [kWh/m²año]')) ,
+                         rownames = FALSE)%>% 
+  formatStyle(columns = colnames(.$x$data), `font-size` = '10px')
+```
+
+** Registro llegan hasta la letra "I", por corregir.
+
+**Análisis por Segmento**
+
+```{r}
+tab_segmento <- demanda_cal %>% 
+  pivot_longer(cols = A:I, names_to = "Zona", values_to = "kWh") %>% 
+  group_by(Segmento) %>% 
+  summarise(Total_kWh = sum(kWh),
+            Promedio_kWh = mean(kWh),
+            Max_kWh = max(kWh),
+            Min_kWh = min(kWh))
+kable_styling(
+  kable(tab_segmento, digits = 3, row.names = FALSE, align = "c",
+        caption = "kWh/m²año por Segmento"),
+        bootstrap_options = c("striped", "hover", "condensed"),
+        position = "center", full_width = TRUE,  font_size = 14) 
+
+```
+
+<br>
+
+```{r}
+fig <- plot_ly(data =tab_segmento, 
+  x = ~Segmento, 
+  y = ~Total_kWh, 
+  type = "bar",
+  color =~Segmento,
+  colors = viridis(nrow(tab_segmento)),
+  text = ~Total_kWh, textposition = 'auto'
+)
+fig <- fig %>% 
+  layout(title = "Cantidad Total de kWh/m²año por Segmento",
+         xaxis = list(title = "Segmento"),
+         yaxis = list(title = "Total de kWh/m²año"))
+fig
+```
+
+**Análisis por Zona**
+
+```{r}
+tab_zonas <- demanda_cal %>% 
+  pivot_longer(cols = A:I, names_to = "Zona", values_to = "kWh") %>% 
+  group_by(Zona) %>% 
+  summarise(Total_kWh = sum(kWh),
+            Promedio_kWh = mean(kWh),
+            Max_kWh = max(kWh),
+            Min_kWh = min(kWh))
+kable_styling(
+  kable(tab_zonas, digits = 3, row.names = FALSE, align = "c",
+        caption = "kWh/m²año por Zona"),
+        bootstrap_options = c("striped", "hover", "condensed"),
+        position = "center", full_width = TRUE,  font_size = 14) 
+
+```
+
+<br>
+
+```{r}
+fig <- plot_ly(data =tab_zonas, 
+  x = ~Zona, 
+  y = ~Total_kWh, 
+  type = "bar",
+  color =~Zona,
+  colors = viridis(nrow(tab_zonas)),
+  text = ~Total_kWh, textposition = 'auto'
+)
+fig <- fig %>% 
+  layout(title = "Cantidad Total de kWh/m²año por Zona",
+         xaxis = list(title = "Zona"),
+         yaxis = list(title = "Total de kWh/m²año"))
+fig
+```
+
 
 
 ## BBDD Estudio Caracterización Residencial 2018_vcomuna
@@ -251,7 +364,18 @@ fig
 
 ## BBDD mapa vulneravilidad
 
-### Descripción de Variables
+### Estructura del Directorio
+
+```
+├── Detalle de campos.xlsx
+├── Resultados por comuna mapa_2019.xls
+├── viv_proy.shp
+├── viv_sin_energia.shp
+├── viv_sist_aislado.shp
+└── viv_sist_indiv.shp
+```
+
+### Detalle de campos.xlsx
 
 **Nombre Archivo**: "*Detalle de campos.xlsx*"
 
