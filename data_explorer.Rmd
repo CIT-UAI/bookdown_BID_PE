@@ -1,7 +1,7 @@
 # Exploración de Datos {#data_explorer}
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 require(knitr)
 require(kableExtra)
 library(readxl)
@@ -41,8 +41,9 @@ Las bases de datos recibidas de Probreza Energética (27-07-2022), corresponden 
 
 Corresponde un artivo excel llamado `BBDD Estudio Caracterización Residencial 2018_vcomuna.xlsx` correspondiente a la encuesta realizada a nivel nacional, que contiene dos hojas:
 
-* Libro de codigo: Glosario de preguntas de la encuesta.
-* BBDD Sindicado: Respuestas de la encuesta por comuna.
+* **Libro de codigo**: Glosario de preguntas de la encuesta.
+* **BBDD Sindicado**: Respuestas de la encuesta por comuna.
+
 
 
 ### Libro de Código
@@ -191,8 +192,8 @@ fig <- plot_ly(data = cant_zona_g,
   text = ~Cantidad, textposition = 'auto'
 )
 fig <- fig %>% 
-  layout(title = "Cantidad de Registros por Nivel Socioeconómico",
-         xaxis = list(title = "NSE"),
+  layout(title = "Cantidad de Registros por Zona Geográfica",
+         xaxis = list(title = "Zoma Geográfica"),
          yaxis = list(title = "Cantidad de Registros"))
 fig
 ```
