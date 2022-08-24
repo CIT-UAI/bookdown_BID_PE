@@ -34,7 +34,8 @@ desarrollo-metodológico
 metodología-para-el-consumo-energético-real
 metodología-para-el-demanda-energética-real
 índice-territorial-de-consumo-energético-itce
-data_explorer
+f-info
+bbdd-tematicas
 bbdd---residencial-cev---minvu-2019
 estrucura-del-directorio
 data-minvu-demandas-climatización-tipologías.xlsx
@@ -49,6 +50,8 @@ viv_proy
 viv_sin_energia
 viv_sist_aislado
 viv_sist_indiv
+bbdd-cit
+bbdd-externas
 gestion
 vision
 roles

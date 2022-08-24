@@ -3,14 +3,14 @@
 
 ## Objetivos Generales
 
-Medir Indicadores de Probreza Energética en el sector residencial, con la escala más detallada posible en base a la información ya disponible en otros estudios y bases de datos, con la que actualmente cuente el Misterio, o que pueda gestionar de manera efectiva para su utilización posterior.
+Medir Indicadores de Pobreza Energética en el sector residencial, con la escala más detallada posible en base a la información ya disponible en otros estudios y bases de datos, con la que actualmente cuente el Misterio, o que pueda gestionar de manera efectiva para su utilización posterior.
 
 
 ## Objetivos Específicos
 
 
-1. Desarrollar y definir metodologías para la contrucción de indicadores, en base al cruce y relación de informaciín de las diferentes bases de datos disponibles, para medir las distintas dimesiones de la pobreza energética en el sector residencial del país.
+1. Desarrollar y definir metodologías para la construcción de indicadores, en base al cruce y relación de información de las diferentes bases de datos disponibles, para medir las distintas dimensiones de la pobreza energética en el sector residencial del país.
 
-2. Levantar indicadores de demanda y consumo de calefacción en viviendas de forma georeferenciada y que permitan predecir el consumo energètico de una vivienda con una resolución resolución temporal y geográfica lo mas alta posible.
+2. Levantar indicadores de demanda y consumo de calefacción en viviendas de forma georeferenciada y que permitan predecir el consumo energético de una vivienda con una resolución resolución temporal y geográfica lo mas alta posible.
 
-3. Proponer una metodología que permita estimar el consumo de energía de calefacción y demanda térmica tórica, como un sumproducto del desarrollo de indicadores, para lo cual se deberá proponer una metodología que permita estimar en una manzana cuantas viviendas calefaccionadas hay y cúales son las variables más probables de encontrar en ellas (i.e. número de habitantes,  superficie construída, año de edificación, materialidad, ocupación, entre otros.). Además, deberá estimar el perfil de uso de la climatización (frío/calor) de la vivienda, basado en el horario laboral, rango etario de habitantes, etc.
+3. Proponer una metodología que permita estimar el consumo de energía de calefacción y demanda térmica teórica, como un subproducto del desarrollo de indicadores, para lo cual se deberá proponer una metodología que permita estimar en una manzana cuantas viviendas calefaccionadas hay y cúales son las variables más probables de encontrar en ellas (i.e. número de habitantes,  superficie construida, año de edificación, materialidad, ocupación, entre otros.). Además, deberá estimar el perfil de uso de la climatización (frío/calor) de la vivienda, basado en el horario laboral, rango etario de habitantes, etc.
