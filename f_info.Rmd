@@ -1,9 +1,10 @@
 # Fuentes de Información {#f-info}
 
 
-En este capítulo se expondrá todos los experimentos con su respectiva documentación, representado en un subtítulo aparte. A continuación se señalan experimentos realizados:
+El presente capítulo tiene por objetivo analizar las bases de datos que se tiene  disponibles, que  serán insumos de los indicadores futuros. Las bases de datos se dividen en las siguientes categorias:
 
 
-- [BBDD_Temáticas] \@ref(bbdd-tematicas)
-- [BBDD_CIT] \@ref(bbdd-cit)
-- [BBDD_Externas] \@ref(bbdd-externas)
+- \@ref(bbdd-tematicas) [BBDD Temáticas]
+- \@ref(bbdd-cit) [BBDD CIT]
+- \@ref(bbdd-externas) [BBDD Externas] 
+

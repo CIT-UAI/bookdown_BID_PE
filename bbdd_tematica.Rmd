@@ -1,4 +1,4 @@
-## BBDD_Temáticas {#bbdd-tematicas}
+## BBDD Temáticas {#bbdd-tematicas}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center")

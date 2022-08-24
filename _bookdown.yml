@@ -22,4 +22,5 @@ language:
 delete_merged_file: yes
 rmd_files: ["index.Rmd", "objetivos.Rmd", "m_teorico.Rmd",
 "f_info.Rmd","bbdd_tematica.Rmd", "bbdd_cit.Rmd", "bbdd_externas.Rmd",
+"ind_pe.Rmd", "i_demanda.Rmd", "i_consumo.Rmd","i_vulnerabilidad.Rmd",
 "gestion.Rmd", "referencias.Rmd"]

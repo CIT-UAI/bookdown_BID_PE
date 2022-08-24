@@ -52,6 +52,10 @@ viv_sist_aislado
 viv_sist_indiv
 bbdd-cit
 bbdd-externas
+ind-pe
+i-demanda
+i-consumo
+i-vulnerabilidad
 gestion
 vision
 roles
